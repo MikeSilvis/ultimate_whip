@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'sqlite3'
 gem 'devise'
+gem 'chosen-rails'
 
 group :production do
   gem 'pg'
@@ -15,8 +16,14 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'spine-rails'
 end
-gem 'json' '~> 1.7.3'
 
+gem 'json'
+gem 'rspec-rails'
 gem 'jquery-rails'
 gem 'jbuilder'
 gem 'debugger'
+gem 'slim'
+gem 'active_model_serializers'
+gem 'paperclip'
+gem 'aws-s3', :require => 'aws/s3'
+gem 'aws-sdk'
