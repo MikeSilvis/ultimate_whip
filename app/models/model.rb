@@ -1,4 +1,4 @@
 class Model < ActiveRecord::Base
-  attr_accessible :name
-  has_many :makes
+  attr_accessible :name, :make, :type
+  belongs_to :make
 end

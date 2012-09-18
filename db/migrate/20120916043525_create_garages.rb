@@ -1,7 +1,7 @@
 class CreateGarages < ActiveRecord::Migration
   def change
     create_table :garages do |t|
-      t.integer :make_id
+      t.integer :model_id
       t.integer :year
       t.integer :color_id
       t.integer :user_id

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120916123030) do
+ActiveRecord::Schema.define(:version => 20120916235048) do
 
   create_table "colors", :force => true do |t|
     t.string   "name"
@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(:version => 20120916123030) do
   end
 
   create_table "garages", :force => true do |t|
-    t.integer  "make_id"
+    t.integer  "model_id"
     t.integer  "year"
     t.integer  "color_id"
     t.integer  "user_id"
@@ -46,8 +46,6 @@ ActiveRecord::Schema.define(:version => 20120916123030) do
   end
 
   create_table "makes", :force => true do |t|
-    t.integer  "type_id"
-    t.integer  "model_id"
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -55,19 +53,20 @@ ActiveRecord::Schema.define(:version => 20120916123030) do
 
   create_table "models", :force => true do |t|
     t.string   "name"
+    t.integer  "make_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "photo_tags", :force => true do |t|
+    t.integer  "photo_id"
+    t.integer  "tag_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
   create_table "tags", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  create_table "types", :force => true do |t|
-    t.string   "name"
-    t.string   "version"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

@@ -7,4 +7,5 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :username, :password_confirmation, :remember_me
+  has_many :vehicles, class_name: "Garage"
 end

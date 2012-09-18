@@ -1,0 +1,4 @@
+<div class='well span2'>
+  <img src='<%= @photo_url_thumb %>'>
+</div>
+<%= @counter %>

@@ -1,7 +1,7 @@
 class Garage < ActiveRecord::Base
-  attr_accessible :color_id, :make_id, :year
+  attr_accessible :color, :year, :user, :model
   belongs_to :user
-  belongs_to :make
+  belongs_to :model
   belongs_to :color
   has_many :garage_tags
   has_many :tags, :through => :garage_tags

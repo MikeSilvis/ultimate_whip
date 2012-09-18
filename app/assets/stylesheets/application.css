@@ -13,3 +13,7 @@
  *= require chosen
  *= require bootstrap_and_overrides
  */
+.login-nav {
+  padding: 15px !important;
+  padding-bottom: 0px;
+}

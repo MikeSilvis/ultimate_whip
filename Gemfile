@@ -2,8 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem 'sqlite3'
-gem 'devise'
-gem 'chosen-rails'
 
 group :production do
   gem 'pg'
@@ -14,9 +12,12 @@ group :assets do
   gem 'twitter-bootstrap-rails'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
-  gem 'spine-rails'
 end
 
+gem 'eco'
+gem 'spine-rails'
+gem 'devise'
+gem 'chosen-rails'
 gem 'json'
 gem 'rspec-rails'
 gem 'jquery-rails'
@@ -27,3 +28,4 @@ gem 'active_model_serializers'
 gem 'paperclip'
 gem 'aws-s3', :require => 'aws/s3'
 gem 'aws-sdk'
+gem 'simple_form'
