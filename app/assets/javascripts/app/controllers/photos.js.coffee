@@ -10,7 +10,16 @@ class App.Photos extends Spine.Controller
   render: =>
     @html @view('photos/index')(@photos)
     for photo in Photo.all()
-      new App.PhotoItem(photo, _i)
+      new App.PhotoItem(photo)
+    @masonary()
+
+  masonary: =>
+    $container = $("#photo_container")
+    $container.imagesLoaded ->
+      $container.masonry
+        itemSelector: ".photo_item"
+        isAnimated: true
+
 
 
 class App.PhotoItem extends Spine.Controller

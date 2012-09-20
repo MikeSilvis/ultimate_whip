@@ -1,11 +1,11 @@
 class GaragePhoto < ActiveRecord::Base
   require "open-uri"
-
+  acts_as_taggable
+  acts_as_likeable
   attr_accessible :garage_id, :photo
 
   belongs_to :garage
-  has_many :photo_tags
-  has_many :tags, through: :photo_tags
+  delegate :username, to: :garage
 
   has_attached_file :photo,
       :storage => :s3,
@@ -21,6 +21,10 @@ class GaragePhoto < ActiveRecord::Base
 
   def photo_url_large
     photo.url(:large)
+  end
+
+  def like_count
+    likers(User).size
   end
 
 end

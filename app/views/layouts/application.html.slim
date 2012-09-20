@@ -6,7 +6,7 @@ html
     script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"
     = stylesheet_link_tag "application", :media => "all"
     = javascript_include_tag "application"
-  body
+  body#drop-area
     .navbar.navbar-fixed-top
       .navbar-inner
         .container-fluid
@@ -29,6 +29,7 @@ html
                     = render partial: "shared/login_dropdown"
     .container-fluid
       .row-fluid
+        #alert-js
         = bootstrap_flash
         = yield
       footer#photo-upload

@@ -5,7 +5,9 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  # Setup accessible (or protected) attributes for your model
+  acts_as_liker
   attr_accessible :email, :password, :username, :password_confirmation, :remember_me
   has_many :vehicles, class_name: "Garage"
+  has_many :likes
+
 end
