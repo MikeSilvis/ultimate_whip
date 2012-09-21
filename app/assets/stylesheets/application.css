@@ -17,3 +17,29 @@
   padding: 15px !important;
   padding-bottom: 0px;
 }
+.mikes-modal-container{
+  z-index:3;
+  position:absolute;
+  top:5%;
+  width: 98%;
+  background-color:white;
+}
+.mikes-modal-container .comments{
+  width: 280px;
+  text-align: left;
+  padding: 0px 30px;
+  vertical-align: top;
+}
+#the-lights{
+  background-color:#000;
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  z-index: 2;
+}
+.photo-item{
+  width:200px; float:left; padding-left:20px;
+}

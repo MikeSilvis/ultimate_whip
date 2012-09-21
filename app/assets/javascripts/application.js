@@ -23,4 +23,5 @@ jQuery(function() {
       el: $("#app")
     });
   }
+  $("#the-lights").fadeTo(1,0);
 });
