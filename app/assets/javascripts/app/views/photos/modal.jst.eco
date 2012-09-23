@@ -1,38 +1,36 @@
-<table class="mikes-modal-container" class="bmw-m3">
+<table class="mikes-modal">
   <tr>
     <td>
-      <img src='http://s3.amazonaws.com/ultimate_whip_dev/garage_photos/photos/000/000/019/original/BMW-M3-Wallpapers_2912201004.jpg?1348189492'>
+      <img src='<%= @photo_url_large %>'>
     </td>
     <td class="comments">
-      <div style="position:absolute; right:5; cursor:pointer;" class="close-mikes-modal">
+      <div class="close">
         x
       </div>
-      <p>
-        <h3 style="margin-bottom:0px;">BimmerMike's e92 M3</h3>
+      <h4 clas="title"><%= @username %>'s</h4>
+      <h3><%= @garage.model_name %></h3>
+      <h5><%= @garage.color_name %></h5>
+      <h5><%= @garage.year %></h5>
+      <small>
+        <strong>Posted:</strong> <%= @created_at_in_words %>
+      </small>
+      <div class='tags'>
         <small>
-          <strong>Posted:</strong> 23 minutes ago
+          <% for tag in @tags: %>
+            <a href="#<%= tag.name %>"><%= tag.name %></a>
+          <% end %>
         </small>
-      </p>
-      <p>
-        <small>
-          <div style="float:left; width:20px;">
-            <strong>Tags:</strong>
-          </div>
-          <div style="float:right; width:220px;">
-            <a>20" BBS Rims</a>, <a>BMW</a>, <a>M3</a>, <a>e92</a>, <a>ghaus exhaust</a>
-          </div>
-        </small>
-      </p>
-      <div style="padding-top:100px;">
-        <div style='padding-bottom:10px;'>
+      </div>
+      <% for comment in @comments: %>
+        <div class='comment'>
           <small>
-            <strong>BimmerMike:</strong> This shit cray!
+            <strong><%= comment.username %>:</strong> <%= comment.message %>
             <br>
-            <span style="color:#999999; font-size:12px;">13 minutes ago</span>
+            <span class="said-at"><%= comment.created_at_in_words %></span>
           </small>
         </div>
-        <textarea name="add_comment" placeholder="write a comment..." style='width:98%;'></textarea>
-      </div>
+      <% end %>
+      <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
     </td>
   </tr>
 </table>

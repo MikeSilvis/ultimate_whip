@@ -1,6 +1,10 @@
 class PhotosController < ApplicationController
   def index
-    render json: GaragePhoto.includes(:garage).all, root: false
+    render json: GaragePhoto.find_all, root: false
+  end
+
+  def show
+    render json: GaragePhoto.find_one(params[:id]), root: false
   end
 
   def new

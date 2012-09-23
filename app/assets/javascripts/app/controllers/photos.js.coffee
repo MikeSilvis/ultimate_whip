@@ -3,7 +3,7 @@ Photo = App.Photo
 class App.Photos extends Spine.Controller
   events:
     "click .photo-item": "renderModal"
-    "click .close-mikes-modal" : "closeModal"
+    "click .close" : "closeModal"
 
   constructor: ->
     super
@@ -16,8 +16,9 @@ class App.Photos extends Spine.Controller
       new App.PhotoItem(photo)
     @masonary()
 
-  renderModal: =>
-    new App.PhotoModal()
+  renderModal: (e) =>
+    Photo.unbind "refresh"
+    new App.PhotoModal(e.target.id)
 
   masonary: =>
     container = $("#photo_container")
@@ -27,8 +28,9 @@ class App.Photos extends Spine.Controller
         isAnimated: true
 
   closeModal: (e) =>
-    $(".mikes-modal-container").hide()
-    $("#the-lights").fadeTo("slow",0);
+    Photo.bind 'refresh', @render
+    $(".mikes-modal").remove()
+    $("#the-lights").hide()
 
 class App.PhotoItem extends Spine.Controller
 
@@ -41,10 +43,25 @@ class App.PhotoItem extends Spine.Controller
 
 class App.PhotoModal extends Spine.Controller
 
-  constructor: ->
-    $("#the-lights").css display: "block"
-    $("#the-lights").fadeTo "slow", 0.9
-    @render()
+  constructor: (id)->
+    @id = id
+    $("#the-lights").show()
+    Photo.bind 'refresh', @render
+    Photo.fetch({id: @id})
 
   render: =>
-    $("#photo_container").append(@view('photos/modal'))
+    $("#mikes-modal").html(@view('photos/modal')(Photo.find(@id)))
+    @listenEvents(@id)
+
+  listenEvents: (id) =>
+    $(document).keyup (e) ->
+      $(".close").click() if e.keyCode is 27
+    $(document).click (e) ->
+      $(".close").click() if e.target.id is "the-lights"
+    $(".new-comment").keyup (e) ->
+      if e.keyCode is 13
+        e.preventDefault()
+        App.Comment.create message: $(".new-comment").val(), commentable_id: id
+        $(".new-comment").val("")
+        Photo.fetch({id: id})
+

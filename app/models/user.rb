@@ -9,5 +9,5 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :username, :password_confirmation, :remember_me
   has_many :vehicles, class_name: "Garage"
   has_many :likes
-
+  validates_uniqueness_of :username, :email
 end

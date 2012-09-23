@@ -14,6 +14,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development do
+  gem 'newrelic_rpm'
+end
+
 gem 'eco'
 gem 'spine-rails'
 gem 'devise'
@@ -31,3 +35,4 @@ gem 'aws-sdk'
 gem 'simple_form'
 gem 'acts-as-taggable-on'
 gem 'socialization'
+gem 'acts_as_commentable', '2.0.1'

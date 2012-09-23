@@ -1,5 +1,5 @@
-<div class='photo-item'>
-  <div class='well'>
-      <img src='<%= @photo_url_thumb %>'>
+<div class='photo-item' id="<%= @id %>">
+  <div class='well'id="<%= @id %>">
+      <img src='<%= @photo_url_thumb %>'id="<%= @id %>">
   </div>
 </div>
