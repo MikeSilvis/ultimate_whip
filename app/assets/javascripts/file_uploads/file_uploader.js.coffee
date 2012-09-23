@@ -15,11 +15,12 @@ $ ->
 
   uploader.init()
   uploader.bind "FilesAdded", (up, files) ->
-    $("#photo-upload").append("<div id='file-count'><span id='uploaded'>0</span> of <span id='total'>#{files.length}</span></div>")
+    window.upload_count = 0
     window.uploading_files = files
     if files.length > 20
-      alerts("success", "<strong>SORRY!</strong> You can currently only upload 20 photos at once.")
+      alerts("error", "<strong>SORRY!</strong> You can currently only upload 20 photos at once.")
     else
+      $("#progress-area").append("<div class='progress progress-striped active' id='file-count'><div class='bar'></div></div>")
       uploader.start()
 
   uploader.bind "UploadProgress", (up, file) ->
@@ -29,21 +30,16 @@ $ ->
     $("body").append "<div>Error: " + err.code + ", Message: " + err.message + ((if err.file then ", File: " + err.file.name else "")) + "</div>"
 
   uploader.bind "FileUploaded", (up, file) ->
-    $("#uploaded").text(addOneToFileUploadcount)
+    upload_count++
+    $(".bar").css("width": uploadPercantage())
     removeCounterIfComplete()
     App.Photo.fetch()
 
-addOneToFileUploadcount = () ->
-  (parseInt(($("#uploaded").text())) + 1)
-
-currentFileCount = () ->
-  parseInt(($("#uploaded").text()))
-
-totalFileCount = () ->
-  parseInt(($("#total").text()))
+uploadPercantage = () ->
+  ((upload_count / uploading_files.length) * 100) + "%"
 
 allFilesUploaded = () ->
-  (currentFileCount() - totalFileCount())
+  (upload_count - uploading_files.length)
 
 removeCounterIfComplete = () ->
   if allFilesUploaded() == 0

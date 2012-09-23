@@ -20,6 +20,22 @@
 .photo-item{
   width:200px;
   float:left;
-  padding-left:20px;
   cursor: pointer;
+  padding:10px;
+}
+#vehicle_id{
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+#upload-area{
+  float:left;
+  width:330px;
+}
+#progress-area{
+  float:right;
+  width:200px;
+}
+#file-count{
+  height: 30px;
+  margin-bottom: 3px;
 }

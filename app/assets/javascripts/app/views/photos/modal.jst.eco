@@ -1,36 +1,36 @@
 <table class="mikes-modal">
-  <tr>
-    <td>
-      <img src='<%= @photo_url_large %>'>
-    </td>
-    <td class="comments">
-      <div class="close">
-        x
-      </div>
-      <h4 clas="title"><%= @username %>'s</h4>
-      <h3><%= @garage.model_name %></h3>
-      <h5><%= @garage.color_name %></h5>
-      <h5><%= @garage.year %></h5>
-      <small>
-        <strong>Posted:</strong> <%= @created_at_in_words %>
-      </small>
-      <div class='tags'>
+    <tr>
+      <td>
+        <img src='<%= @photo_url_large %>'>
+      </td>
+      <td class="comments">
+        <div class="close">
+          x
+        </div>
+        <h4 clas="title"><%= @username %>'s</h4>
+        <h3><%= @garage.model_name %></h3>
+        <h5><%= @garage.color_name %></h5>
+        <h5><%= @garage.year %></h5>
         <small>
-          <% for tag in @tags: %>
-            <a href="#<%= tag.name %>"><%= tag.name %></a>
-          <% end %>
+          <strong>Posted:</strong> <%= @created_at_in_words %>
         </small>
-      </div>
-      <% for comment in @comments: %>
-        <div class='comment'>
+        <div class='tags'>
           <small>
-            <strong><%= comment.username %>:</strong> <%= comment.message %>
-            <br>
-            <span class="said-at"><%= comment.created_at_in_words %></span>
+            <% for tag in @tags: %>
+              <a href="#<%= tag.name %>"><%= tag.name %></a>
+            <% end %>
           </small>
         </div>
-      <% end %>
-      <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
-    </td>
-  </tr>
+        <% for comment in @comments: %>
+          <div class='comment'>
+            <small>
+              <strong><%= comment.username %>:</strong> <%= comment.message %>
+              <br>
+              <span class="said-at"><%= comment.created_at_in_words %></span>
+            </small>
+          </div>
+        <% end %>
+        <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
+      </td>
+    </tr>
 </table>

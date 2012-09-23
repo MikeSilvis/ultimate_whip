@@ -1,5 +1,3 @@
-<div class='photo-item' id="<%= @id %>">
-  <div class='well'id="<%= @id %>">
-      <img src='<%= @photo_url_thumb %>'id="<%= @id %>">
-  </div>
+<div class='photo-item' id="photo_<%= @id %>">
+  <img src='<%= @photo_url_thumb %>'id="<%= @id %>" class='img-polaroid'>
 </div>

@@ -1,6 +1,6 @@
 class PhotosController < ApplicationController
   def index
-    render json: GaragePhoto.find_all, root: false
+    render json: GaragePhoto.find_all(params[:index] || 0).limit(40).all, root: false
   end
 
   def show
@@ -12,9 +12,7 @@ class PhotosController < ApplicationController
   end
 
   def create
-    Thread.new do
-      GaragePhoto.create(photo: params[:file], garage_id: Garage.last.id)
-    end
+    GaragePhoto.create(photo: params[:file], garage_id: Garage.last.id)
     render json: {created: true}
   end
 end

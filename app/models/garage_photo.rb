@@ -28,8 +28,8 @@ class GaragePhoto < ActiveRecord::Base
     likers(User).size
   end
 
-  def self.find_all
-    self.includes(:garage, :tags, :comments).all
+  def self.find_all(index)
+    self.includes(:garage, :tags, :comments).where("id > ?", index)
   end
 
   def self.find_one(id)

@@ -11,4 +11,8 @@ class Garage < ActiveRecord::Base
     where(id: id).joins(:color, :user).first
   end
 
+  def shortened_name
+    "#{self.year} #{model.name}"
+  end
+
 end
