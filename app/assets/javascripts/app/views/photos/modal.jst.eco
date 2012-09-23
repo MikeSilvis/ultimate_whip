@@ -17,7 +17,7 @@
         <div class='tags'>
           <small>
             <% for tag in @tags: %>
-              <a href="#<%= tag.name %>"><%= tag.name %></a>
+              <a href="#<%= tag.name %>" data-tag="<%= tag.name %>"><%= tag.name %></a>
             <% end %>
           </small>
         </div>

@@ -1,0 +1,8 @@
+<div id="filter-whips">
+  <select multiple="multiple" id="tags-select" data-placeholder="Tags:" style="width:580px;">
+    <option></option>
+    <% for tag in @tags: %>
+      <option id="<%= tag.name %>" value="<%= tag.name %>"><%= tag.name %></option>
+    <% end %>
+  </select>
+</div>

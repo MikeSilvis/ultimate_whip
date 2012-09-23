@@ -6,6 +6,7 @@ class Garage < ActiveRecord::Base
   has_many :photos, class_name: "GaragePhoto"
 
   delegate :username, to: :user
+  validates_presence_of :user
 
   def self.find_with_graph(id)
     where(id: id).joins(:color, :user).first

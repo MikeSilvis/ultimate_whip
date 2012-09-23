@@ -3,30 +3,10 @@ html
   head
     title= content_for?(:title) ? yield(:title) : "UltimateWhip"
     = csrf_meta_tags
-    script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"
     = stylesheet_link_tag "application", :media => "all"
     = javascript_include_tag "application"
-  body#drop-area
-    .navbar.navbar-fixed-top
-      .navbar-inner
-        .container-fluid
-          a.btn.btn-navbar data-target=".nav-collapse" data-toggle="collapse"
-          a.brand Ultimate Whip
-          .nav-collapse
-            ul.nav.pull-right
-              li.divider-vertical
-              - if current_user
-                li= link_to current_user.username, garage_path(current_user.vehicles.first)
-              - else
-                li
-                  a href="/users/sign_up" Signup
-                li.divider-vertical
-                li.drop.down
-                  a.dropdown-toggle.log-me-in data-toggle="dropdown" href="#"
-                    | Login&nbsp;
-                    strong.caret
-                  .dropdown-menu.login-nav
-                    = render partial: "shared/login_dropdown"
+  body
+    = render partial: "shared/navbar"
     .container-fluid
       .row-fluid
         #alert-js

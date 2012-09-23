@@ -9,14 +9,15 @@ class App.Photos extends Spine.Controller
   constructor: ->
     super
     Photo.bind 'refresh', @render
-    Photo.fetch_with_limit()
+    Photo.fetch()
 
   render: =>
     @html @view('photos/index')(@photos)
     for photo in Photo.all()
       new App.PhotoItem(photo)
     @masonary()
-    @infinteScroll()
+    @windowHeight or= ($(window).height())
+    @infinteScroll(@windowHeight)
 
   renderModal: (e) =>
     Photo.unbind "refresh"
@@ -25,20 +26,21 @@ class App.Photos extends Spine.Controller
   masonary: =>
     container = $("#photo_container")
     container.imagesLoaded ->
-      container.masonry
+      container.isotope
         itemSelector: ".photo-item"
         isAnimated: true
+        isFitWidth: true
 
   closeModal: (e) =>
     Photo.bind 'refresh', @render
     $(".mikes-modal").remove()
     $("#the-lights").hide()
 
-  infinteScroll:  =>
+  infinteScroll:  (windowHeight) =>
     $(window).bind "scroll", ->
-      if $(window).scrollTop() > $(document).height() - $(window).height() - 150
+      if $(window).scrollTop() > $(document).height() - windowHeight
         $(window).unbind "scroll"
-        Photo.fetch_with_limit()
+        Photo.fetch()
 
 class App.PhotoItem extends Spine.Controller
 
@@ -47,6 +49,7 @@ class App.PhotoItem extends Spine.Controller
     @render()
 
   render: =>
+    # $('#photo_container').append( @view('photos/photo')(@photo) ).isotope( 'appended', @view('photos/photo')(@photo) );
     $("#photo_container").append(@view('photos/photo')(@photo))
 
 class App.PhotoModal extends Spine.Controller
@@ -66,7 +69,12 @@ class App.PhotoModal extends Spine.Controller
     $(".mikes-modal img").load ->
       marginLeft = ($(window).width() - $(".mikes-modal").width()) / 2
       $(".mikes-modal").css("margin-left":(marginLeft + "px"))
-
+    $(".tags a").click (e)->
+      e.preventDefault()
+      $("#tags-select").find("##{$(this).attr("data-tag")}").attr("selected", true).trigger("liszt:updated")
+      App.Photo.deleteAll()
+      App.Photo.fetch()
+      $(".close").click()
     $(document).keyup (e) ->
       $(".close").click() if e.keyCode is 27
     $(document).click (e) ->

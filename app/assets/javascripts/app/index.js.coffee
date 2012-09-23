@@ -14,7 +14,6 @@
 class App extends Spine.Controller
   constructor: ->
     super
-    @photos = new App.Photos({ el: @el})
-
+    @current_user = new App.CurrentUser({el: @el})
 
 window.App = App

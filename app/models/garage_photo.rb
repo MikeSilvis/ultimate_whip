@@ -28,12 +28,23 @@ class GaragePhoto < ActiveRecord::Base
     likers(User).size
   end
 
-  def self.find_all(index)
-    self.includes(:garage, :tags, :comments).where("id > ?", index)
+  def self.find_all(index, tags)
+    query = order("garage_photos.created_at DESC")
+    query = query.where("garage_photos.id < ?", index.to_i) if index
+    query = query.includes(:tags).tagged_with(tags.split(",")) if tags
+    query
   end
 
   def self.find_one(id)
-    self.includes(:garage, :tags, :comments).where(id: id).first
+    includes_for_json.where(id: id).first
+  end
+
+  def self.find_by_file_name(name)
+    includes_for_json.where(photo_file_name: name).order("created_at DESC").first
+  end
+
+  def self.includes_for_json
+    self.includes(:garage, :tags, :comments)
   end
 
 end
