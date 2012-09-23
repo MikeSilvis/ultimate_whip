@@ -12,7 +12,9 @@ class PhotosController < ApplicationController
   end
 
   def create
-    GaragePhoto.create(photo: params[:file], garage_id: Garage.last.id)
+    Thread.new do
+      GaragePhoto.create(photo: params[:file], garage_id: Garage.last.id)
+    end
     render json: {created: true}
   end
 end
