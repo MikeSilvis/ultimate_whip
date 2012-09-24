@@ -2,7 +2,7 @@ class App.Photo extends Spine.Model
   @configure 'Photo', 'photo_url_thumb'
   @extend Spine.Model.Ajax
 
-  @fetch: =>
+  @fetch: (params) =>
     if $("#tags-select").val()
       @index = null unless @fetchedWithFilter
       paramsData = () ->
@@ -11,11 +11,13 @@ class App.Photo extends Spine.Model
     else
       paramsData = () ->
         {index: index}
-
     index  = @first()?.id
     return false if index is @index and index
     @index = index
-    params =
+    params or=
       data: paramsData()
       processData: true
+    @ajax().fetch(params)
+
+  @fetchSingle: (params) =>
     @ajax().fetch(params)

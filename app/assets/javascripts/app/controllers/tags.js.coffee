@@ -14,7 +14,7 @@ class App.Tags extends Spine.Controller
   render: =>
     @photos = new App.Photos({el: @photoEl})
     @el = @tagEl
-    @html @view('tags/index')(tags: Tag.all())
+    $("#search-area").html(@view('tags/index')(tags: Tag.all()))
     $("#tags-select").chosen().change ->
       App.Photo.deleteAll()
       App.Photo.fetch()

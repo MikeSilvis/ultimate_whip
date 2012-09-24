@@ -9,8 +9,9 @@
         </div>
         <h4 clas="title"><%= @username %>'s</h4>
         <h3><%= @garage.model_name %></h3>
-        <h5><%= @garage.color_name %></h5>
-        <h5><%= @garage.year %></h5>
+        <strong>Make: </strong><%= @garage.make_name %><br>
+        <strong>Color: </strong><%= @garage.color_name %><br>
+        <strong>Year: </strong><%= @garage.year %><br>
         <small>
           <strong>Posted:</strong> <%= @created_at_in_words %>
         </small>
