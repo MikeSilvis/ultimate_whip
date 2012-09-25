@@ -1,3 +1,2 @@
 <div id="photo_container"></div>
-<div id="loading-modal"></div>
-<div id="mikes-modal"></div>
+<div id="modal-container"></div>

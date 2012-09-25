@@ -1,4 +1,4 @@
-<table class="mikes-modal">
+<table id="mikes-modal">
     <tr>
       <td>
         <img src='<%= @photo_url_large %>'>
