@@ -15,6 +15,9 @@
         <small>
           <strong>Posted:</strong> <%= @created_at_in_words %>
         </small>
+        <div class='likes'>
+          <!-- implement likes -->
+        </div>
         <div class='tags'>
           <small>
             <% for tag in @tags: %>

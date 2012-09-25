@@ -28,6 +28,14 @@ class GaragePhoto < ActiveRecord::Base
     likers(User).size
   end
 
+  def likes
+    @likes ||= likers(User)
+  end
+
+  def like_count
+    likes.size
+  end
+
   def self.find_all(index, tags)
     query = order("garage_photos.created_at DESC")
     query = query.where("garage_photos.id < ?", index.to_i) if index
