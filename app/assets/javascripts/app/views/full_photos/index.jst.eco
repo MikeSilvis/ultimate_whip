@@ -8,10 +8,7 @@
           x
         </div>
         <h4 clas="title"><%= @username %>'s</h4>
-        <h3><%= @garage.model_name %></h3>
-        <strong>Make: </strong><%= @garage.make_name %><br>
-        <strong>Color: </strong><%= @garage.color_name %><br>
-        <strong>Year: </strong><%= @garage.year %><br>
+        <h3><%= @garage.year %> <%= @garage.model_name %></h3>
         <small>
           <strong>Posted:</strong> <%= @created_at_in_words %>
         </small>
@@ -35,6 +32,11 @@
           </div>
         <% end %>
         <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
+        <% if @secret_hash == $("meta[name=user-secret-key]").attr("content"): %>
+          <div style='position:absolute; bottom:0px; text-align:right; right:10px; '>
+            <a id="<%= @id %>" class="remove">Remove</a>
+          </div>
+        <% end %>
       </td>
     </tr>
 </table>

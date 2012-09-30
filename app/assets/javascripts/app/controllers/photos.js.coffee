@@ -4,24 +4,22 @@ class App.Photos extends Spine.Controller
 
   events:
     "click .photo-item": "renderModal"
-    "click .close" : "closeModal"
 
   constructor: ->
     super
     Photo.bind 'refresh', @render
+    @html @view('photos/index')()
     Photo.fetch()
 
   render: =>
-    @html @view('photos/index')(@photos)
-    for photo in Photo.all()
+    for photo in Photo.all().reverse()
       new App.PhotoItem(photo)
-    @addMasonry()
+    # @addMasonry()
     @windowHeight or= ($(window).height())
     @infinteScroll(@windowHeight)
 
   renderModal: (e) =>
-    Photo.unbind "refresh"
-    new App.PhotoModal(e.target.id)
+    new App.FullPhotos(e.target.id)
 
   addMasonry: =>
     container = $("#photo_container")
@@ -31,8 +29,10 @@ class App.Photos extends Spine.Controller
         isAnimated: true
         isFitWidth: true
 
-  closeModal: (e) =>
-    Photo.bind 'refresh', @render
+  deletePhoto: (e) =>
+    $(".close").click()
+    App.Photo.find(e.target.id).destroy()
+    alerts("success", "<strong>DELETED!</strong> That photo has been deleted.")
 
   infinteScroll:  (windowHeight) =>
     $(window).bind "scroll", ->
@@ -48,35 +48,3 @@ class App.PhotoItem extends Spine.Controller
 
   render: =>
     $("#photo_container").append(@view('photos/photo')(@photo))
-
-class App.PhotoModal extends Spine.Controller
-
-  constructor: (id)->
-    @id = id
-    Photo.bind 'refresh', @render
-    Photo.fetchSingle({id: @id})
-
-  render: =>
-    $("#modal-container").html(@view('photos/modal')(Photo.find(@id)))
-    $("#mikes-modal").mikesModal()
-    @listenEvents(@id)
-
-  listenEvents: (id) =>
-    $(".tags a").click (e)->
-      e.preventDefault()
-      @filterTagsOnClick()
-    $(".new-comment").keyup (e) ->
-      if e.keyCode is 13
-        e.preventDefault()
-        @createComment()
-
-  filterTagsOnClick = () ->
-    $("#tags-select").find("##{$(this).attr("data-tag")}").attr("selected", true).trigger("liszt:updated")
-    App.Photo.deleteAll()
-    App.Photo.fetch()
-    $(".close").click()
-
-  createComment = () ->
-    App.Comment.create message: $(".new-comment").val(), commentable_id: id
-    $(".new-comment").val("")
-    Photo.fetch({id: id})

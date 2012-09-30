@@ -5,7 +5,7 @@ class Garage < ActiveRecord::Base
   belongs_to :color
   has_many :photos, class_name: "GaragePhoto"
 
-  delegate :username, to: :user
+  delegate :username, :secret_hash, to: :user
   validates_presence_of :user
 
   def self.find_with_graph(id)

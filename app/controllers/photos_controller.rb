@@ -1,6 +1,7 @@
 class PhotosController < ApplicationController
   protect_from_forgery except: :create
   before_filter :authenticate_user!, only: :create
+  before_filter :require_yours, only: :destroy
 
   def index
     render json: GaragePhoto.find_all(params[:index], params[:tags]).limit(40).all, root: false
@@ -10,16 +11,26 @@ class PhotosController < ApplicationController
     render json: GaragePhoto.find_one(params[:id]), root: false, :serializer => PhotoFullSerializer
   end
 
-  def file_name
-    render json: GaragePhoto.find_by_file_name(params[:name]), root: false
-  end
-
   def new
 
   end
 
   def create
-    GaragePhoto.create(photo: params[:file], garage_id: params[:garage_id])
+    photo = GaragePhoto.create(photo: params[:file], garage_id: params[:garage_id])
+    photo.create_default_tags
     render json: {created: true}
   end
+
+  def destroy
+    @photo.destroy
+    render json: {destroyed: true}
+  end
+
+private
+
+  def require_yours
+    @photo = GaragePhoto.find(params[:id])
+    redirect_to :root unless @photo.garage.user == current_user
+  end
+
 end

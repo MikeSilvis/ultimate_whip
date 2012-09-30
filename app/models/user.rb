@@ -1,3 +1,4 @@
+require 'digest/md5'
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
@@ -10,4 +11,8 @@ class User < ActiveRecord::Base
   has_many :vehicles, class_name: "Garage"
   has_many :likes
   validates_uniqueness_of :username, :email
+
+  def secret_hash
+    Digest::MD5.hexdigest("#{email}-#{username}")
+  end
 end

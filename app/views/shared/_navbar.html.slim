@@ -2,13 +2,13 @@
   .navbar-inner
     .container-fluid
       a.btn.btn-navbar data-target=".nav-collapse" data-toggle="collapse"
-      a.brand Ultimate Whip
+      a.brand href="/" Ultimate Whip
       .nav-collapse
         #search-area
         ul.nav.pull-right
           li.divider-vertical
           - if current_user
-            li= link_to current_user.username, garage_path(current_user.vehicles.first)
+            li= link_to current_user.username, ""
           - else
             li
               a href="/users/sign_up" Signup

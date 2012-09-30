@@ -1,9 +1,9 @@
 jQuery.fn.mikesModal = (action) ->
   if action == "remove"
-    theLights($(this), "hide")
+    theLights($(this), "remove")
     mikesModal($(this), "remove")
   else if action == "hide"
-    theLights($(this), "hide")
+    theLights($(this), "remove")
     mikesModal($(this), "hide")
   else
     addLoading()
@@ -14,10 +14,11 @@ jQuery.fn.mikesModal = (action) ->
 
 
 theLights = (modalBox, action) ->
-  if action == "hide"
+  if action == "remove"
     $("#the-lights").remove()
   else
-    $("body").append("<div id='the-lights'></div>").css("height": $(document).height())
+    $("body").append("<div id='the-lights'></div>")
+    $("#the-lights").css("height": $(document).height())
 
 mikesModal = (modalBox, action) ->
   if action == "hide"

@@ -1,5 +1,10 @@
 UltimateWhip::Application.routes.draw do
   resources :tags
+  resources :users do
+    collection do
+      get "current"
+    end
+  end
   resources :garages
   resources :comments
   resources :photos do

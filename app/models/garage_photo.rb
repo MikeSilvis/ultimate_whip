@@ -6,7 +6,7 @@ class GaragePhoto < ActiveRecord::Base
   attr_accessible :garage_id, :photo
 
   belongs_to :garage
-  delegate :username, :user_id, to: :garage
+  delegate :username, :user_id, :secret_hash, to: :garage
 
   has_attached_file :photo,
       :storage => :s3,
@@ -30,6 +30,11 @@ class GaragePhoto < ActiveRecord::Base
 
   def likes
     @likes ||= likers(User)
+  end
+
+  def create_default_tags
+    self.tag_list = "#{self.garage.year}, #{self.garage.model.name}, #{self.garage.model.make.name}"
+    self.save
   end
 
   def like_count

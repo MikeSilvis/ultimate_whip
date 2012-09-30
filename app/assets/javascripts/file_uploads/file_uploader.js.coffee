@@ -32,7 +32,7 @@ $ ->
     upload_count++
     $(".bar").css("width": uploadPercantage())
     removeCounterIfComplete()
-    # App.Photo.fetch({id: "file_name", data: file.name})
+    App.Photo.fetch()
 
 uploadPercantage = () ->
   ((upload_count / uploading_files.length) * 100) + "%"

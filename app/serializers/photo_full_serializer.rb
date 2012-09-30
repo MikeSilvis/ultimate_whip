@@ -1,6 +1,6 @@
 class PhotoFullSerializer < ActiveModel::Serializer
   include ActionView::Helpers::DateHelper
-  attributes :id, :created_at, :photo_url_thumb, :photo_url_large, :username, :created_at_in_words, :user_id, :likes, :like_count
+  attributes :id, :created_at, :photo_url_thumb, :photo_url_large, :username, :created_at_in_words, :user_id, :likes, :like_count, :secret_hash
   has_one :garage
   has_many :tags
   has_many :comments
