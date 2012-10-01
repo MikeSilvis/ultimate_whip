@@ -2,9 +2,11 @@ jQuery.fn.mikesModal = (action) ->
   if action == "remove"
     theLights($(this), "remove")
     mikesModal($(this), "remove")
+    $("#loading-modal").remove()
   else if action == "hide"
     theLights($(this), "remove")
     mikesModal($(this), "hide")
+    $("#loading-modal").hide()
   else
     addLoading()
     theLights($(this))
@@ -28,7 +30,8 @@ mikesModal = (modalBox, action) ->
   else
     addListeners(modalBox)
     modalBox.css("top":($(window).scrollTop() + 50 + "px"))
-    modalBox.find("img").load ->
+    modalBox.find("img").css("width": 500).load ->
+      console.log modalBox.width()
       marginLeft = ($(window).width() - modalBox.width()) / 2
       modalBox.css("margin-left":(marginLeft + "px")).fadeIn("slow")
       $("#loading-modal").remove()
@@ -56,8 +59,9 @@ addLoading = () ->
 
 addListeners = (modalBox) ->
   $(document).keyup (e) ->
-    modalBox.find(".close").click() if e.keyCode is 27
+    modalBox.mikesModal("remove") if e.keyCode is 27
   $(document).click (e) ->
-    modalBox.find(".close").click() if e.target.id is "the-lights"
+    modalBox.mikesModal("remove") if e.target.id is "the-lights"
   modalBox.find(".close").click (e) ->
     modalBox.mikesModal("remove")
+

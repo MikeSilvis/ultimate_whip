@@ -27,7 +27,7 @@ class App.FullPhotos extends Spine.Controller
         e.preventDefault()
         App.Comment.create message: $(".new-comment").val(), commentable_id: id
         $(".new-comment").val("")
-        FullPhoto.fetchSingle({id: id})
+        FullPhoto.fetch({id: id})
 
 alerts = (type, message) ->
     $("#alert-js").append("<div class='alert alert-#{type}' id='files-uploaded-succesfully'>#{message}</div>")

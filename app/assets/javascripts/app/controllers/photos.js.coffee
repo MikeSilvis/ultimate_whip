@@ -8,17 +8,18 @@ class App.Photos extends Spine.Controller
   constructor: ->
     super
     Photo.bind 'refresh', @render
-    @html @view('photos/index')()
     Photo.fetch()
 
   render: =>
+    @html @view('photos/index')()
     for photo in Photo.all().reverse()
       new App.PhotoItem(photo)
-    # @addMasonry()
+    @addMasonry()
     @windowHeight or= ($(window).height())
     @infinteScroll(@windowHeight)
 
   renderModal: (e) =>
+    $(window).unbind "scroll"
     new App.FullPhotos(e.target.id)
 
   addMasonry: =>
