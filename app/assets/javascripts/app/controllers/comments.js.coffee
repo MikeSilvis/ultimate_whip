@@ -6,6 +6,7 @@ class App.Comments extends Spine.Controller
 
   constructor: (el, commentable_id) ->
     super
+    Comment.deleteAll()
     @commentable_id = commentable_id
     Comment.fetch({commentable_id: @commentable_id})
     Comment.bind 'refresh change', @render
