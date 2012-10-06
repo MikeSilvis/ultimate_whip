@@ -1,14 +1,14 @@
 h1 Upload Pictures!
-= simple_form_for GaragePhoto.new do |f|
-  = f.label :image, "Upload Photos:"
-  = f.file_field :photo, multiple: true, name: "garage_photo[photo]"
-  = f.association :garage, :collection => current_user.vehicles.map { |v| [v.model.name, v.id] }, :include_blank => false
-
-script#template-upload type="text/x-tmpl"
-  .upload
-    | {%=o.name%}
-    .progress
-      .bar style="width: 0%"
-
+#photo-upload
+  #upload-area
+    =  select_tag(:vehicle_id, options_for_select(list_vehicles_by_name))
+    a#pickfiles.btn.btn-primary
+      i.icon-upload.icon-white
+      | &nbsp; Photos
+  #progress-area
+br
+br
+br
+br
 #photos
   h1 Uploaded Pictures
