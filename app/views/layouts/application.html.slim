@@ -1,16 +1,14 @@
-doctype
-html
-  head
-    title= content_for?(:title) ? yield(:title) : "UltimateWhip"
-    = csrf_meta_tags
-    = stylesheet_link_tag "application", :media => "all"
-    = javascript_include_tag "application"
-    = current_user_meta_tags
-  body
-    = render partial: "shared/navbar"
-    .container-fluid
-      .row-fluid
-        #alert-js
-        = bootstrap_flash
-        = yield
-      footer
+head
+  title= content_for?(:title) ? yield(:title) : "UltimateWhip"
+  = csrf_meta_tags
+  = stylesheet_link_tag "application", :media => "all"
+  = javascript_include_tag "application"
+  = current_user_meta_tags
+body
+  = render partial: "shared/navbar"
+  .container-fluid
+    .row-fluid
+      #alert-js
+      = bootstrap_flash
+      = yield
+    footer
