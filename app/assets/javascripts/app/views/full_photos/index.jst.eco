@@ -3,7 +3,7 @@
       <td>
         <img src='<%= @photo_url_large %>'>
       </td>
-      <td class="comments">
+      <td class="description">
         <div class="close">
           x
         </div>
@@ -18,25 +18,11 @@
         <div class='tags'>
           <small>
             <% for tag in @tags: %>
-              <a href="#<%= tag.name %>" data-tag="<%= tag.name %>"><%= tag.name %></a>
+              <a href="#<%= tag.name %>" data-tag="<%= tag.name %>"><%= tag.name %></a> |
             <% end %>
           </small>
         </div>
-        <% for comment in @comments: %>
-          <div class='comment'>
-            <small>
-              <strong><%= comment.username %>:</strong> <%= comment.message %>
-              <br>
-              <span class="said-at"><%= comment.created_at_in_words %></span>
-            </small>
-          </div>
-        <% end %>
-        <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
-        <% if @secret_hash == $("meta[name=user-secret-key]").attr("content"): %>
-          <div style='position:absolute; bottom:0px; text-align:right; right:10px; '>
-            <a id="<%= @id %>" class="remove">Remove</a>
-          </div>
-        <% end %>
+        <div id="comments"></div>
       </td>
     </tr>
 </table>

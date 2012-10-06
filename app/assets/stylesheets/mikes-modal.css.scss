@@ -2,21 +2,34 @@
   z-index:3;
   position:absolute;
   background-color:white;
+  left: 50%;
   display:none;
-  .comments{
+  img {
+    margin-top: -1px;
+    margin-left:-1px;
+    margin-bottom: -1px;
+  }
+  .description{
     width: 280px;
     text-align: left;
     padding: 0px 30px;
     vertical-align: top;
+    #comments-area{
+      height: 300px;
+      overflow:auto;
+    }
     .comment{
-      padding-bottom: 10px;
+      padding: 3px 5px;
+      margin-bottom: 2px;
+      background-color: #ECECF0;
       .said-at{
         color:#999999;
         font-size:12px;
       }
     }
     .new-comment{
-      width:98%;
+      width:280px;
+      height:30px;
     }
   }
   .tags{
@@ -49,7 +62,7 @@
   height:100%;
   width:100%;
   position:absolute;
-  opacity: 0.8;
+  opacity: 0.9;
   top:0;
   left:0;
   z-index: 2;

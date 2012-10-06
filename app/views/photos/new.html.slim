@@ -1,0 +1,8 @@
+h1 Upload Pictures!
+#photo-upload
+  #upload-area
+    =  select_tag(:vehicle_id, options_for_select(list_vehicles_by_name))
+    a#pickfiles.btn.btn-primary
+      i.icon-upload.icon-white
+      | &nbsp; Photos
+  #progress-area

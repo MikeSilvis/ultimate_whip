@@ -11,23 +11,15 @@ class App.FullPhotos extends Spine.Controller
   render: =>
     $("#modal-container").html(@view('full_photos/index')(FullPhoto.find(@id)))
     $("#mikes-modal").mikesModal()
+    FullPhoto.unbind "refresh"
+    new App.Comments({el: $("#comments")}, @id)
     @listenEvents(@id)
 
   listenEvents: (id) =>
-    $(".close").click ->
-      FullPhoto.unbind "refresh"
     $(".tags a").click (e)->
       e.preventDefault()
-      $("#tags-select").find("##{$(this).attr("data-tag")}").attr("selected", true).trigger("liszt:updated")
-      # App.FullPhoto.deleteAll()
-      # App.FullPhoto.fetch()
+      $("#tags-select").find("##{$(this).attr("data-tag")}").attr("selected", true).trigger("liszt:updated").change()
       $(".close").click()
-    $(".new-comment").keyup (e) ->
-      if e.keyCode is 13
-        e.preventDefault()
-        App.Comment.create message: $(".new-comment").val(), commentable_id: id
-        $(".new-comment").val("")
-        FullPhoto.fetch({id: id})
 
 alerts = (type, message) ->
     $("#alert-js").append("<div class='alert alert-#{type}' id='files-uploaded-succesfully'>#{message}</div>")

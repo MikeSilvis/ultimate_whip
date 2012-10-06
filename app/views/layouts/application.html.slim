@@ -13,13 +13,4 @@ html
         #alert-js
         = bootstrap_flash
         = yield
-      footer#photo-upload
-        - if current_user
-          #upload-area
-            =  select_tag(:vehicle_id, options_for_select(list_vehicles_by_name))
-            a#pickfiles.btn.btn-primary
-              i.icon-upload.icon-white
-              | &nbsp; Photos
-          #progress-area
-        - else
-          = link_to "Login to upload photos", new_user_session_path
+      footer

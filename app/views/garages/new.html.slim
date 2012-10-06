@@ -9,5 +9,5 @@ h1 Add your first whip
           option value=(m.name) #{m.name}
   = f.association :model, :input_html => { :disabled => true }
   = f.association :color, :input_html => { :disabled => true }
-  = f.input :year, placeholder: "Year", :input_html => { :disabled => true }
+  = f.input :year, placeholder: "Year", :input_html => { :disabled => true, style: "height:30px;" }
   = f.submit "Save Ride",  class: "btn btn-primary"

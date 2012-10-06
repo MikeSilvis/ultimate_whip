@@ -6,8 +6,9 @@
       .nav-collapse
         #search-area
         ul.nav.pull-right
-          li.divider-vertical
           - if current_user
+            li= link_to "+ Photos", ""
+            li.divider-vertical
             li= link_to current_user.username, ""
           - else
             li

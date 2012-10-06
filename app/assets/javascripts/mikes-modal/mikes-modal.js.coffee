@@ -3,17 +3,19 @@ jQuery.fn.mikesModal = (action) ->
     theLights($(this), "remove")
     mikesModal($(this), "remove")
     $("#loading-modal").remove()
+    enableScrolling()
   else if action == "hide"
     theLights($(this), "remove")
     mikesModal($(this), "hide")
     $("#loading-modal").hide()
+    enableScrolling()
   else
     addLoading()
+    disableScrolling()
     theLights($(this))
     mikesModal($(this))
 
   $(this)
-
 
 theLights = (modalBox, action) ->
   if action == "remove"
@@ -30,10 +32,9 @@ mikesModal = (modalBox, action) ->
   else
     addListeners(modalBox)
     modalBox.css("top":($(window).scrollTop() + 50 + "px"))
-    modalBox.find("img").css("width": 500).load ->
-      console.log modalBox.width()
-      marginLeft = ($(window).width() - modalBox.width()) / 2
-      modalBox.css("margin-left":(marginLeft + "px")).fadeIn("slow")
+    modalBox.find("img").css("max-width": 1000, "max-height": 562)
+    modalBox.find("img").load ->
+      modalBox.css("margin-left":("-" + (modalBox.width() / 2) + "px")).fadeIn("slow")
       $("#loading-modal").remove()
 
 addLoading = () ->
@@ -54,14 +55,31 @@ addLoading = () ->
     top: "auto" # Top position relative to parent in px
     left: "auto" # Left position relative to parent in px
 
-  $("body").append("<div id='loading-modal'></div>").css("top":($(window).scrollTop() + 300 + "px"))
+  $("body").append("<div id='loading-modal'></div>")
+  $("#loading-modal").css("top":($(window).scrollTop() + 300 + "px"))
   spinner = new Spinner(opts).spin(document.getElementById("loading-modal"))
 
 addListeners = (modalBox) ->
   $(document).keyup (e) ->
-    modalBox.mikesModal("remove") if e.keyCode is 27
+    $(".close").click() if e.keyCode is 27
   $(document).click (e) ->
-    modalBox.mikesModal("remove") if e.target.id is "the-lights"
+    $(".close").click() if e.target.id is "the-lights"
   modalBox.find(".close").click (e) ->
     modalBox.mikesModal("remove")
+
+scrollPosition = ->
+  [self.pageXOffset or document.documentElement.scrollLeft or document.body.scrollLeft, self.pageYOffset or document.documentElement.scrollTop or document.body.scrollTop]
+
+disableScrolling = ->
+  html = jQuery("html") # it would make more sense to apply this to body, but IE7 won't have that
+  html.data "scroll-position", scrollPosition
+  html.data "previous-overflow", html.css("overflow")
+  html.css "overflow", "hidden"
+  window.scrollTo scrollPosition()[0], scrollPosition()[1]
+
+enableScrolling = ->
+  html = jQuery("html")
+  scrollPosition = html.data("scroll-position")
+  html.css "overflow", html.data("previous-overflow")
+  window.scrollTo scrollPosition()[0], scrollPosition()[1]
 

@@ -15,11 +15,10 @@ class App.Photos extends Spine.Controller
     for photo in Photo.all().reverse()
       new App.PhotoItem(photo)
     @addMasonry()
-    @windowHeight or= ($(window).height())
+    @windowHeight or= $(window).height()
     @infinteScroll(@windowHeight)
 
   renderModal: (e) =>
-    $(window).unbind "scroll"
     new App.FullPhotos(e.target.id)
 
   addMasonry: =>

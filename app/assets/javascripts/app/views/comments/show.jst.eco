@@ -1,0 +1,13 @@
+<div id="comments-area">
+  <% for comment in @comments: %>
+    <div class='comment'>
+      <small>
+        <strong><%= comment.username %>:</strong> <%= comment.message %>
+        <br>
+        <span class="said-at"><%= comment.created_at_in_words %></span>
+      </small>
+    </div>
+  <% end %>
+</div>
+<textarea name="new-comment" placeholder="write a comment..." class='new-comment'>
+</textarea>

@@ -12,7 +12,7 @@ $ ->
     resize : {width : 1200, height : 900}
   )
 
-  uploader.init()
+  uploader.init() if $("#photo-upload").length > 0
   uploader.bind "FilesAdded", (up, files) ->
     window.upload_count = 0
     window.uploading_files = files
@@ -32,7 +32,6 @@ $ ->
     upload_count++
     $(".bar").css("width": uploadPercantage())
     removeCounterIfComplete()
-    App.Photo.fetch()
 
 uploadPercantage = () ->
   ((upload_count / uploading_files.length) * 100) + "%"
