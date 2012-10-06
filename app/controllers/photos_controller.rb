@@ -1,6 +1,6 @@
 class PhotosController < ApplicationController
   protect_from_forgery except: :create
-  before_filter :authenticate_user!, only: :create
+  before_filter :authenticate_user!, only: [:create, :new]
   before_filter :require_yours, only: :destroy
   before_filter :require_ride, only: :new
 

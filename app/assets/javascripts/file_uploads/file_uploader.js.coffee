@@ -22,10 +22,10 @@ $ ->
       $("#progress-area").append("<div class='progress progress-striped active' id='file-count'><div class='bar'></div></div>")
       uploader.start()
 
-  uploader.bind "UploadProgress", (up, file) ->
-    # $("#" + file.id + " b").html file.percent + "%"
+  # uploader.bind "UploadProgress", (up, file) ->
+  #   # $("#" + file.id + " b").html file.percent + "%"
 
-  uploader.bind "Error", (up, err) ->
+  # uploader.bind "Error", (up, err) ->
     # $("body").append "<div>Error: " + err.code + ", Message: " + err.message + ((if err.file then ", File: " + err.file.name else "")) + "</div>"
 
   # uploader.bind "FileUploaded", (up, file) ->
