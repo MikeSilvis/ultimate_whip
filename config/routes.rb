@@ -6,6 +6,7 @@ UltimateWhip::Application.routes.draw do
     end
   end
   resources :garages
+  resources :garage_photos
   resources :comments
   resources :photos do
     collection do
