@@ -17,9 +17,9 @@ class PhotosController < ApplicationController
   end
 
   def create
-    photo = GaragePhoto.create(photo: params[:file], garage_id: params[:garage_id])
-    photo.create_default_tags
-    render json: {created: true}
+    @photo = GaragePhoto.create(photo: params[:file], garage_id: params[:garage_id])
+    @photo.create_default_tags
+    render "photos/create"
   end
 
   def destroy
