@@ -1,0 +1,7 @@
+.span3
+  div(style="float:left;")
+  = image_tag @photo.photo(:thumb)
+  div(style="float:right;")
+    = simple_form_for @photo do |f|
+      = f.input :tag_list, label: "Tags (comma separated)"
+  hr
