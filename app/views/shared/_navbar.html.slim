@@ -12,7 +12,7 @@
             li= link_to current_user.username, ""
           - else
             li
-              a href="/users/sign_up" Signup
+              = link_to "Sign up", new_user_registration_path
             li.divider-vertical
             li.drop.down
               a.dropdown-toggle.log-me-in data-toggle="dropdown" href="#"
