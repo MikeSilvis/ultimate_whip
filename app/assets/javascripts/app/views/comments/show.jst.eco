@@ -9,5 +9,7 @@
     </div>
   <% end %>
 </div>
-<textarea name="new-comment" placeholder="write a comment..." class='new-comment'>
-</textarea>
+<% if $("meta[name=user-username]").attr("content"): %>
+  <textarea name="new-comment" placeholder="write a comment..." class='new-comment'>
+  </textarea>
+<% end %>
