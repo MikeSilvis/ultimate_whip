@@ -34,5 +34,5 @@ Color.create(name:"Barbera Red")
 Color.create(name:"Midnight Blue")
 Color.create(name:"Santorini Blue")
 
-mike = User.create(username:"mikesilvis", password: "michael", email:"mikesilvis@gmail.com")
-Garage.create(model: model1, color: color, year: 2011, user: mike)
+# mike = User.create(username:"mikesilvis", password: "michael", email:"mikesilvis@gmail.com")
+# Garage.create(model: model1, color: color, year: 2011, user: mike)
