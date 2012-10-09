@@ -33,7 +33,7 @@ class GaragePhoto < ActiveRecord::Base
   end
 
   def create_default_tags
-    self.tag_list = "#{self.garage.year}, #{self.garage.model.name}, #{self.garage.model.make.name}"
+    self.tag_list = "#{self.garage.year}, #{self.garage.model.name}, #{self.garage.model.make.name}, #{self.garage.color.name}"
     self.save
   end
 
