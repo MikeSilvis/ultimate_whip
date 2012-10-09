@@ -40,6 +40,7 @@ jQuery ->
 
     $("#finish-tagging").click ->
       $('.edit_garage_photo').submit()
+      alerts("success", "Photos have been saved. Now <a href='/'>browse other!</a>")
 
 uploadPercantage = (numberOfFiles, numberOfFilesFinished) ->
   ((numberOfFilesFinished / numberOfFiles) * 100) + "%"

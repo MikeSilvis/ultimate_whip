@@ -3,11 +3,11 @@ h1 Add your bimmer
   .control-group.select
     label.select.control-label for="garage_make_id" Make
     .controls
-      select#garage_make_id.select name="garage[make_id]"
+      select#garage_make_id.select name="garage_helper[make_id]"
         option value=""
         - all_makes_order_by_name.each do |m|
           option value=(m.name) #{m.name}
   = f.association :model, :input_html => { :disabled => true }
   = f.association :color, :input_html => { :disabled => true }
-  = f.input :year, placeholder: "Year", :input_html => { :disabled => true, style: "height:30px;" }
+  = f.input :year, placeholder: "Year (2012)", :input_html => { :disabled => true}
   = f.submit "Save Ride",  class: "btn btn-primary"
