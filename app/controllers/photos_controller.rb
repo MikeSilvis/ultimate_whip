@@ -29,7 +29,7 @@ private
   end
 
   def require_ride
-    redirect_to new_garage_path, :alert => "You must have a vehicle first" unless false
+    redirect_to new_garage_path, :alert => "You must have a vehicle first" unless (current_user.vehicles.size > 0)
   end
 
 end
