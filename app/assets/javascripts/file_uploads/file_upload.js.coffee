@@ -1,6 +1,4 @@
 jQuery ->
-  @numberOfFiles = 0
-  @numberOfFilesFinished = 0
   if $('#new_garage_photo').length
     $(document).bind "drop dragover", (e) ->
       e.preventDefault()
@@ -25,7 +23,10 @@ jQuery ->
       dataType: "script"
       maxFileSize: 10000000
       add: (e, data) ->
+        @numberOfFiles or= 0
+        @numberOfFilesFinished or= 0
         @numberOfFiles++
+        $("#photos").show()
         types = /(\.|\/)(gif|jpe?g|png)$/i
         file = data.files[0]
         if types.test(file.type) || types.test(file.name)
@@ -33,20 +34,24 @@ jQuery ->
         else
           alerts("error", "#{file.name} is not a gif, jpeg, or png image file")
       done: ->
-        removeCounterIfComplete()
-        $(".progress .bar").css "width", uploadPercantage + "%"
-      progressall: (e, data) ->
-        $("#progress-area").append("<div class='progress progress-striped active' id='file-count'><div class='bar'></div></div>")
+        @numberOfFilesFinished++
+        removeCounterIfComplete(@numberOfFiles, @numberOfFilesFinished)
+        $(".progress .bar").css "width", uploadPercantage(@numberOfFiles, @numberOfFilesFinished)
 
-uploadPercantage = () ->
-  ((@numberOfFiles / @numberOfFilesFinished) * 100) + "%"
+    $("#finish-tagging").click ->
+      $('.edit_garage_photo').submit()
 
-allFilesUploaded = () ->
-  (@numberOfFiles - @numberOfFilesFinished)
+uploadPercantage = (numberOfFiles, numberOfFilesFinished) ->
+  ((numberOfFilesFinished / numberOfFiles) * 100) + "%"
 
-removeCounterIfComplete = () ->
-  if allFilesUploaded() == 0
-    $("#file-count").remove()
+allFilesUploaded = (numberOfFiles, numberOfFilesFinished) ->
+  (numberOfFiles - numberOfFilesFinished)
+
+removeCounterIfComplete = (numberOfFiles, numberOfFilesFinished) ->
+  if allFilesUploaded(numberOfFiles, numberOfFilesFinished) == 0
+    $(".progress").remove()
+    $(".alert").remove()
+    $("#finish-tagging").css("display":"block")
     alerts("success", "<strong>Congratulations!</strong> All your files have been uploaded.")
 
 alerts = (type, message) ->

@@ -12,6 +12,7 @@ group :assets do
   gem 'twitter-bootstrap-rails'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
+  gem 'jquery-fileupload-rails'
 end
 
 group :development do
@@ -22,6 +23,7 @@ gem 'eco'
 gem 'spine-rails'
 gem 'devise'
 gem 'chosen-rails'
+gem "select2-rails"
 gem 'json'
 gem 'rspec-rails'
 gem 'jquery-rails'

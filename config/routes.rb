@@ -12,7 +12,7 @@ UltimateWhip::Application.routes.draw do
       get "file_name"
     end
   end
-
+  resources :garage_photos
   resources :makes, only: [:show]
   root :to => "whips#index"
   devise_for :users

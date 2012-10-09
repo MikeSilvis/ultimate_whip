@@ -14,7 +14,7 @@ class App.Photos extends Spine.Controller
     @html @view('photos/index')()
     for photo in Photo.all().reverse()
       new App.PhotoItem(photo)
-    @addMasonry()
+    # @addMasonry()
     @windowHeight or= $(window).height()
     @infinteScroll(@windowHeight)
 

@@ -1,8 +1,7 @@
-.row
-  .span3
-    div(style="float:left;")
-    = image_tag @photo.photo(:thumb)
-    div(style="float:right;")
-      = simple_form_for @photo do |f|
-        = f.input :tag_list, label: "Tags (comma separated)"
-    hr
+.span6.no-margin
+  = image_tag @photo.photo(:thumb), class: 'thumbnail span3'
+  .span6
+    = simple_form_for @photo, remote: true do |f|
+      = f.input :tag_list, label: "Tags (BBS, GTHaus, Dinan)", input_html: { class: "garage_photo_tags" }
+  .clear
+  hr

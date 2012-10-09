@@ -3,7 +3,7 @@ class GaragePhoto < ActiveRecord::Base
   acts_as_taggable
   acts_as_likeable
   acts_as_commentable
-  attr_accessible :garage_id, :photo
+  attr_accessible :garage_id, :photo, :tag_list
 
   belongs_to :garage
   delegate :username, :user_id, :secret_hash, to: :garage
@@ -13,7 +13,7 @@ class GaragePhoto < ActiveRecord::Base
       :s3_credentials => "#{Rails.root}/config/s3.yml",
       :styles => {
                     :large => "1200x900",
-                    :thumb => "200x270"
+                    :thumb => "200x200#"
                  }
 
   def photo_url_thumb

@@ -2,21 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #dropzone {
-    background: palegreen;
-    width: 150px;
+    // background: palegreen;
+    border-style:dashed;
+    border-color:black;
     height: 50px;
     line-height: 50px;
     text-align: center;
     font-weight: bold;
 }
 #dropzone.in {
-    width: 600px;
     height: 200px;
     line-height: 200px;
     font-size: larger;
 }
 #dropzone.hover {
-    background: lawngreen;
+    background: #468847;
 }
 #dropzone.fade {
     -webkit-transition: all 0.3s ease-out;
