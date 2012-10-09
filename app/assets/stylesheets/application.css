@@ -12,7 +12,6 @@
  *= require_tree .
  *= require chosen
  *= require select2
- *= require bootstrap_and_overrides
  */
 .login-nav {
   padding: 15px !important;
