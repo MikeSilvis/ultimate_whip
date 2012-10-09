@@ -10,6 +10,5 @@
   <% end %>
 </div>
 <% if $("meta[name=user-username]").attr("content"): %>
-  <textarea name="new-comment" placeholder="write a comment..." class='new-comment'>
-  </textarea>
+  <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
 <% end %>
