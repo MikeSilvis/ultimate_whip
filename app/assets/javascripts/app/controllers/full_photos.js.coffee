@@ -19,7 +19,7 @@ class App.FullPhotos extends Spine.Controller
     $(".tags a").click (e)->
       e.preventDefault()
       tag = $(this).attr("data-tag").replace RegExp(" ", "g"), "-"
-      $("#tags-select").find("##{tag}").attr("selected", true).trigger("liszt:updated").change()
+      $("#tags-select").find("##{tag}").attr("selected", true).change()
       $(".close").click()
 
 alerts = (type, message) ->
