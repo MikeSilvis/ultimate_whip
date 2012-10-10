@@ -15,7 +15,8 @@ class App.Tags extends Spine.Controller
     @photos = new App.Photos({el: @photoEl})
     @el = @tagEl
     $("#search-area").html(@view('tags/index')(tags: Tag.all()))
-    $("#tags-select").chosen().change ->
-      $("#photo_container").fadeOut("slow").fadeIn("slow")
-      App.Photo.deleteAll()
-      App.Photo.fetch()
+    # $("#tags-select").chosen().change ->
+    #   $("#photo_container").fadeOut("slow").fadeIn("slow")
+    #   App.Photo.deleteAll()
+    #   App.Photo.fetch()
+    $("#tags-select").select2()
