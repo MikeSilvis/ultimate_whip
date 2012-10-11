@@ -14,11 +14,13 @@
           <!-- implement likes -->
         </div>
         <div class='tags'>
-          <small>
-            <% for tag in @tags: %>
-              <a href="#<%= tag.name %>" data-tag="<%= tag.name %>"><%= tag.name %></a> |
-            <% end %>
-          </small>
+          <% for tag in @tags: %>
+            <div class="span1">
+              <span class="label label-inverse">
+                <a href="#<%= tag.name %>" data-tag="<%= tag.name %>"><%= tag.name %></a>
+              </span>
+            </div>
+          <% end %>
         </div>
         <div id="comments"></div>
       </td>
