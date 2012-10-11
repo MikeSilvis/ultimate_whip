@@ -22,7 +22,7 @@ theLights = (modalBox, action) ->
     $("#the-lights").remove()
   else
     $("body").append("<div id='the-lights'></div>")
-    $("#the-lights")
+    $("#the-lights").css("height": $(document).height())
 
 mikesModal = (modalBox, action) ->
   if action == "hide"
@@ -33,7 +33,7 @@ mikesModal = (modalBox, action) ->
     addListeners(modalBox)
     modalBox.find("img").css("max-width":  ((window.innerWidth * .9) - 300), "max-height":  (window.innerHeight * .8))
     modalBox.find("img").load ->
-      modalBox.css("margin-left":("-" + (modalBox.width() / 2) + "px"), "margin-top":"-"+(modalBox.height() / 2)).fadeIn("slow")
+      modalBox.css("margin-left":("-" + (modalBox.width() / 2) + "px"), "top":($(window).scrollTop() + 50 + "px")).fadeIn("slow")
       $("#loading-modal").remove()
 
 addLoading = () ->
