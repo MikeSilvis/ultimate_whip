@@ -24,7 +24,6 @@ gem 'twitter-bootstrap-rails'
 gem 'eco'
 gem 'spine-rails'
 gem 'devise'
-gem 'chosen-rails'
 gem "select2-rails"
 gem 'json'
 gem 'rspec-rails'

@@ -15,10 +15,10 @@
 //= require twitter/bootstrap
 //= require app
 //= require_tree .
-//= require chosen-jquery
 //= require select2
 //= require jquery-fileupload/basic
 //= require jquery-fileupload/vendor/tmpl
+
 jQuery(function() {
   if ($("#app").length) {
     return new App({

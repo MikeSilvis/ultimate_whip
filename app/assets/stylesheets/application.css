@@ -10,7 +10,6 @@
  *
  *= require_self
  *= require_tree .
- *= require chosen
  *= require select2
  */
 .login-nav {
