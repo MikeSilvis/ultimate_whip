@@ -6,7 +6,7 @@ class GaragePhoto < ActiveRecord::Base
   attr_accessible :garage_id, :photo, :tag_list
 
   belongs_to :garage
-  delegate :username, :user_id, :secret_hash, to: :garage
+  delegate :username, :user_id, :secret_hash, :user, to: :garage
 
   has_attached_file :photo,
       :storage => :s3,
