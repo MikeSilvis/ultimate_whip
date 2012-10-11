@@ -4,9 +4,7 @@
         <img src='<%= @photo_url_large %>'>
       </td>
       <td class="description">
-        <div class="close">
-          x
-        </div>
+        <div class="close">x</div>
         <h4 clas="title"><%= @username %>'s</h4>
         <h3><%= @garage.year %> <%= @garage.model_name %></h3>
         <small>
