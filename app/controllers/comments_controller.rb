@@ -3,7 +3,10 @@ class CommentsController < ApplicationController
 
   def create
     # For now this assumes that only garage_photos can have comments
-    GaragePhoto.find(params[:commentable_id]).comments.create(user_id: current_user.id, comment: params[:message])
+    photo = GaragePhoto.find(params[:commentable_id])
+    comment = photo.comments.create(user_id: current_user.id, comment: params[:message])
+
+    UserMailer.notify_photo_comment(comment).deliver
     render json: true
   end
 
