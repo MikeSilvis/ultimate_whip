@@ -15,11 +15,9 @@
         </div>
         <div class='tags'>
           <% for tag in @tags: %>
-            <div class="span1">
-              <span class="label label-inverse">
-                <a href="#<%= tag.name %>" data-tag="<%= tag.name %>"><%= tag.name %></a>
-              </span>
-            </div>
+            <span class="label label-inverse" style="float:left">
+              <a href="#<%= tag.name %>" data-tag="<%= tag.name %>"><%= tag.name %></a>
+            </span>
           <% end %>
         </div>
         <div id="comments"></div>
