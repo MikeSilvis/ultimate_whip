@@ -42,8 +42,8 @@ class GaragePhoto < ActiveRecord::Base
   end
 
   def self.find_all(index, tags)
-    query = order("garage_photos.created_at DESC")
-    query = query.where("garage_photos.id < ?", index.to_i) if index
+    query = self
+    query = where("garage_photos.id < ?", index.to_i) if index
     query = query.includes(:tags).tagged_with(tags.split(",")) if tags
     query
   end
