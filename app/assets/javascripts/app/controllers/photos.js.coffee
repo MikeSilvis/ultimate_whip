@@ -15,8 +15,7 @@ class App.Photos extends Spine.Controller
     for photo in Photo.all().reverse()
       new App.PhotoItem(photo)
     # @addMasonry()
-    @windowHeight or= $(window).height()
-    @infinteScroll(@windowHeight)
+    @infinteScroll()
 
   renderModal: (e) =>
     new App.FullPhotos(e.target.id)
@@ -34,9 +33,9 @@ class App.Photos extends Spine.Controller
     App.Photo.find(e.target.id).destroy()
     alerts("success", "<strong>DELETED!</strong> That photo has been deleted.")
 
-  infinteScroll:  (windowHeight) =>
+  infinteScroll:  =>
     $(window).bind "scroll", ->
-      if $(window).scrollTop() > $(document).height() - windowHeight
+      if $(window).scrollTop() > $(document).height() - window.innerHeight
         $(window).unbind "scroll"
         Photo.fetch()
 
