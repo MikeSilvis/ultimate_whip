@@ -1,8 +1,8 @@
 make = Make.find_or_create_by_name(name:"BMW")
 
-model2 = Model.find_or_create_by_name_and_make(name: "e90 M3 Sedan", make: make)
-model1 = Model.find_or_create_by_name_and_make(name: "e92 M3 Coupe", make: make)
-model3 = Model.find_or_create_by_name_and_make(name: "e93 M3 Convertable", make: make)
+model2 = Model.find_or_create_by_name_and_make_id(name: "e90 M3 Sedan", make_id: make.id)
+model1 = Model.find_or_create_by_name_and_make_id(name: "e92 M3 Coupe", make_id: make.id)
+model3 = Model.find_or_create_by_name_and_make_id(name: "e93 M3 Convertable", make_id: make.id)
 
 color = Color.find_or_create_by_name(name:"Le Mans Blue")
 Color.find_or_create_by_name(name:"Jerez Black")
