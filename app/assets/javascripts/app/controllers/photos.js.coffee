@@ -9,11 +9,13 @@ class App.Photos extends Spine.Controller
     super
     Photo.bind 'refresh', @render
     Photo.fetch()
+    if window.location.href.match(/\/photos\/(\d*)/)[0]
+      @renderModal({ target: { id: window.location.href.match(/\/photos\/(\d*)/)[1] }})
     @setupRoutes()
 
   setupRoutes: ->
     @routes
-      "/pictures/:id": (params) =>
+      "/photos/:id": (params) =>
         @renderModal({ target: { id: params.id }})
 
     $(document).bind 'modal-removed', (e) =>
@@ -22,9 +24,9 @@ class App.Photos extends Spine.Controller
 
     # HACK! This basically "fakes" a url
     # change to get it to work on first page load
-    old = location.href
-    location.href = "#/loading/"
-    setTimeout (-> location.href = old), 200
+    # old = location.href
+    # location.href = "#/loading/"
+    # setTimeout (-> location.href = old), 200
 
   render: =>
     @html @view('photos/index')()
@@ -34,7 +36,7 @@ class App.Photos extends Spine.Controller
     @infinteScroll()
 
   changeUrl: (e) =>
-    @navigate("/pictures", e.target.id)
+    @navigate("/photos", e.target.id)
 
   renderModal: (e) =>
     new App.FullPhotos(e.target.id)
