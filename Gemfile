@@ -39,3 +39,4 @@ gem 'simple_form'
 gem 'acts-as-taggable-on'
 gem 'socialization'
 gem 'acts_as_commentable', '2.0.1'
+gem "kaminari"

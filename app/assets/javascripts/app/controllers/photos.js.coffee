@@ -35,7 +35,7 @@ class App.Photos extends Spine.Controller
 
   infinteScroll:  =>
     $(window).bind "scroll", ->
-      if $(window).scrollTop() > $(document).height() - window.innerHeight
+      if $(window).scrollTop() > $(document).height() - window.innerHeight - 500
         $(window).unbind "scroll"
         Photo.fetch()
 

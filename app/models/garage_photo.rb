@@ -41,11 +41,12 @@ class GaragePhoto < ActiveRecord::Base
     likes.size
   end
 
-  def self.find_all(index, tags)
-    query = self
-    query = where("garage_photos.id < ?", index.to_i) if index
-    query = query.includes(:tags).tagged_with(tags.split(",")) if tags
-    query
+  def self.find_all(page, tags)
+    if tags
+      order("created_at DESC").includes(:tags).tagged_with(tags.split(",")).page(page)
+    else
+      order("created_at DESC").page(page)
+    end
   end
 
   def self.find_one(id)
