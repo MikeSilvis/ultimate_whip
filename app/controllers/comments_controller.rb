@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-  before_filter :authenticate_user!
+  before_filter :authenticate_user!, only: :create
 
   def create
     # For now this assumes that only garage_photos can have comments

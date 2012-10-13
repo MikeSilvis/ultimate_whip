@@ -5,7 +5,7 @@ class PhotosController < ApplicationController
   before_filter :require_ride, only: :new
 
   def index
-    render json: GaragePhoto.find_all(params[:index], params[:tags]).limit(40).all, root: false
+    render json: GaragePhoto.find_all(params[:page], params[:tags]).to_a, root: false
   end
 
   def show

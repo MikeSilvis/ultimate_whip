@@ -1,3 +1,4 @@
+<div class="clear"></div>
 <div id="comments-area">
   <% for comment in @comments: %>
     <div class='comment'>
@@ -11,4 +12,6 @@
 </div>
 <% if $("meta[name=user-username]").attr("content"): %>
   <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
+<% else: %>
+  <small>Please <a href='/users/sign_in'>Sign in</a> to comment.
 <% end %>

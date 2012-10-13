@@ -3,17 +3,29 @@ class App.Photo extends Spine.Model
   @extend Spine.Model.Ajax
 
   @fetch: (params) =>
-    if $("#tags-select").val()
-      @index = null unless @fetchedWithFilter
+    if tags = $("#tags-select").val()
+      @previousTags or= []
+      unless (@fetchedWithFilter && (tags.toString() == @previousTags.toString()))
+        @page = 0
+        @totalPhotos = null
       paramsData = () ->
-        {index: index, tags: $("#tags-select").val().join(",")}
+        {page: page, tags: tags}
       @fetchedWithFilter = true
+      @previousTags = tags
+      @fetched = false
     else
+      unless @fetched
+        @page = 0
+        @totalPhotos = null
       paramsData = () ->
-        {index: index}
-    index  = @first()?.id
-    return false if index is @index and index
-    @index = index
+        {page: page}
+      @fetched = true
+      @fetchedWithFilter = false
+
+    page = @page + 1
+    @page = page
+    return false if (App.Photo.all().length == @totalPhotos)
+    @totalPhotos = App.Photo.all().length
 
     params or=
       data: paramsData()
