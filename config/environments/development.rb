@@ -37,13 +37,12 @@ UltimateWhip::Application.configure do
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-  :address              => "smtp.gmail.com",
-  :port                 => 587,
-  :domain               => 'm3snaps.com',
-  :user_name            => 'the.ultimate.whip@gmail.com',
-  :password             => 'we_should_probably_mask_this',
-  :authentication       => 'plain',
-  :enable_starttls_auto => true  }
+ ActionMailer::Base.smtp_settings = {
+    :address  => "smtp.mailgun.org",
+    :port  => 25,
+    :user_name  => "postmaster@app8258400.mailgun.org",
+    :password  => "6smhtwgbi6x2",
+    :authentication  => :login
+  }
 
 end

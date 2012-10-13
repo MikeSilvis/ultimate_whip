@@ -4,9 +4,11 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
   </head>
   <body>
-    <h1><%= @from_user.username %> has commented on your photo</h1>
+    <h1><%= @from_user.username %> left you a comment</h1>
     <div id="comment_preview">
-      "<%= @comment.comment %>"
+      <a href='http://m3snaps.herokuapp.com/#/photos/<%= @comment.commentable_id %>'>
+        <%= @comment.comment %>
+      </a>
     </div>
   </body>
 </html>
