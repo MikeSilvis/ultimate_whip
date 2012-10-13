@@ -3,12 +3,28 @@ Photo = App.Photo
 class App.Photos extends Spine.Controller
 
   events:
-    "click .photo-item": "renderModal"
+    "click .photo-item": "changeUrl"
 
   constructor: ->
     super
     Photo.bind 'refresh', @render
     Photo.fetch()
+    @setupRoutes()
+
+  setupRoutes: ->
+    @routes
+      "/pictures/:id": (params) =>
+        @renderModal({ target: { id: params.id }})
+
+    $(document).bind 'modal-removed', (e) =>
+      e.preventDefault()
+      @navigate('')
+
+    # HACK! This basically "fakes" a url
+    # change to get it to work on first page load
+    old = location.href
+    location.href = "#/loading/"
+    setTimeout (-> location.href = old), 200
 
   render: =>
     @html @view('photos/index')()
@@ -16,6 +32,9 @@ class App.Photos extends Spine.Controller
       new App.PhotoItem(photo)
     # @addMasonry()
     @infinteScroll()
+
+  changeUrl: (e) =>
+    @navigate("/pictures", e.target.id)
 
   renderModal: (e) =>
     new App.FullPhotos(e.target.id)

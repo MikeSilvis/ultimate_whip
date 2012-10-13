@@ -29,12 +29,14 @@ mikesModal = (modalBox, action) ->
     modalBox.hide()
   else if action == "remove"
     modalBox.remove()
+    $(document).trigger('modal-removed', modalBox)
   else
     addListeners(modalBox)
     modalBox.find("img").css("max-width":  ((window.innerWidth * .9) - 300), "max-height":  (window.innerHeight * .8))
     modalBox.find("img").load ->
       modalBox.css("margin-left":("-" + (modalBox.width() / 2)), "margin-top":"-"+(modalBox.height() /2)).fadeIn("slow")
       $("#loading-modal").remove()
+      $(document).trigger('modal-created', modalBox)
 
 
 addLoading = () ->

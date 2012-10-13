@@ -14,7 +14,7 @@ class App.FullPhotos extends Spine.Controller
     FullPhoto.unbind "refresh"
     new App.Comments({el: $("#comments")}, @id)
     @listenEvents(@id)
-
+    
   listenEvents: (id) =>
     $(".tags a").click (e)->
       e.preventDefault()
