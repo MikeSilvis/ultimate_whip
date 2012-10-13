@@ -9,7 +9,7 @@ class App.Photos extends Spine.Controller
     super
     Photo.bind 'refresh', @render
     Photo.fetch()
-    if window.location.href.match(/\/photos\/(\d*)/)[0]
+    if window.location.href.match(/\/photos\/(\d*)/)
       @renderModal({ target: { id: window.location.href.match(/\/photos\/(\d*)/)[1] }})
     @setupRoutes()
 
@@ -21,12 +21,6 @@ class App.Photos extends Spine.Controller
     $(document).bind 'modal-removed', (e) =>
       e.preventDefault()
       @navigate('')
-
-    # HACK! This basically "fakes" a url
-    # change to get it to work on first page load
-    # old = location.href
-    # location.href = "#/loading/"
-    # setTimeout (-> location.href = old), 200
 
   render: =>
     @html @view('photos/index')()
