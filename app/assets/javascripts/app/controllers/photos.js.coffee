@@ -20,7 +20,9 @@ class App.Photos extends Spine.Controller
 
     $(document).bind 'modal-removed', (e) =>
       e.preventDefault()
+      location = $(window).scrollTop()
       @navigate('')
+      $(window).scrollTop(location)
 
   render: =>
     @html @view('photos/index')()
