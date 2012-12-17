@@ -69,6 +69,7 @@ class GaragePhoto < ActiveRecord::Base
           gp = GaragePhoto.where(:original_url => img, :garage_id => garage_id).first_or_create(:photo => photo)
           g = Garage.find_by_id(garage_id)
           gp.tag_list = "#{g.username}"
+          gp.save
         end
       end
     end
