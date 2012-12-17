@@ -14,11 +14,12 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'jquery-fileupload-rails'
-  gem 'therubyracer', :platform => :ruby
 end
 
 group :development do
+  #gem 'therubyracer', :platform => :ruby
   gem 'newrelic_rpm'
+  gem 'less-rails'
 end
 
 gem 'twitter-bootstrap-rails'
@@ -42,4 +43,3 @@ gem 'socialization'
 gem 'acts_as_commentable', '2.0.1'
 gem "kaminari"
 gem 'mini_magick'
-gem 'less-rails'
