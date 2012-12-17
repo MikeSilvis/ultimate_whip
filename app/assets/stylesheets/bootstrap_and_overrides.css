@@ -1,0 +1,98 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+.row-fluid {
+  padding-top:50px;
+}
+.login-nav {
+  padding: 20px !important;
+  padding-bottom: 0px;
+}
+.photo-item{
+  width:200px;
+  float:left;
+  cursor: pointer;
+  margin:10px;
+}
+#vehicle_id{
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+#upload-area{
+  float:left;
+  width:330px;
+}
+#progress-area{
+  float:right;
+  width:200px;
+}
+#file-count{
+  height: 30px;
+  margin-bottom: 3px;
+}
+#photo_container{
+  text-align: center;
+  margin: 0 auto;
+  width:1000px;
+}
+@media all and (min-width: 1200px) {
+    #photo_container {
+        width:1200px;
+        margin:0 auto;
+    }
+}
+@media all and (min-width: 1400px) {
+    #photo_container {
+        width:1400px;
+        margin:0 auto;
+    }
+}
+@media all and (min-width: 1600px) {
+    #photo_container {
+        width:1600px;
+        margin:0 auto;
+    }
+}
+#filter-whips{
+  float:left;
+  height:30px;
+  width:60%;
+  padding: 3px 10px 5px 10px;
+}
+#search-area{
+  margin: 0 auto;
+  width: 600px;
+}
+.clear {
+  clear:both;
+}
+.current_tokens{
+  display: none;
+}
+#finish-tagging{
+  display: none;
+}
+.no-margin{
+  margin:0px !important;
+}
+.search-field input{
+  height: 20px !important;
+  font-size: 15px !important;
+}
+.navbar-fixed-top{
+  z-index: 1;
+}
+a{
+  cursor: pointer;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+  height:30px !important;
+  line-height: 30px;
+}
+input[type="number"] {
+  height: 30px !important;
+}

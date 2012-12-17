@@ -54,7 +54,6 @@ GEM
       execjs
     coffee-script-source (1.4.0)
     columnize (0.3.6)
-    commonjs (0.2.6)
     debugger (1.2.2)
       columnize (>= 0.3.1)
       debugger-linecache (~> 1.1.1)
@@ -94,11 +93,6 @@ GEM
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
-    less (2.2.2)
-      commonjs (~> 0.2.6)
-    less-rails (2.2.6)
-      actionpack (>= 3.1)
-      less (~> 2.2.0)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -206,7 +200,7 @@ DEPENDENCIES
   acts_as_commentable (= 2.0.1)
   aws-s3
   aws-sdk
-  coffee-rails (~> 3.2.1)
+  coffee-rails
   debugger
   devise
   eco
@@ -215,14 +209,13 @@ DEPENDENCIES
   jquery-rails
   json
   kaminari
-  less-rails
   mini_magick
   newrelic_rpm
   paperclip
   pg
   rails (= 3.2.8)
   rspec-rails
-  sass-rails (~> 3.2.3)
+  sass-rails
   select2-rails
   simple_form
   slim
@@ -230,4 +223,4 @@ DEPENDENCIES
   spine-rails
   sqlite3
   twitter-bootstrap-rails
-  uglifier (>= 1.0.3)
+  uglifier
