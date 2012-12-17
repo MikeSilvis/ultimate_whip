@@ -14,6 +14,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'jquery-fileupload-rails'
+  gem 'therubyracer', :platform => :ruby
 end
 
 group :development do
@@ -26,8 +27,8 @@ gem 'spine-rails'
 gem 'devise'
 gem "select2-rails"
 gem 'json'
-gem 'rspec-rails'
 gem 'jquery-rails'
+gem 'rspec-rails'
 gem 'jbuilder'
 gem 'debugger'
 gem 'slim'
@@ -40,3 +41,5 @@ gem 'acts-as-taggable-on'
 gem 'socialization'
 gem 'acts_as_commentable', '2.0.1'
 gem "kaminari"
+gem 'mini_magick'
+gem 'less-rails'
