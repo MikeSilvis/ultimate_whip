@@ -80,3 +80,23 @@
 .no-margin{
   margin:0px !important;
 }
+#comments-area{
+      padding-top:5px;
+      overflow:auto;
+    }
+    .comment{
+      padding: 3px 5px;
+      margin-bottom: 2px;
+      background-color: #ECECF0;
+      .said-at{
+        color:#999999;
+        font-size:12px;
+      }
+    }
+    .new-comment{
+      width:280px;
+      position:absolute;
+      bottom:0;
+      height:30px;
+    }
+}

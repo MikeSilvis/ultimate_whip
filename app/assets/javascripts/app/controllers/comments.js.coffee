@@ -26,4 +26,4 @@ class App.Comments extends Spine.Controller
       $(".new-comment").height(currentHeight + 15) if ($(".new-comment").val().length % 33 == 0)
 
   commentsAreaHeight: =>
-    ($("#mikes-modal").height() * .64) - 10
+    ($(".mikes-modal").height() * .58) - 10

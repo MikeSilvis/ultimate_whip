@@ -9,26 +9,19 @@ class App.Photos extends Spine.Controller
     super
     Photo.bind 'refresh', @render
     Photo.fetch()
-    if window.location.href.match(/\/photos\/(\d*)/)
-      @renderModal({ target: { id: window.location.href.match(/\/photos\/(\d*)/)[1] }})
     @setupRoutes()
 
   setupRoutes: ->
+    if window.location.href.match(/\/photos\/(\d*)/)
+      @renderModal({ target: { id: window.location.href.match(/\/photos\/(\d*)/)[1] }})
     @routes
       "/photos/:id": (params) =>
         @renderModal({ target: { id: params.id }})
-
-    $(document).bind 'modal-removed', (e) =>
-      e.preventDefault()
-      location = $(window).scrollTop()
-      @navigate('')
-      $(window).scrollTop(location)
 
   render: =>
     @html @view('photos/index')()
     for photo in Photo.all().sort().reverse()
       new App.PhotoItem(photo)
-    # @addMasonry()
     @infinteScroll()
 
   changeUrl: (e) =>
@@ -36,14 +29,6 @@ class App.Photos extends Spine.Controller
 
   renderModal: (e) =>
     new App.FullPhotos(e.target.id)
-
-  addMasonry: =>
-    container = $("#photo_container")
-    container.imagesLoaded ->
-      container.masonry
-        itemSelector: ".photo-item"
-        isAnimated: true
-        isFitWidth: true
 
   deletePhoto: (e) =>
     $(".close").click()

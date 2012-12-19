@@ -7,9 +7,12 @@ html
     = csrf_meta_tags
     = stylesheet_link_tag "application", :media => "all"
     = javascript_include_tag "application"
+    link href="https://raw.github.com/MikeSilvis/mikes-modal-library/master/lib/mikes-modal.css" media="all" rel="stylesheet" type="text/css"
+    script src="http://raw.github.com/MikeSilvis/mikes-modal-library/master/lib/mikes-modal.min.js" type="text/javascript"
     = current_user_meta_tags
-    img alt="BMW e92 m3" src="http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/132/large/38254030019_original.jpg?1349839114" style="display:none;"
+
   body
+    img alt="BMW e92 m3" src="http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/132/large/38254030019_original.jpg?1349839114" style="display:none;"
     = render partial: "shared/navbar"
     .container-fluid
       .row-fluid
