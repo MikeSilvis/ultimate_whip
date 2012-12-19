@@ -20,11 +20,10 @@ group :development do
   gem 'newrelic_rpm'
 end
 
-gem 'twitter-bootstrap-rails'
 gem 'eco'
 gem 'spine-rails'
 gem 'devise'
-gem "select2-rails"
+gem 'select2-rails'
 gem 'json'
 gem 'jquery-rails'
 gem 'rspec-rails'
@@ -39,5 +38,5 @@ gem 'simple_form'
 gem 'acts-as-taggable-on'
 gem 'socialization'
 gem 'acts_as_commentable', '2.0.1'
-gem "kaminari"
+gem 'kaminari'
 gem 'mini_magick'
