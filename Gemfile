@@ -10,9 +10,9 @@ group :production do
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
   gem 'jquery-fileupload-rails'
 end
 
@@ -26,8 +26,8 @@ gem 'spine-rails'
 gem 'devise'
 gem "select2-rails"
 gem 'json'
-gem 'rspec-rails'
 gem 'jquery-rails'
+gem 'rspec-rails'
 gem 'jbuilder'
 gem 'debugger'
 gem 'slim'
@@ -40,3 +40,4 @@ gem 'acts-as-taggable-on'
 gem 'socialization'
 gem 'acts_as_commentable', '2.0.1'
 gem "kaminari"
+gem 'mini_magick'
