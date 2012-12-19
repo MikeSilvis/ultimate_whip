@@ -7,6 +7,7 @@ class App.Photos extends Spine.Controller
 
   constructor: ->
     super
+    @html @view('photos/index')()
     Photo.bind 'refresh', @render
     Photo.fetch()
     @setupRoutes()
@@ -19,9 +20,8 @@ class App.Photos extends Spine.Controller
         @renderModal({ target: { id: params.id }})
 
   render: =>
-    @html @view('photos/index')()
     for photo in Photo.all().sort().reverse()
-      new App.PhotoItem(photo)
+      new App.PhotoItem(photo) unless $("#photo_#{photo.id}").length
     @infinteScroll()
 
   changeUrl: (e) =>
