@@ -19,3 +19,6 @@ class App.Tags extends Spine.Controller
       $("#photo_container").fadeOut("slow").fadeIn("slow")
       App.Photo.deleteAll()
       App.Photo.fetch()
+    if window.location.href.match(/\/tags\/(\S*)/)
+      tag = window.location.href.match(/\/tags\/(\S*)/)[1]
+      $("#tags-select").find("##{tag}").attr("selected", true).change()

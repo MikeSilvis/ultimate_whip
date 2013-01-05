@@ -12,3 +12,18 @@
  *= require select2
  *= require_tree .
  */
+.select2-input { 
+  height:30px !important;
+}
+body {
+  background: url('http://myorange.ca/theme/peachrealestate/img/pattern/whitey.png')
+}
+.registration {
+  width:500px;
+  margin:0 auto;
+}
+.string input, .email input, .password input{
+  font-size:20px !important;
+  height:50px !important;
+  width:100%;
+}

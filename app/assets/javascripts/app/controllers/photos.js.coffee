@@ -9,7 +9,6 @@ class App.Photos extends Spine.Controller
     super
     @html @view('photos/index')()
     Photo.bind 'refresh', @render
-    @html @view('photos/index')()
     Photo.fetch()
     @setupRoutes()
 

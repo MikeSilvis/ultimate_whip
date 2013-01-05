@@ -13,8 +13,4 @@
               = link_to "Sign up", new_user_registration_path
             li.divider-vertical
             li.drop.down
-              a.dropdown-toggle.log-me-in data-toggle="dropdown" href="#"
-                | Login&nbsp;
-                strong.caret
-              .dropdown-menu.login-nav
-                = render partial: "shared/login_dropdown"
+              = link_to "Login", new_user_session_path

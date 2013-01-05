@@ -13,4 +13,5 @@ class GaragePhotosController < ApplicationController
     render json: true
   end
 
+
 end
