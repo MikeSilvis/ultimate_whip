@@ -20,8 +20,11 @@ class App.Photos extends Spine.Controller
         @renderModal({ target: { id: params.id }})
 
   render: =>
+    if @tags != $("#tags-select").val()
+      @html @view('photos/index')()
     for photo in Photo.all().sort().reverse()
       new App.PhotoItem(photo) unless $("#photo_#{photo.id}").length
+    @tags = $("#tags-select").val()
     @infinteScroll()
 
   changeUrl: (e) =>
