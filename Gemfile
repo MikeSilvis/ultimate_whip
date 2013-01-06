@@ -41,3 +41,5 @@ gem 'socialization'
 gem 'acts_as_commentable', '2.0.1'
 gem "kaminari"
 gem 'mini_magick'
+gem 'vcr'
+gem 'fakeweb'
