@@ -15,7 +15,7 @@ class App.Comments extends Spine.Controller
   render: =>
     comments = Comment.all()
     @html @view('comments/show')(comments: comments)
-    $("#comments-area").css("height":@commentsAreaHeight()).scrollTop(11000)
+    $("#comments-area").css("max-height":@commentsAreaHeight()).scrollTop(11000)
 
   addComment: (e) =>
     if e.keyCode is 13
