@@ -10,4 +10,14 @@ class Make < ActiveRecord::Base
     Make.order("name")
   end
 
+  def self.create_makes_from_yaml
+    makes_from_yaml.each do |make|
+      Make.find_or_create_by_name_and_id(make[:name], make[:id])
+    end
+  end
+
+  def self.makes_from_yaml
+    CreateCars.normalize_makes
+  end
+
 end
