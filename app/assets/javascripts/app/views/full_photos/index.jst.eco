@@ -1,30 +1,21 @@
-<table id="mikes-modal">
-    <tr>
-      <td>
-        <img src='<%= @photo_url_large %>'>
-      </td>
-      <td class="description">
-        <div class="close">x</div>
-        <h4 clas="title">
-          <a href="#<%= @username %>" data-tag="<%= @username %>" class='tag'>
-            <%= @username %>'s
-          </a>
-        </h4>
-        <h3><%= @garage.year %> <%= @garage.model_name %></h3>
-        <small>
-          <strong>Posted:</strong> <%= @created_at_in_words %>
-        </small>
-        <div class='likes'>
-          <!-- implement likes -->
-        </div>
-        <div class='tags'>
-          <% for tag in @tags: %>
-            <span class="label label-inverse" style="float:left; padding-right:5px;">
-              <a href="#<%= tag.name %>" class='tag' data-tag="<%= tag.name %>"><%= tag.name %></a>
-            </span>
-          <% end %>
-        </div>
-        <div id="comments"></div>
-      </td>
-    </tr>
-</table>
+<div class="mikes-modal">
+  <img src='<%= @photo_url_large %>'>
+  <div class="description">
+  <h2 class="title">
+    <a href="#/tags/<%= @username %>" data-tag="<%= @username %>" class='tag'>
+      <%= @username %>'s
+    </a>
+  </h1>
+  <h3><%= @garage.year %> <%= @garage.model_name %></h3>
+  <small>
+    <strong>Posted:</strong> <%= @created_at_in_words %>
+  </small>
+  <div class='tags'>
+    <% for tag in @tags: %>
+      <span class="label label-inverse" style="float:left; margin:5px;">
+        <a href="#/tags/<%= tag.seo_friendly_name %>" class='tag' data-tag="<%= tag.name  %>"><%= tag.name %></a>
+      </span>
+    <% end %>
+  </div>
+  <div id="comments"></div>
+</div>

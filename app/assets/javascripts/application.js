@@ -12,10 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require twitter/bootstrap
+//= require select2
 //= require app
 //= require_tree .
-//= require select2
 //= require jquery-fileupload/basic
 //= require jquery-fileupload/vendor/tmpl
 

@@ -15,7 +15,7 @@ class App.Comments extends Spine.Controller
   render: =>
     comments = Comment.all()
     @html @view('comments/show')(comments: comments)
-    $("#comments-area").css("height":@commentsAreaHeight()).scrollTop(11000)
+    $("#comments-area").css("max-height":@commentsAreaHeight()).scrollTop(11000)
 
   addComment: (e) =>
     if e.keyCode is 13
@@ -26,4 +26,4 @@ class App.Comments extends Spine.Controller
       $(".new-comment").height(currentHeight + 15) if ($(".new-comment").val().length % 33 == 0)
 
   commentsAreaHeight: =>
-    ($("#mikes-modal").height() * .64) - 10
+    ($(".mikes-modal").height() * .58) - 10

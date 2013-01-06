@@ -9,8 +9,24 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
  *= require select2
+ *= require_tree .
  */
-/*@import "twitter/bootstrap"*/
-
+.select2-input { 
+  height:30px !important;
+}
+body {
+  background: url('bg.png')
+}
+.registration {
+  width:500px;
+  margin:0 auto;
+}
+.string input, .email input, .password input, .integer input{
+  font-size:20px !important;
+  height:50px !important;
+  width:100%;
+}
+.select select{
+  width:100%;
+}

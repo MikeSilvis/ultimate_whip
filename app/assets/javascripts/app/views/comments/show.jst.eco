@@ -9,9 +9,9 @@
       </small>
     </div>
   <% end %>
+  <% if $("meta[name=user-username]").attr("content"): %>
+    <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
+  <% else: %>
+    <small class='new-comment'><a href='/users/sign_in' class='btn btn-info' style='width:100%'>Sign in  to comment.</a>
+  <% end %>
 </div>
-<% if $("meta[name=user-username]").attr("content"): %>
-  <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
-<% else: %>
-  <small>Please <a href='/users/sign_in'>Sign in</a> to comment.
-<% end %>

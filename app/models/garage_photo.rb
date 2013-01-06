@@ -33,8 +33,12 @@ class GaragePhoto < ActiveRecord::Base
     end
 
     def create_default_tags
-      self.tag_list = "#{self.garage.year}, #{self.garage.model.name}, #{self.garage.model.make.name}, #{self.garage.color.name}, #{self.username}"
+      self.tag_list = default_tags
       self.save
+    end
+
+    def default_tags
+      "#{self.garage.year}, #{self.garage.model.name}, #{self.garage.model.make.name}, #{self.garage.color.name}, #{self.username}"
     end
 
     def like_count
@@ -68,7 +72,7 @@ class GaragePhoto < ActiveRecord::Base
         begin
           gp = GaragePhoto.where(:original_url => img, :garage_id => garage_id).first_or_create(:photo => photo)
           g = Garage.find_by_id(garage_id)
-          gp.tag_list = "#{g.username}"
+          gp.tag_list = "#{g.username}, #{gp.default_tags}"
           gp.save
         end
       end

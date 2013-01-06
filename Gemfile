@@ -20,11 +20,10 @@ group :development do
   gem 'newrelic_rpm'
 end
 
-gem 'twitter-bootstrap-rails'
 gem 'eco'
 gem 'spine-rails'
 gem 'devise'
-gem "select2-rails"
+gem 'select2-rails'
 gem 'json'
 gem 'jquery-rails'
 gem 'rspec-rails'
