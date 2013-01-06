@@ -16,6 +16,7 @@ html
     = render partial: "shared/navbar"
     .container-fluid
       .row-fluid
+        = render partial: "shared/flash", locals: { flash: flash }
         #alert-js
         = yield
       footer

@@ -1,0 +1,7 @@
+<div class='registration'>
+  <% flash.each do |flash_notice| %>
+    <div class="alert alert-<%= flash_notice[0] %>">
+      <%= flash_notice[1] %>
+    </div>
+  <% end %>
+</div>

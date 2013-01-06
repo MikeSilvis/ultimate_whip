@@ -22,8 +22,11 @@ body {
   width:500px;
   margin:0 auto;
 }
-.string input, .email input, .password input{
+.string input, .email input, .password input, .integer input{
   font-size:20px !important;
   height:50px !important;
+  width:100%;
+}
+.select select{
   width:100%;
 }
