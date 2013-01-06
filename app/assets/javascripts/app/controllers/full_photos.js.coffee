@@ -25,7 +25,7 @@ class App.FullPhotos extends Spine.Controller
   listenEvents: (id) =>
     $(".tag").click (e)->
       e.preventDefault()
-      tag = $(this).attr("data-tag")
+      tag = $(this).attr("data-tag").replace RegExp(" ", "g"), "-"
       $("#tags-select").find("##{tag}").attr("selected", true).change()
       $(".mikes-modal").trigger("close")
 

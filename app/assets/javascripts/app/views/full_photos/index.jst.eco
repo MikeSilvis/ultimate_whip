@@ -13,7 +13,7 @@
   <div class='tags'>
     <% for tag in @tags: %>
       <span class="label label-inverse" style="float:left; margin:5px;">
-        <a href="#/tags/<%= tag.seo_friendly_name %>" class='tag' data-tag="<%= tag.seo_friendly_name  %>"><%= tag.name %></a>
+        <a href="#/tags/<%= tag.seo_friendly_name %>" class='tag' data-tag="<%= tag.name  %>"><%= tag.name %></a>
       </span>
     <% end %>
   </div>
