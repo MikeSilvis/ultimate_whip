@@ -21,6 +21,10 @@ class App.FullPhotos extends Spine.Controller
       location = $(window).scrollTop()
       @navigate('')
       $(window).scrollTop(location)
+    $(window).bind "hashchange", ->
+      $(".mikes-modal").trigger "close"
+      $(window).unbind "hashchange"
+
 
   listenEvents: (id) =>
     $(".tag").click (e)->
