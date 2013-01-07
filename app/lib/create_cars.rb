@@ -28,6 +28,10 @@ class CreateCars
       @makes ||= YAML::load(File.open(File.expand_path("../../../lib/assets/vehicles/Vehicle_Make.yml", __FILE__)))
     end
 
+    def colors
+      @colors ||= YAML::load(File.open(File.expand_path("../../../lib/assets/vehicles/Vehicle_Color.yml", __FILE__)))
+    end
+
     def models
       @models ||= YAML::load(File.open(File.expand_path("../../../lib/assets/vehicles/Vehicle_Model.yml", __FILE__)))
     end

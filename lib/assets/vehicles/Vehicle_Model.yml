@@ -561,7 +561,19 @@
   Custom: 0
 -
   Model_ID: 124
-  Model: "M3"
+  Model: "e90 M3 sedan"
+  Make_ID: 12
+  Type_ID: 1
+  Custom: 0
+-
+  Model_ID: 124
+  Model: "e92 M3 coupe"
+  Make_ID: 12
+  Type_ID: 1
+  Custom: 0
+-
+  Model_ID: 124
+  Model: "e93 M3 Convertable"
   Make_ID: 12
   Type_ID: 1
   Custom: 0

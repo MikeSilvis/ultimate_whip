@@ -1,15 +1,10 @@
 .registration
   h1 Add a Vehicle
   = simple_form_for(new_car, :html => {:class => 'form' }) do |f|
-    .control-group.select
-      label.select.control-label for="garage_make_id" Make
-      .controls
-        select#garage_make_id.select name="garage_helper[make_id]"
-          option value=""
-          - all_makes_order_by_name.each do |m|
-            option value=(m.name) #{m.name}
-    = f.association :model, :input_html => { :disabled => true }
+    = f.label "Make / Model"
+    = grouped_collection_select(:garage, :model_id, all_makes_order_by_name, :models, :name, :id, :name)
     = f.association :color, :input_html => { :disabled => true }
-    = f.input :year, placeholder: "Year (2012)", :input_html => { :disabled => true}
+    = f.label "year"
+    = f.select(:year,(1990..2013).to_a.reverse)
     .form-actions
       = f.submit "Save Ride",  class: "btn btn-primary"

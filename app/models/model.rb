@@ -4,6 +4,7 @@ class Model < ActiveRecord::Base
 
   def self.create_from_yaml
     Make.create_makes_from_yaml
+    Color.create_from_yaml
     normalized_models_from_yaml.each do |model|
       begin
         make = Make.find model[:make_id]
