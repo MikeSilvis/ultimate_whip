@@ -19,7 +19,6 @@ end
 group :development do
   gem 'newrelic_rpm'
 end
-
 gem 'eco'
 gem 'spine-rails'
 gem 'devise'
