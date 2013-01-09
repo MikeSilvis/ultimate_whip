@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails'
 group :development do
   gem 'sqlite3'
 end
@@ -36,7 +36,7 @@ gem 'aws-sdk'
 gem 'simple_form'
 gem 'acts-as-taggable-on'
 gem 'socialization'
-gem 'acts_as_commentable', '2.0.1'
+gem 'acts_as_commentable'
 gem "kaminari"
 gem 'mini_magick'
 gem 'vcr'
