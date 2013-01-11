@@ -1,5 +1,5 @@
 class App.Photo extends Spine.Model
-  @configure 'Photo', 'photo_url_thumb'
+  @configure 'Photo', 'photo_url_thumb', 'tags_string'
   @extend Spine.Model.Ajax
 
   @fetch: (params) =>

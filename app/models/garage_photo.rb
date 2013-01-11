@@ -45,11 +45,15 @@ class GaragePhoto < ActiveRecord::Base
       likes.size
     end
 
+    def tags_string
+      tags.join(", ")
+    end
+
     def self.find_all(page, tags)
       if tags
         order("created_at DESC").includes(:tags).tagged_with(tags.split(",")).page(page)
       else
-        order("created_at DESC").page(page)
+        order("created_at DESC").includes(:tags).page(page)
       end
     end
 
