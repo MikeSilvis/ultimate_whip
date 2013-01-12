@@ -2,7 +2,6 @@ class Api::V1::PhotosController < ApplicationController
   protect_from_forgery except: :create
   before_filter :authenticate_user!, only: [:create, :new]
   before_filter :require_yours, only: :destroy
-  before_filter :require_ride, only: :new
 
   def index
     render json: GaragePhoto.find_all(params[:page], params[:tags]).to_a, root: false

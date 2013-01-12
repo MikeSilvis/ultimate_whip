@@ -8,7 +8,7 @@ class Model < ActiveRecord::Base
     normalized_models_from_yaml.each do |model|
       begin
         make = Make.find model[:make_id]
-        Model.find_or_create_by_name_and_make_id(model[:name], make.id) if make
+        Model.find_or_create_by_name_and_make_id(model[:name].to_s, make.id) if make
       end
     end
   end

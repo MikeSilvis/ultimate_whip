@@ -1,6 +1,3 @@
-%YAML 1.1
----
-# svision_speed.Vehicle_Model
 -
   Model_ID: 1
   Model: 427
@@ -9,133 +6,133 @@
   Custom: 0
 -
   Model_ID: 2
-  Model: "ALMS"
+  Model: ALMS
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 3
-  Model: "ARX-01a"
+  Model: ARX-01a
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 4
-  Model: "CL"
+  Model: CL
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 5
-  Model: "CSX"
+  Model: CSX
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 6
-  Model: "DN-X"
+  Model: DN-X
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 7
-  Model: "HSC"
+  Model: HSC
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 8
-  Model: "Integra Type-S"
+  Model: Integra Type-S
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 9
-  Model: "MDX"
+  Model: MDX
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 10
-  Model: "NSX"
+  Model: NSX
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 11
-  Model: "NSX-T"
+  Model: NSX-T
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 12
-  Model: "RD-X"
+  Model: RD-X
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 13
-  Model: "RDX"
+  Model: RDX
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 14
-  Model: "RL"
+  Model: RL
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 15
-  Model: "RL A-Spec"
+  Model: RL A-Spec
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 16
-  Model: "RL-SH"
+  Model: RL-SH
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 17
-  Model: "RSX"
+  Model: RSX
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 18
-  Model: "RSX Type-S"
+  Model: RSX Type-S
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 19
-  Model: "SLX"
+  Model: SLX
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 20
-  Model: "TL"
+  Model: TL
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 21
-  Model: "TL Type-S"
+  Model: TL Type-S
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 22
-  Model: "TSX"
+  Model: TSX
   Make_ID: 2
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 23
-  Model: "TSX A-Spec"
+  Model: TSX A-Spec
   Make_ID: 2
   Type_ID: 1
   Custom: 0
@@ -183,733 +180,733 @@
   Custom: 0
 -
   Model_ID: 31
-  Model: "Arna"
+  Model: Arna
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 32
-  Model: "Bella"
+  Model: Bella
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 33
-  Model: "Brera"
+  Model: Brera
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 34
-  Model: "Centauri"
+  Model: Centauri
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 35
-  Model: "Competizione"
+  Model: Competizione
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 36
-  Model: "Dardo"
+  Model: Dardo
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 37
-  Model: "GTA"
+  Model: GTA
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 38
-  Model: "GTV"
+  Model: GTV
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 39
-  Model: "Kamal"
+  Model: Kamal
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 40
-  Model: "Mi.To"
+  Model: Mi.To
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 41
-  Model: "Milano"
+  Model: Milano
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 42
-  Model: "Nuvola"
+  Model: Nuvola
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 43
-  Model: "Proteo"
+  Model: Proteo
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 44
-  Model: "S"
+  Model: S
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 45
-  Model: "Spider"
+  Model: Spider
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 46
-  Model: "SZ/RZ"
+  Model: SZ/RZ
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 47
-  Model: "Unica"
+  Model: Unica
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 48
-  Model: "Visconti"
+  Model: Visconti
   Make_ID: 3
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 55
-  Model: "DB9"
+  Model: DB9
   Make_ID: 6
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 56
-  Model: "DB9 MANUAL"
+  Model: DB9 MANUAL
   Make_ID: 6
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 57
-  Model: "DB9 VOLANTE"
+  Model: DB9 VOLANTE
   Make_ID: 6
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 58
-  Model: "DBS"
+  Model: DBS
   Make_ID: 6
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 59
-  Model: "V12 Vantage"
+  Model: V12 Vantage
   Make_ID: 6
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 60
-  Model: "V8 VANTAGE"
+  Model: V8 VANTAGE
   Make_ID: 6
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 61
-  Model: "V8 Vantage Roadster"
+  Model: V8 Vantage Roadster
   Make_ID: 6
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 62
-  Model: "A2"
+  Model: A2
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 63
-  Model: "A3"
+  Model: A3
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 64
-  Model: "A4"
+  Model: A4
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 65
-  Model: "A4 AVANT QUATTRO"
+  Model: A4 AVANT QUATTRO
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 66
-  Model: "A4 CABRIOLET"
+  Model: A4 CABRIOLET
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 67
-  Model: "A4 CABRIOLET QUATTRO"
+  Model: A4 CABRIOLET QUATTRO
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 68
-  Model: "A4 QUATTRO"
+  Model: A4 QUATTRO
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 69
-  Model: "A5"
+  Model: A5
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 70
-  Model: "A6"
+  Model: A6
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 71
-  Model: "A6 AVANT QUATTRO"
+  Model: A6 AVANT QUATTRO
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 72
-  Model: "A6 QUATTRO"
+  Model: A6 QUATTRO
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 73
-  Model: "A8 L"
+  Model: A8 L
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 74
-  Model: "GTI"
+  Model: GTI
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 75
-  Model: "Q5"
+  Model: Q5
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 76
-  Model: "Q7"
+  Model: Q7
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 77
-  Model: "R8"
+  Model: R8
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 78
-  Model: "S4"
+  Model: S4
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 79
-  Model: "S4 AVANT"
+  Model: S4 AVANT
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 80
-  Model: "S4 CABRIOLET"
+  Model: S4 CABRIOLET
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 81
-  Model: "S5"
+  Model: S5
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 82
-  Model: "S6"
+  Model: S6
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 83
-  Model: "S8"
+  Model: S8
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 84
-  Model: "TT COUPE"
+  Model: TT COUPE
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 85
-  Model: "TT ROADSTER"
+  Model: TT ROADSTER
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 86
-  Model: "TTS Coupe"
+  Model: TTS Coupe
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 87
-  Model: "TTS Roadster"
+  Model: TTS Roadster
   Make_ID: 7
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 88
-  Model: "Sprite"
+  Model: Sprite
   Make_ID: 8
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 89
-  Model: "Convertible"
+  Model: Convertible
   Make_ID: 9
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 90
-  Model: "Arnage"
+  Model: Arnage
   Make_ID: 10
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 91
-  Model: "Brooklands"
+  Model: Brooklands
   Make_ID: 10
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 92
-  Model: "Continental Flying Spur"
+  Model: Continental Flying Spur
   Make_ID: 10
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 93
-  Model: "Continental GT"
+  Model: Continental GT
   Make_ID: 10
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 94
-  Model: "Continental GTC"
+  Model: Continental GTC
   Make_ID: 10
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 97
-  Model: "1 Series"
+  Model: 1 Series
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 99
-  Model: "3 Series"
+  Model: 3 Series
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 109
-  Model: "5 Series"
+  Model: 5 Series
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 117
-  Model: "6 Series"
+  Model: 6 Series
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 121
-  Model: "7 Series"
+  Model: 7 Series
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 124
-  Model: "e90 M3 sedan"
+  Model: e90 M3 sedan
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 124
-  Model: "e92 M3 coupe"
+  Model: e92 M3 coupe
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 124
-  Model: "e93 M3 Convertable"
+  Model: e93 M3 Convertable
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 127
-  Model: "M5"
+  Model: M5
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 134
-  Model: "X3"
+  Model: X3
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 135
-  Model: "X5"
+  Model: X5
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 137
-  Model: "X6"
+  Model: X6
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 141
-  Model: "Z4"
+  Model: Z4
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 142
-  Model: "SV1"
+  Model: SV1
   Make_ID: 13
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 143
-  Model: "P10"
+  Model: P10
   Make_ID: 14
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 144
-  Model: "Allure"
+  Model: Allure
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 145
-  Model: "Bengal"
+  Model: Bengal
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 146
-  Model: "Blackhawk"
+  Model: Blackhawk
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 147
-  Model: "Centieme"
+  Model: Centieme
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 148
-  Model: "Centurion"
+  Model: Centurion
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 149
-  Model: "Century"
+  Model: Century
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 150
-  Model: "Cielo"
+  Model: Cielo
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 151
-  Model: "Enclave"
+  Model: Enclave
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 152
-  Model: "LaCrosse"
+  Model: LaCrosse
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 153
-  Model: "LeSabre"
+  Model: LeSabre
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 154
-  Model: "Lucerne"
+  Model: Lucerne
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 155
-  Model: "Park Avenue"
+  Model: Park Avenue
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 156
-  Model: "Rainier"
+  Model: Rainier
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 157
-  Model: "Reatta"
+  Model: Reatta
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 158
-  Model: "Regal"
+  Model: Regal
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 159
-  Model: "Rendezvous"
+  Model: Rendezvous
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 160
-  Model: "Signia"
+  Model: Signia
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 161
-  Model: "Terraza"
+  Model: Terraza
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 162
-  Model: "Velite"
+  Model: Velite
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 163
-  Model: "XP2000"
+  Model: XP2000
   Make_ID: 15
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 164
-  Model: "Allante"
+  Model: Allante
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 165
-  Model: "BLS"
+  Model: BLS
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 166
-  Model: "Catera"
+  Model: Catera
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 167
-  Model: "Cien"
+  Model: Cien
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 168
-  Model: "Cimarron"
+  Model: Cimarron
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 169
-  Model: "CT Coupe"
+  Model: CT Coupe
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 170
-  Model: "CTS"
+  Model: CTS
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 171
-  Model: "CTS-V"
+  Model: CTS-V
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 172
-  Model: "DeVille"
+  Model: DeVille
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 173
-  Model: "DTS"
+  Model: DTS
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 174
-  Model: "Eldorado"
+  Model: Eldorado
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 175
-  Model: "Escalade"
+  Model: Escalade
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 176
-  Model: "Escalade ESV"
+  Model: Escalade ESV
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 177
-  Model: "Escalade EXT"
+  Model: Escalade EXT
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 178
-  Model: "Escalade Hybrid"
+  Model: Escalade Hybrid
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 179
-  Model: "Evoq"
+  Model: Evoq
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 180
-  Model: "Imaj"
+  Model: Imaj
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 181
-  Model: "Le Mans"
+  Model: Le Mans
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 182
-  Model: "LMP"
+  Model: LMP
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 183
-  Model: "NART"
+  Model: NART
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 184
-  Model: "Series 62"
+  Model: Series 62
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 185
-  Model: "Sevile"
+  Model: Sevile
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 186
-  Model: "Sixteen"
+  Model: Sixteen
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 187
-  Model: "Solitaire"
+  Model: Solitaire
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 188
-  Model: "SRX"
+  Model: SRX
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 189
-  Model: "STS"
+  Model: STS
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 190
-  Model: "Vizon"
+  Model: Vizon
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 191
-  Model: "Voyage"
+  Model: Voyage
   Make_ID: 16
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 192
-  Model: "XLR"
+  Model: XLR
   Make_ID: 16
   Type_ID: 1
   Custom: 0
@@ -921,385 +918,385 @@
   Custom: 0
 -
   Model_ID: 194
-  Model: "Blackbird"
+  Model: Blackbird
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 195
-  Model: "Classic"
+  Model: Classic
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 196
-  Model: "CSR"
+  Model: CSR
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 197
-  Model: "Roadsport"
+  Model: Roadsport
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 198
-  Model: "RST-V8"
+  Model: RST-V8
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 199
-  Model: "Seven HPC"
+  Model: Seven HPC
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 200
-  Model: "Seven Seven"
+  Model: Seven Seven
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 201
-  Model: "Super Seven"
+  Model: Super Seven
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 202
-  Model: "Superlight"
+  Model: Superlight
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 203
-  Model: "SV"
+  Model: SV
   Make_ID: 17
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 204
-  Model: "Adventure"
+  Model: Adventure
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 205
-  Model: "Astro"
+  Model: Astro
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 206
-  Model: "Avalanche"
+  Model: Avalanche
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 207
-  Model: "Aveo"
+  Model: Aveo
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 208
-  Model: "Bel Air"
+  Model: Bel Air
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 209
-  Model: "Blazer"
+  Model: Blazer
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 210
-  Model: "Borrego"
+  Model: Borrego
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 211
-  Model: "Callaway"
+  Model: Callaway
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 212
-  Model: "Camaro"
+  Model: Camaro
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 213
-  Model: "Caprice"
+  Model: Caprice
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 214
-  Model: "Cavalier"
+  Model: Cavalier
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 215
-  Model: "Celta Spider"
+  Model: Celta Spider
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 216
-  Model: "Cobalt"
+  Model: Cobalt
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 217
-  Model: "Colorado"
+  Model: Colorado
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 218
-  Model: "Corvette"
+  Model: Corvette
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 219
-  Model: "Crossover"
+  Model: Crossover
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 220
-  Model: "eCruze"
+  Model: eCruze
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 221
-  Model: "Equinox"
+  Model: Equinox
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 222
-  Model: "Express"
+  Model: Express
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 229
-  Model: "Groove"
+  Model: Groove
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 230
-  Model: "HHR"
+  Model: HHR
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 231
-  Model: "HHR Panel"
+  Model: HHR Panel
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 232
-  Model: "Impala"
+  Model: Impala
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 233
-  Model: "Intimidator"
+  Model: Intimidator
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 234
-  Model: "Intrepid"
+  Model: Intrepid
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 235
-  Model: "Kodiak"
+  Model: Kodiak
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 236
-  Model: "Lumina"
+  Model: Lumina
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 237
-  Model: "Malibu"
+  Model: Malibu
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 238
-  Model: "Malibu Hybrid"
+  Model: Malibu Hybrid
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 239
-  Model: "Matiz"
+  Model: Matiz
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 240
-  Model: "Metro"
+  Model: Metro
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 241
-  Model: "Monte Carlo"
+  Model: Monte Carlo
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 242
-  Model: "Nomad"
+  Model: Nomad
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 243
-  Model: "Nubira"
+  Model: Nubira
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 244
-  Model: "Panther"
+  Model: Panther
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 245
-  Model: "Prizm"
+  Model: Prizm
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 246
-  Model: "S10"
+  Model: S10
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 247
-  Model: "S3X"
+  Model: S3X
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 248
-  Model: "Sabia"
+  Model: Sabia
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 249
-  Model: "Silverado"
+  Model: Silverado
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 250
-  Model: "Silverado 1500"
+  Model: Silverado 1500
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 251
-  Model: "Silverado 2500"
+  Model: Silverado 2500
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 252
-  Model: "Silverado 3500"
+  Model: Silverado 3500
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 253
-  Model: "SSX"
+  Model: SSX
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 254
-  Model: "Suburban"
+  Model: Suburban
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 255
-  Model: "Tahoe"
+  Model: Tahoe
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 256
-  Model: "Tahoe Hybrid"
+  Model: Tahoe Hybrid
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 257
-  Model: "Tandem"
+  Model: Tandem
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 258
-  Model: "Trailblazer"
+  Model: Trailblazer
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 259
-  Model: "Traverse"
+  Model: Traverse
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 260
-  Model: "Triax"
+  Model: Triax
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 261
-  Model: "Uplander"
+  Model: Uplander
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 262
-  Model: "Venture"
+  Model: Venture
   Make_ID: 18
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 264
-  Model: "Xtreme"
+  Model: Xtreme
   Make_ID: 18
   Type_ID: 1
   Custom: 0
@@ -1311,1267 +1308,1267 @@
   Custom: 0
 -
   Model_ID: 266
-  Model: "Aspen"
+  Model: Aspen
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 267
-  Model: "Aspen Hybrid"
+  Model: Aspen Hybrid
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 268
-  Model: "Caravan 2WD"
+  Model: Caravan 2WD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 269
-  Model: "Charger"
+  Model: Charger
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 270
-  Model: "Commander 4WD"
+  Model: Commander 4WD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 271
-  Model: "Crossfire Roadster"
+  Model: Crossfire Roadster
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 272
-  Model: "Dakota Pickup 2WD"
+  Model: Dakota Pickup 2WD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 273
-  Model: "DAKOTA PICKUP 4WD"
+  Model: DAKOTA PICKUP 4WD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 274
-  Model: "Durango 2WD"
+  Model: Durango 2WD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 275
-  Model: "Durango AWD"
+  Model: Durango AWD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 276
-  Model: "Grand Cherokee 2WD"
+  Model: Grand Cherokee 2WD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 277
-  Model: "Grand Cherokee AWD"
+  Model: Grand Cherokee AWD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 278
-  Model: "Liberty / Cherokee 2WD"
+  Model: Liberty / Cherokee 2WD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 279
-  Model: "Liberty / Cherokee AWD"
+  Model: Liberty / Cherokee AWD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 280
-  Model: "Pacifica 2WD"
+  Model: Pacifica 2WD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 281
-  Model: "Pacifica AWD"
+  Model: Pacifica AWD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 282
-  Model: "PT Cruiser"
+  Model: PT Cruiser
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 283
-  Model: "RAM 1500 2WD"
+  Model: RAM 1500 2WD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 284
-  Model: "RAM 1500 AWD"
+  Model: RAM 1500 AWD
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 285
-  Model: "Sebring"
+  Model: Sebring
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 286
-  Model: "Stratus"
+  Model: Stratus
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 287
-  Model: "Town & Country"
+  Model: Town & Country
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 288
-  Model: "Viper"
+  Model: Viper
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 289
-  Model: "Wrangler"
+  Model: Wrangler
   Make_ID: 19
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 290
-  Model: "Alien C2"
+  Model: Alien C2
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 291
-  Model: "Berlingo Multispace"
+  Model: Berlingo Multispace
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 292
-  Model: "BerlingoBulle"
+  Model: BerlingoBulle
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 293
-  Model: "C-Airdream"
+  Model: C-Airdream
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 294
-  Model: "C-AirPlay"
+  Model: C-AirPlay
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 295
-  Model: "C-Buggy"
+  Model: C-Buggy
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 296
-  Model: "C-Crosser"
+  Model: C-Crosser
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 297
-  Model: "C-Metisse"
+  Model: C-Metisse
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 298
-  Model: "C-Sportlounge"
+  Model: C-Sportlounge
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 299
-  Model: "C1"
+  Model: C1
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 300
-  Model: "C15"
+  Model: C15
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 301
-  Model: "C2"
+  Model: C2
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 302
-  Model: "C3"
+  Model: C3
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 303
-  Model: "C4"
+  Model: C4
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 304
-  Model: "C4 Picasso"
+  Model: C4 Picasso
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 305
-  Model: "C4 WRC"
+  Model: C4 WRC
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 306
-  Model: "C5"
+  Model: C5
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 307
-  Model: "C8"
+  Model: C8
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 308
-  Model: "Jumpy"
+  Model: Jumpy
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 309
-  Model: "Osmose"
+  Model: Osmose
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 310
-  Model: "Pluriel"
+  Model: Pluriel
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 311
-  Model: "Sbarro Adventure"
+  Model: Sbarro Adventure
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 312
-  Model: "X4 Xantia"
+  Model: X4 Xantia
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 313
-  Model: "Xsara"
+  Model: Xsara
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 314
-  Model: "Xsara Picasso"
+  Model: Xsara Picasso
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 315
-  Model: "Zabrus"
+  Model: Zabrus
   Make_ID: 20
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 316
-  Model: "AVEO"
+  Model: AVEO
   Make_ID: 21
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 317
-  Model: "FORENZA"
+  Model: FORENZA
   Make_ID: 21
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 318
-  Model: "Forenza Wagon"
+  Model: Forenza Wagon
   Make_ID: 21
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 319
-  Model: "VERONA"
+  Model: VERONA
   Make_ID: 21
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 320
-  Model: "Altis"
+  Model: Altis
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 321
-  Model: "Atrai Wagon"
+  Model: Atrai Wagon
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 322
-  Model: "Be>Go"
+  Model: Be>Go
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 323
-  Model: "Copen"
+  Model: Copen
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 324
-  Model: "Costa"
+  Model: Costa
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 325
-  Model: "Cuore"
+  Model: Cuore
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 326
-  Model: "D-Bone"
+  Model: D-Bone
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 327
-  Model: "D-Compact X-Over"
+  Model: D-Compact X-Over
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 328
-  Model: "Delta Wagon"
+  Model: Delta Wagon
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 329
-  Model: "Esse"
+  Model: Esse
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 330
-  Model: "Extol"
+  Model: Extol
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 331
-  Model: "FFC"
+  Model: FFC
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 332
-  Model: "HVS"
+  Model: HVS
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 333
-  Model: "Mira Gino"
+  Model: Mira Gino
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 334
-  Model: "Myvi"
+  Model: Myvi
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 335
-  Model: "Naked Turbo"
+  Model: Naked Turbo
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 336
-  Model: "Sirion"
+  Model: Sirion
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 337
-  Model: "SK-Tourer"
+  Model: SK-Tourer
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 338
-  Model: "Terios"
+  Model: Terios
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 339
-  Model: "Terios Lucia"
+  Model: Terios Lucia
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 340
-  Model: "U4B"
+  Model: U4B
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 341
-  Model: "UFE-III"
+  Model: UFE-III
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 342
-  Model: "YRV"
+  Model: YRV
   Make_ID: 22
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 343
-  Model: "Avenger"
+  Model: Avenger
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 344
-  Model: "Caliber"
+  Model: Caliber
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 345
-  Model: "Caravan 2WD"
+  Model: Caravan 2WD
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 346
-  Model: "Challenger"
+  Model: Challenger
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 347
-  Model: "Charger"
+  Model: Charger
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 348
-  Model: "Copperhead"
+  Model: Copperhead
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 349
-  Model: "Dakota"
+  Model: Dakota
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 350
-  Model: "Dakota Pickup 2WD"
+  Model: Dakota Pickup 2WD
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 351
-  Model: "DAKOTA PICKUP 4WD"
+  Model: DAKOTA PICKUP 4WD
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 352
-  Model: "Durango"
+  Model: Durango
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 353
-  Model: "Epic"
+  Model: Epic
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 354
-  Model: "ESX2"
+  Model: ESX2
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 355
-  Model: "Grand Caravan"
+  Model: Grand Caravan
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 356
-  Model: "Hennessy Prowleer GTX"
+  Model: Hennessy Prowleer GTX
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 357
-  Model: "Hornet"
+  Model: Hornet
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 358
-  Model: "Intrepid"
+  Model: Intrepid
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 359
-  Model: "Journey"
+  Model: Journey
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 360
-  Model: "Kahuna"
+  Model: Kahuna
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 361
-  Model: "Magnum"
+  Model: Magnum
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 362
-  Model: "MAXXCab"
+  Model: MAXXCab
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 363
-  Model: "Neon"
+  Model: Neon
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 364
-  Model: "Nitro"
+  Model: Nitro
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 365
-  Model: "Power Wagon"
+  Model: Power Wagon
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 366
-  Model: "RAM 1500 Pickup 2WD"
+  Model: RAM 1500 Pickup 2WD
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 367
-  Model: "RAM 1500 Pickup 4WD"
+  Model: RAM 1500 Pickup 4WD
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 368
-  Model: "RAM 2500/3500"
+  Model: RAM 2500/3500
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 369
-  Model: "RAM 3500"
+  Model: RAM 3500
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 370
-  Model: "Rampage"
+  Model: Rampage
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 371
-  Model: "Razor"
+  Model: Razor
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 372
-  Model: "Shelby"
+  Model: Shelby
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 373
-  Model: "Sling Shot"
+  Model: Sling Shot
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 374
-  Model: "Sprinter"
+  Model: Sprinter
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 375
-  Model: "Sprinter 2500"
+  Model: Sprinter 2500
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 376
-  Model: "Sprinter 3500"
+  Model: Sprinter 3500
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 377
-  Model: "Stealth"
+  Model: Stealth
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 378
-  Model: "Stratus"
+  Model: Stratus
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 379
-  Model: "Super 8 Hemi"
+  Model: Super 8 Hemi
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 380
-  Model: "Tomahawk"
+  Model: Tomahawk
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 381
-  Model: "Viper"
+  Model: Viper
   Make_ID: 23
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 382
-  Model: "Talon"
+  Model: Talon
   Make_ID: 24
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 383
-  Model: "430 Scuderia"
+  Model: 430 Scuderia
   Make_ID: 25
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 384
-  Model: "430 Scuderia Spider"
+  Model: 430 Scuderia Spider
   Make_ID: 25
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 385
-  Model: "599 GTB Fiorano"
+  Model: 599 GTB Fiorano
   Make_ID: 25
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 386
-  Model: "612 Scaglietti"
+  Model: 612 Scaglietti
   Make_ID: 25
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 387
-  Model: "California"
+  Model: California
   Make_ID: 25
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 388
-  Model: "F141"
+  Model: F141
   Make_ID: 25
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 389
-  Model: "F430"
+  Model: F430
   Make_ID: 25
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 390
-  Model: "Abarth Nuova 500"
+  Model: Abarth Nuova 500
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 391
-  Model: "Armadillo"
+  Model: Armadillo
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 392
-  Model: "Barchetta"
+  Model: Barchetta
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 393
-  Model: "Bravo"
+  Model: Bravo
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 394
-  Model: "Cinquecento"
+  Model: Cinquecento
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 395
-  Model: "Croma"
+  Model: Croma
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 396
-  Model: "Doblo"
+  Model: Doblo
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 398
-  Model: "Ducato Truckster"
+  Model: Ducato Truckster
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 399
-  Model: "Ecobasis"
+  Model: Ecobasis
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 400
-  Model: "Enduro"
+  Model: Enduro
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 401
-  Model: "Gingo"
+  Model: Gingo
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 402
-  Model: "Idea"
+  Model: Idea
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 403
-  Model: "Marea"
+  Model: Marea
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 404
-  Model: "Marrakech"
+  Model: Marrakech
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 405
-  Model: "Multipla"
+  Model: Multipla
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 406
-  Model: "Oltre"
+  Model: Oltre
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 407
-  Model: "Palio"
+  Model: Palio
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 408
-  Model: "Panda"
+  Model: Panda
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 409
-  Model: "Panda 4x4"
+  Model: Panda 4x4
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 410
-  Model: "Panda MultiEco"
+  Model: Panda MultiEco
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 411
-  Model: "Punto"
+  Model: Punto
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 412
-  Model: "Seicento"
+  Model: Seicento
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 413
-  Model: "Simba"
+  Model: Simba
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 414
-  Model: "Stilo"
+  Model: Stilo
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 416
-  Model: "Suagna"
+  Model: Suagna
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 417
-  Model: "Tempra"
+  Model: Tempra
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 418
-  Model: "Tipo"
+  Model: Tipo
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 419
-  Model: "Trepiuno"
+  Model: Trepiuno
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 420
-  Model: "Ulysse"
+  Model: Ulysse
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 421
-  Model: "X 1/9"
+  Model: X 1/9
   Make_ID: 26
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 422
-  Model: "B4000 4WD"
+  Model: B4000 4WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 423
-  Model: "Crown Victoria Police"
+  Model: Crown Victoria Police
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 424
-  Model: "E-Series Cargo"
+  Model: E-Series Cargo
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 425
-  Model: "E-Series Wagon"
+  Model: E-Series Wagon
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 426
-  Model: "E150 Club Wagon"
+  Model: E150 Club Wagon
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 427
-  Model: "E150 Econoline 2WD"
+  Model: E150 Econoline 2WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 428
-  Model: "Edge"
+  Model: Edge
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 429
-  Model: "Escape 4WD"
+  Model: Escape 4WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 430
-  Model: "Escape FWD"
+  Model: Escape FWD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 431
-  Model: "Escape Hybrid 4WD"
+  Model: Escape Hybrid 4WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 432
-  Model: "Escape Hybrid FWD"
+  Model: Escape Hybrid FWD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 433
-  Model: "Expedition"
+  Model: Expedition
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 434
-  Model: "Explorer 2WD"
+  Model: Explorer 2WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 435
-  Model: "Explorer 4WD"
+  Model: Explorer 4WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 436
-  Model: "F-250"
+  Model: F-250
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 437
-  Model: "F-350"
+  Model: F-350
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 438
-  Model: "F-450"
+  Model: F-450
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 439
-  Model: "F150 FFV 2WD"
+  Model: F150 FFV 2WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 440
-  Model: "F150 FFV 4WD"
+  Model: F150 FFV 4WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 441
-  Model: "F150 Pickup 2WD"
+  Model: F150 Pickup 2WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 442
-  Model: "F150 Pickup 4WD"
+  Model: F150 Pickup 4WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 443
-  Model: "Five Hundred AWD"
+  Model: Five Hundred AWD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 444
-  Model: "Five Hundred FWD"
+  Model: Five Hundred FWD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 445
-  Model: "Flex"
+  Model: Flex
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 446
-  Model: "Focus FWD"
+  Model: Focus FWD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 447
-  Model: "Focus Station Wagon"
+  Model: Focus Station Wagon
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 448
-  Model: "Freestar Wagon FWD"
+  Model: Freestar Wagon FWD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 449
-  Model: "Freestyle AWD"
+  Model: Freestyle AWD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 450
-  Model: "Freestyle FWD"
+  Model: Freestyle FWD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 451
-  Model: "Fusion"
+  Model: Fusion
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 452
-  Model: "Grand Marquis"
+  Model: Grand Marquis
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 453
-  Model: "GT 2WD"
+  Model: GT 2WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 454
-  Model: "LS"
+  Model: LS
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 455
-  Model: "MARK LT"
+  Model: MARK LT
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 456
-  Model: "MILAN"
+  Model: MILAN
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 457
-  Model: "Monterey Wagon FWD"
+  Model: Monterey Wagon FWD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 458
-  Model: "Mountaineer 4WD"
+  Model: Mountaineer 4WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 459
-  Model: "Mustang"
+  Model: Mustang
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 460
-  Model: "Navigator 2WD"
+  Model: Navigator 2WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 461
-  Model: "Ranger Pickup 2WD"
+  Model: Ranger Pickup 2WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 462
-  Model: "Ranger Pickup 4WD"
+  Model: Ranger Pickup 4WD
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 463
-  Model: "Shelby"
+  Model: Shelby
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 464
-  Model: "Taurus"
+  Model: Taurus
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 465
-  Model: "Taurus Ethanol FFV"
+  Model: Taurus Ethanol FFV
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 466
-  Model: "Thunderbird"
+  Model: Thunderbird
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 467
-  Model: "Town Car"
+  Model: Town Car
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 468
-  Model: "Transit Connect"
+  Model: Transit Connect
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 469
-  Model: "ZEPHYR"
+  Model: ZEPHYR
   Make_ID: 27
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 539
-  Model: "Prizm"
+  Model: Prizm
   Make_ID: 30
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 540
-  Model: "Storm"
+  Model: Storm
   Make_ID: 30
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 541
-  Model: "Tracker"
+  Model: Tracker
   Make_ID: 30
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 542
-  Model: "G15"
+  Model: G15
   Make_ID: 31
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 543
-  Model: "G16"
+  Model: G16
   Make_ID: 31
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 544
-  Model: "G33"
+  Model: G33
   Make_ID: 31
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 545
-  Model: "G34"
+  Model: G34
   Make_ID: 31
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 546
-  Model: "G4"
+  Model: G4
   Make_ID: 31
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 547
-  Model: "G50"
+  Model: G50
   Make_ID: 31
   Type_ID: 1
   Custom: 0
@@ -2583,673 +2580,673 @@
   Custom: 0
 -
   Model_ID: 549
-  Model: "Acadia"
+  Model: Acadia
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 550
-  Model: "Autonomy"
+  Model: Autonomy
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 551
-  Model: "C4500"
+  Model: C4500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 552
-  Model: "Canyon"
+  Model: Canyon
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 553
-  Model: "Envoy"
+  Model: Envoy
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 554
-  Model: "EV1"
+  Model: EV1
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 555
-  Model: "Firebird II"
+  Model: Firebird II
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 556
-  Model: "Firebird III"
+  Model: Firebird III
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 557
-  Model: "Futurliner"
+  Model: Futurliner
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 558
-  Model: "Graphyte"
+  Model: Graphyte
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 559
-  Model: "Hy-Wire"
+  Model: Hy-Wire
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 560
-  Model: "Palomino"
+  Model: Palomino
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 561
-  Model: "Pickup"
+  Model: Pickup
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 562
-  Model: "Precept"
+  Model: Precept
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 563
-  Model: "Safari"
+  Model: Safari
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 564
-  Model: "Savana"
+  Model: Savana
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 565
-  Model: "Savana Cargo 1500"
+  Model: Savana Cargo 1500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 566
-  Model: "Savana Cargo 2500"
+  Model: Savana Cargo 2500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 567
-  Model: "Savana Cargo 3500"
+  Model: Savana Cargo 3500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 568
-  Model: "Savana Passenger 1500"
+  Model: Savana Passenger 1500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 569
-  Model: "Savana Passenger 2500"
+  Model: Savana Passenger 2500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 570
-  Model: "Savana Passenger 3500"
+  Model: Savana Passenger 3500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 571
-  Model: "Sequel"
+  Model: Sequel
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 572
-  Model: "Sierra"
+  Model: Sierra
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 573
-  Model: "Sierra 1500"
+  Model: Sierra 1500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 574
-  Model: "Sierra 2500"
+  Model: Sierra 2500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 575
-  Model: "Sierra 3500"
+  Model: Sierra 3500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 576
-  Model: "Sierra Hybrid"
+  Model: Sierra Hybrid
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 577
-  Model: "Sonoma"
+  Model: Sonoma
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 578
-  Model: "Terra 4"
+  Model: Terra 4
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 579
-  Model: "Terracross"
+  Model: Terracross
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 580
-  Model: "Typhoon"
+  Model: Typhoon
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 581
-  Model: "XP-21 Firebird I"
+  Model: XP-21 Firebird I
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 582
-  Model: "Yukon"
+  Model: Yukon
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 583
-  Model: "Yukon Denali"
+  Model: Yukon Denali
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 584
-  Model: "Yukon Hybrid"
+  Model: Yukon Hybrid
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 585
-  Model: "Yukon XL 1500"
+  Model: Yukon XL 1500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 586
-  Model: "Yukon XL 2500"
+  Model: Yukon XL 2500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 587
-  Model: "Yukon XL 3500"
+  Model: Yukon XL 3500
   Make_ID: 32
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 588
-  Model: "Astra"
+  Model: Astra
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 589
-  Model: "Barina"
+  Model: Barina
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 590
-  Model: "Calais VL"
+  Model: Calais VL
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 591
-  Model: "Caprice"
+  Model: Caprice
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 592
-  Model: "Clubsport R8"
+  Model: Clubsport R8
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 593
-  Model: "Commodore SS"
+  Model: Commodore SS
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 594
-  Model: "Commodore SS Victoria"
+  Model: Commodore SS Victoria
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 595
-  Model: "EFIJY"
+  Model: EFIJY
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 596
-  Model: "GTS"
+  Model: GTS
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 597
-  Model: "HRT Ute"
+  Model: HRT Ute
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 598
-  Model: "HSV Grange"
+  Model: HSV Grange
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 599
-  Model: "HSV GTO Coupe"
+  Model: HSV GTO Coupe
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 600
-  Model: "HSV SV300"
+  Model: HSV SV300
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 601
-  Model: "HSV W427"
+  Model: HSV W427
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 602
-  Model: "Maloo"
+  Model: Maloo
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 603
-  Model: "Monaro"
+  Model: Monaro
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 604
-  Model: "Senator"
+  Model: Senator
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 605
-  Model: "SSX"
+  Model: SSX
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 606
-  Model: "SSZ"
+  Model: SSZ
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 607
-  Model: "Statesman"
+  Model: Statesman
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 608
-  Model: "Tigra"
+  Model: Tigra
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 609
-  Model: "Torana"
+  Model: Torana
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 610
-  Model: "Ute SVZ"
+  Model: Ute SVZ
   Make_ID: 33
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 611
-  Model: "ACCORD"
+  Model: ACCORD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 612
-  Model: "ACCORD HYBRID"
+  Model: ACCORD HYBRID
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 613
-  Model: "CIVIC"
+  Model: CIVIC
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 614
-  Model: "CIVIC HYBRID"
+  Model: CIVIC HYBRID
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 615
-  Model: "CR-V 2WD"
+  Model: CR-V 2WD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 616
-  Model: "CR-V 4WD"
+  Model: CR-V 4WD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 617
-  Model: "ELEMENT 2WD"
+  Model: ELEMENT 2WD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 618
-  Model: "ELEMENT 4WD"
+  Model: ELEMENT 4WD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 619
-  Model: "Fit"
+  Model: Fit
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 620
-  Model: "INSIGHT"
+  Model: INSIGHT
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 621
-  Model: "MDX 4WD"
+  Model: MDX 4WD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 622
-  Model: "ODYSSEY 2WD"
+  Model: ODYSSEY 2WD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 623
-  Model: "PILOT 2WD"
+  Model: PILOT 2WD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 624
-  Model: "PILOT 4WD"
+  Model: PILOT 4WD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 625
-  Model: "RIDGELINE 4WD"
+  Model: RIDGELINE 4WD
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 626
-  Model: "RL"
+  Model: RL
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 627
-  Model: "RSX"
+  Model: RSX
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 628
-  Model: "S2000"
+  Model: S2000
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 629
-  Model: "TL"
+  Model: TL
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 630
-  Model: "TSX"
+  Model: TSX
   Make_ID: 34
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 631
-  Model: "H1"
+  Model: H1
   Make_ID: 35
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 632
-  Model: "H2"
+  Model: H2
   Make_ID: 35
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 633
-  Model: "H3"
+  Model: H3
   Make_ID: 35
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 634
-  Model: "ACCENT"
+  Model: ACCENT
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 635
-  Model: "AZERA"
+  Model: AZERA
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 636
-  Model: "ELANTRA"
+  Model: ELANTRA
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 637
-  Model: "Elantra Touring"
+  Model: Elantra Touring
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 638
-  Model: "Entourage"
+  Model: Entourage
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 639
-  Model: "Genesis"
+  Model: Genesis
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 640
-  Model: "SANTA FE 2WD"
+  Model: SANTA FE 2WD
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 641
-  Model: "SANTA FE 4WD"
+  Model: SANTA FE 4WD
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 642
-  Model: "SONATA"
+  Model: SONATA
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 643
-  Model: "TIBURON"
+  Model: TIBURON
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 644
-  Model: "TUCSON 2WD"
+  Model: TUCSON 2WD
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 645
-  Model: "TUCSON 4WD"
+  Model: TUCSON 4WD
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 646
-  Model: "Veracruz"
+  Model: Veracruz
   Make_ID: 36
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 647
-  Model: "EX"
+  Model: EX
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 648
-  Model: "FX"
+  Model: FX
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 649
-  Model: "G"
+  Model: G
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 650
-  Model: "G20"
+  Model: G20
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 651
-  Model: "G35"
+  Model: G35
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 652
-  Model: "G37"
+  Model: G37
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 653
-  Model: "I30"
+  Model: I30
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 654
-  Model: "I35"
+  Model: I35
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 655
-  Model: "M"
+  Model: M
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 656
-  Model: "M45"
+  Model: M45
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 657
-  Model: "Q45"
+  Model: Q45
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 658
-  Model: "QX"
+  Model: QX
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 659
-  Model: "QX4"
+  Model: QX4
   Make_ID: 37
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 660
-  Model: "QX56"
+  Model: QX56
   Make_ID: 37
   Type_ID: 1
   Custom: 0
@@ -3261,463 +3258,463 @@
   Custom: 0
 -
   Model_ID: 662
-  Model: "Amigo"
+  Model: Amigo
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 663
-  Model: "Asance"
+  Model: Asance
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 664
-  Model: "Ascender"
+  Model: Ascender
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 665
-  Model: "Aska"
+  Model: Aska
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 666
-  Model: "Axiom"
+  Model: Axiom
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 667
-  Model: "Begin Funkybox"
+  Model: Begin Funkybox
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 668
-  Model: "COA III"
+  Model: COA III
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 669
-  Model: "Como"
+  Model: Como
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 670
-  Model: "Costa"
+  Model: Costa
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 671
-  Model: "Deseo"
+  Model: Deseo
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 672
-  Model: "Filly"
+  Model: Filly
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 673
-  Model: "Frontera Sport"
+  Model: Frontera Sport
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 674
-  Model: "GBX"
+  Model: GBX
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 676
-  Model: "I Series"
+  Model: I Series
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 677
-  Model: "I Series 290"
+  Model: I Series 290
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 678
-  Model: "I Series 370"
+  Model: I Series 370
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 679
-  Model: "i-280"
+  Model: i-280
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 680
-  Model: "i-350"
+  Model: i-350
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 681
-  Model: "Kai"
+  Model: Kai
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 682
-  Model: "Oasis"
+  Model: Oasis
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 683
-  Model: "Rodeo"
+  Model: Rodeo
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 684
-  Model: "Trooper"
+  Model: Trooper
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 685
-  Model: "Vehicross"
+  Model: Vehicross
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 686
-  Model: "VX-4"
+  Model: VX-4
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 687
-  Model: "VX-O2"
+  Model: VX-O2
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 688
-  Model: "VX2"
+  Model: VX2
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 689
-  Model: "ZXS"
+  Model: ZXS
   Make_ID: 38
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 690
-  Model: "S-TYPE"
+  Model: S-TYPE
   Make_ID: 39
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 691
-  Model: "VDP LWB"
+  Model: VDP LWB
   Make_ID: 39
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 692
-  Model: "X-TYPE"
+  Model: X-TYPE
   Make_ID: 39
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 693
-  Model: "XF"
+  Model: XF
   Make_ID: 39
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 694
-  Model: "XJ"
+  Model: XJ
   Make_ID: 39
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 695
-  Model: "XJ8"
+  Model: XJ8
   Make_ID: 39
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 696
-  Model: "XK"
+  Model: XK
   Make_ID: 39
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 697
-  Model: "XK8 CONVERTIBLE"
+  Model: XK8 CONVERTIBLE
   Make_ID: 39
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 698
-  Model: "XKR CONVERTIBLE"
+  Model: XKR CONVERTIBLE
   Make_ID: 39
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 699
-  Model: "Bantam BRC"
+  Model: Bantam BRC
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 700
-  Model: "Cherokee"
+  Model: Cherokee
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 701
-  Model: "Commander"
+  Model: Commander
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 702
-  Model: "Compass"
+  Model: Compass
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 703
-  Model: "Dakar"
+  Model: Dakar
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 704
-  Model: "Gladiator"
+  Model: Gladiator
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 705
-  Model: "Grand Cherokee"
+  Model: Grand Cherokee
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 706
-  Model: "Hurricane"
+  Model: Hurricane
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 707
-  Model: "Icon"
+  Model: Icon
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 708
-  Model: "J8"
+  Model: J8
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 709
-  Model: "Liberty"
+  Model: Liberty
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 710
-  Model: "Patriot"
+  Model: Patriot
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 711
-  Model: "Rescue"
+  Model: Rescue
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 712
-  Model: "SJ"
+  Model: SJ
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 713
-  Model: "Treo"
+  Model: Treo
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 714
-  Model: "Varsity"
+  Model: Varsity
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 715
-  Model: "Willies"
+  Model: Willies
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 716
-  Model: "Willys 2"
+  Model: Willys 2
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 717
-  Model: "Wrangler"
+  Model: Wrangler
   Make_ID: 40
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 718
-  Model: "S-V8"
+  Model: S-V8
   Make_ID: 41
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 719
-  Model: "Darrin"
+  Model: Darrin
   Make_ID: 42
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 720
-  Model: "Deluxe K512"
+  Model: Deluxe K512
   Make_ID: 42
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 721
-  Model: "Manhattan"
+  Model: Manhattan
   Make_ID: 42
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 722
-  Model: "Virginian"
+  Model: Virginian
   Make_ID: 42
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 723
-  Model: "AMANTI"
+  Model: AMANTI
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 724
-  Model: "Borrego"
+  Model: Borrego
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 725
-  Model: "Forte"
+  Model: Forte
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 726
-  Model: "Magentis"
+  Model: Magentis
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 727
-  Model: "OPTIMA"
+  Model: OPTIMA
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 728
-  Model: "OPTIMA(MS)"
+  Model: OPTIMA(MS)
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 729
-  Model: "RIO"
+  Model: RIO
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 730
-  Model: "Rio5"
+  Model: Rio5
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 731
-  Model: "Rondo"
+  Model: Rondo
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 732
-  Model: "SEDONA"
+  Model: SEDONA
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 733
-  Model: "SORENTO 2WD"
+  Model: SORENTO 2WD
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 734
-  Model: "SORENTO 4WD"
+  Model: SORENTO 4WD
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 735
-  Model: "Soul"
+  Model: Soul
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 736
-  Model: "SPECTRA"
+  Model: SPECTRA
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 737
-  Model: "Spectra5"
+  Model: Spectra5
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 738
-  Model: "SPORTAGE 2WD"
+  Model: SPORTAGE 2WD
   Make_ID: 43
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 739
-  Model: "SPORTAGE 4WD"
+  Model: SPORTAGE 4WD
   Make_ID: 43
   Type_ID: 1
   Custom: 0
@@ -3729,427 +3726,427 @@
   Custom: 0
 -
   Model_ID: 741
-  Model: "110 Gti"
+  Model: 110 Gti
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 742
-  Model: "4x4"
+  Model: 4x4
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 743
-  Model: "Bronto Landole"
+  Model: Bronto Landole
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 744
-  Model: "Kalina"
+  Model: Kalina
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 745
-  Model: "Lotta"
+  Model: Lotta
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 746
-  Model: "PETER Turbo"
+  Model: PETER Turbo
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 747
-  Model: "Priora"
+  Model: Priora
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 748
-  Model: "Roadster"
+  Model: Roadster
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 749
-  Model: "Samara"
+  Model: Samara
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 750
-  Model: "Tarzan"
+  Model: Tarzan
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 751
-  Model: "Vaz"
+  Model: Vaz
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 752
-  Model: "Vaz 2110"
+  Model: Vaz 2110
   Make_ID: 44
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 753
-  Model: "Prima"
+  Model: Prima
   Make_ID: 45
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 754
-  Model: "GALLARDO"
+  Model: GALLARDO
   Make_ID: 46
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 755
-  Model: "MURCIELAGO"
+  Model: MURCIELAGO
   Make_ID: 46
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 756
-  Model: "Dedra"
+  Model: Dedra
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 757
-  Model: "Delta"
+  Model: Delta
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 758
-  Model: "Dialogos"
+  Model: Dialogos
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 759
-  Model: "ECV1"
+  Model: ECV1
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 760
-  Model: "Fulvia"
+  Model: Fulvia
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 761
-  Model: "Hyena"
+  Model: Hyena
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 762
-  Model: "Kayak"
+  Model: Kayak
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 763
-  Model: "Lybra"
+  Model: Lybra
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 764
-  Model: "NEA"
+  Model: NEA
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 765
-  Model: "Phaedra"
+  Model: Phaedra
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 766
-  Model: "Stratos"
+  Model: Stratos
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 767
-  Model: "Thema"
+  Model: Thema
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 768
-  Model: "Thesis"
+  Model: Thesis
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 769
-  Model: "Y Caprice"
+  Model: Y Caprice
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 770
-  Model: "Y10"
+  Model: Y10
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 771
-  Model: "Ypsilon"
+  Model: Ypsilon
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 772
-  Model: "Zeta"
+  Model: Zeta
   Make_ID: 47
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 773
-  Model: "LR2"
+  Model: LR2
   Make_ID: 48
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 774
-  Model: "LR3"
+  Model: LR3
   Make_ID: 48
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 775
-  Model: "RANGE ROVER"
+  Model: RANGE ROVER
   Make_ID: 48
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 776
-  Model: "RANGE ROVER SPORT"
+  Model: RANGE ROVER SPORT
   Make_ID: 48
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 777
-  Model: "ES"
+  Model: ES
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 778
-  Model: "GS"
+  Model: GS
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 779
-  Model: "GX"
+  Model: GX
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 780
-  Model: "HPX"
+  Model: HPX
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 781
-  Model: "IS"
+  Model: IS
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 782
-  Model: "LF-S"
+  Model: LF-S
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 783
-  Model: "LF-SH"
+  Model: LF-SH
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 784
-  Model: "LS"
+  Model: LS
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 785
-  Model: "LX"
+  Model: LX
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 786
-  Model: "RX"
+  Model: RX
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 787
-  Model: "SC"
+  Model: SC
   Make_ID: 49
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 788
-  Model: "Aviator"
+  Model: Aviator
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 789
-  Model: "Blackwood"
+  Model: Blackwood
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 790
-  Model: "Continental"
+  Model: Continental
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 791
-  Model: "LK2"
+  Model: LK2
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 792
-  Model: "LS"
+  Model: LS
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 793
-  Model: "Mark Lt"
+  Model: Mark Lt
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 794
-  Model: "MK 9"
+  Model: MK 9
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 795
-  Model: "MKS"
+  Model: MKS
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 796
-  Model: "MKX"
+  Model: MKX
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 797
-  Model: "MKZ"
+  Model: MKZ
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 798
-  Model: "Navicross"
+  Model: Navicross
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 799
-  Model: "Navigator"
+  Model: Navigator
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 800
-  Model: "Sentinel"
+  Model: Sentinel
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 801
-  Model: "Town Car"
+  Model: Town Car
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 802
-  Model: "Zephyr"
+  Model: Zephyr
   Make_ID: 50
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 803
-  Model: "Elise"
+  Model: Elise
   Make_ID: 51
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 804
-  Model: "Evora"
+  Model: Evora
   Make_ID: 51
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 805
-  Model: "Exige"
+  Model: Exige
   Make_ID: 51
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 806
-  Model: "COUPE CAMBIOCORSA/GT/G-SPORT"
+  Model: COUPE CAMBIOCORSA/GT/G-SPORT
   Make_ID: 52
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 807
-  Model: "GranTurismo"
+  Model: GranTurismo
   Make_ID: 52
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 808
-  Model: "QUATTROPORTE"
+  Model: QUATTROPORTE
   Make_ID: 52
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 809
-  Model: "M25"
+  Model: M25
   Make_ID: 53
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 810
-  Model: "M72"
+  Model: M72
   Make_ID: 53
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 811
-  Model: "P75"
+  Model: P75
   Make_ID: 53
   Type_ID: 1
   Custom: 0
@@ -4167,25 +4164,25 @@
   Custom: 0
 -
   Model_ID: 814
-  Model: "Brabus"
+  Model: Brabus
   Make_ID: 54
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 815
-  Model: "Exelero"
+  Model: Exelero
   Make_ID: 54
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 816
-  Model: "SW38"
+  Model: SW38
   Make_ID: 54
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 817
-  Model: "Zeppelin"
+  Model: Zeppelin
   Make_ID: 54
   Type_ID: 1
   Custom: 0
@@ -4209,1105 +4206,1105 @@
   Custom: 0
 -
   Model_ID: 821
-  Model: "B Series"
+  Model: B Series
   Make_ID: 55
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 822
-  Model: "CX-7"
+  Model: CX-7
   Make_ID: 55
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 823
-  Model: "CX-9"
+  Model: CX-9
   Make_ID: 55
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 824
-  Model: "MAZDASPEED3"
+  Model: MAZDASPEED3
   Make_ID: 55
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 825
-  Model: "MPV"
+  Model: MPV
   Make_ID: 55
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 826
-  Model: "MX-5"
+  Model: MX-5
   Make_ID: 55
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 827
-  Model: "RX-8"
+  Model: RX-8
   Make_ID: 55
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 828
-  Model: "Tribute"
+  Model: Tribute
   Make_ID: 55
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 829
-  Model: "B200"
+  Model: B200
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 830
-  Model: "C230"
+  Model: C230
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 831
-  Model: "C280"
+  Model: C280
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 832
-  Model: "C300"
+  Model: C300
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 833
-  Model: "C350"
+  Model: C350
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 834
-  Model: "C55 AMG"
+  Model: C55 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 835
-  Model: "C63 AMG"
+  Model: C63 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 836
-  Model: "CL550"
+  Model: CL550
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 837
-  Model: "CL600"
+  Model: CL600
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 838
-  Model: "CL63 AMG"
+  Model: CL63 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 839
-  Model: "CL65 AMG"
+  Model: CL65 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 840
-  Model: "CLK350"
+  Model: CLK350
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 841
-  Model: "CLK350 (CABRIOLET)"
+  Model: CLK350 (CABRIOLET)
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 842
-  Model: "CLK55 AMG (CABRIOLET)"
+  Model: CLK55 AMG (CABRIOLET)
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 843
-  Model: "CLK550"
+  Model: CLK550
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 844
-  Model: "CLK63 AMG"
+  Model: CLK63 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 845
-  Model: "CLS500"
+  Model: CLS500
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 846
-  Model: "CLS55 AMG"
+  Model: CLS55 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 847
-  Model: "CLS550"
+  Model: CLS550
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 848
-  Model: "CLS63 AMG"
+  Model: CLS63 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 849
-  Model: "E300"
+  Model: E300
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 850
-  Model: "E320"
+  Model: E320
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 851
-  Model: "E350"
+  Model: E350
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 852
-  Model: "E350 Wagon"
+  Model: E350 Wagon
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 853
-  Model: "E350 4MATIC"
+  Model: E350 4MATIC
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 854
-  Model: "E350 4MATIC Wagon"
+  Model: E350 4MATIC Wagon
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 855
-  Model: "E500"
+  Model: E500
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 856
-  Model: "E55 AMG"
+  Model: E55 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 857
-  Model: "E55 AMG Wagon"
+  Model: E55 AMG Wagon
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 858
-  Model: "E550"
+  Model: E550
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 859
-  Model: "E63 AMG"
+  Model: E63 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 860
-  Model: "G55 AMG"
+  Model: G55 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 861
-  Model: "G550"
+  Model: G550
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 862
-  Model: "GL320"
+  Model: GL320
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 863
-  Model: "GL450"
+  Model: GL450
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 864
-  Model: "GL550"
+  Model: GL550
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 865
-  Model: "GLK350"
+  Model: GLK350
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 866
-  Model: "MAYBACH 57S"
+  Model: MAYBACH 57S
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 867
-  Model: "MAYBACH 62"
+  Model: MAYBACH 62
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 868
-  Model: "ML320"
+  Model: ML320
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 869
-  Model: "ML350"
+  Model: ML350
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 870
-  Model: "ML500"
+  Model: ML500
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 871
-  Model: "ML550"
+  Model: ML550
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 872
-  Model: "ML63 AMG"
+  Model: ML63 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 873
-  Model: "R320"
+  Model: R320
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 874
-  Model: "R350"
+  Model: R350
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 875
-  Model: "R500"
+  Model: R500
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 876
-  Model: "S350"
+  Model: S350
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 877
-  Model: "S430"
+  Model: S430
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 878
-  Model: "S450"
+  Model: S450
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 879
-  Model: "S550"
+  Model: S550
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 880
-  Model: "S600"
+  Model: S600
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 881
-  Model: "S63 AMG"
+  Model: S63 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 882
-  Model: "S65 AMG"
+  Model: S65 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 883
-  Model: "SL500"
+  Model: SL500
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 884
-  Model: "SL550"
+  Model: SL550
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 885
-  Model: "SL600"
+  Model: SL600
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 886
-  Model: "SL63 AMG"
+  Model: SL63 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 887
-  Model: "SL65 AMG"
+  Model: SL65 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 888
-  Model: "SLK280"
+  Model: SLK280
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 889
-  Model: "SLK300"
+  Model: SLK300
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 890
-  Model: "SLK350"
+  Model: SLK350
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 891
-  Model: "SLK55 AMG"
+  Model: SLK55 AMG
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 892
-  Model: "SLR McLaren"
+  Model: SLR McLaren
   Make_ID: 56
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 893
-  Model: "Antser"
+  Model: Antser
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 894
-  Model: "Comet"
+  Model: Comet
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 895
-  Model: "Cougar"
+  Model: Cougar
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 896
-  Model: "Cyclone"
+  Model: Cyclone
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 897
-  Model: "El Gato"
+  Model: El Gato
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 898
-  Model: "Grand Marquis"
+  Model: Grand Marquis
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 899
-  Model: "Marauder"
+  Model: Marauder
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 900
-  Model: "Mariner"
+  Model: Mariner
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 901
-  Model: "Mariner Hybrid"
+  Model: Mariner Hybrid
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 902
-  Model: "MC4"
+  Model: MC4
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 903
-  Model: "Messenger"
+  Model: Messenger
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 904
-  Model: "Meta One"
+  Model: Meta One
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 905
-  Model: "Milan"
+  Model: Milan
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 906
-  Model: "Monarch"
+  Model: Monarch
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 907
-  Model: "Montego"
+  Model: Montego
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 908
-  Model: "Monterey"
+  Model: Monterey
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 909
-  Model: "Mountaineer"
+  Model: Mountaineer
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 910
-  Model: "My"
+  Model: My
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 911
-  Model: "Mystique"
+  Model: Mystique
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 912
-  Model: "Park Lane"
+  Model: Park Lane
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 913
-  Model: "Sable"
+  Model: Sable
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 914
-  Model: "Tracer"
+  Model: Tracer
   Make_ID: 57
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 915
-  Model: "Scorpio"
+  Model: Scorpio
   Make_ID: 58
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 916
-  Model: "XR4Ti"
+  Model: XR4Ti
   Make_ID: 58
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 917
-  Model: "EX-E"
+  Model: EX-E
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 918
-  Model: "GT"
+  Model: GT
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 919
-  Model: "MGF"
+  Model: MGF
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 920
-  Model: "Rover"
+  Model: Rover
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 921
-  Model: "Rover ZS"
+  Model: Rover ZS
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 922
-  Model: "RV8"
+  Model: RV8
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 923
-  Model: "TF 160"
+  Model: TF 160
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 924
-  Model: "X20"
+  Model: X20
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 925
-  Model: "X80"
+  Model: X80
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 926
-  Model: "Xpower SV-R"
+  Model: Xpower SV-R
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 927
-  Model: "ZT 160"
+  Model: ZT 160
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 928
-  Model: "ZT 260"
+  Model: ZT 260
   Make_ID: 59
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 929
-  Model: "clubman"
+  Model: clubman
   Make_ID: 60
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 930
-  Model: "cooper"
+  Model: cooper
   Make_ID: 60
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 931
-  Model: "mayfair"
+  Model: mayfair
   Make_ID: 60
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 932
-  Model: "Eclipse"
+  Model: Eclipse
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 933
-  Model: "Endeavor 2WD"
+  Model: Endeavor 2WD
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 934
-  Model: "Endeavor 4WD"
+  Model: Endeavor 4WD
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 935
-  Model: "Galant"
+  Model: Galant
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 936
-  Model: "Lancer"
+  Model: Lancer
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 937
-  Model: "Lancer Evolution"
+  Model: Lancer Evolution
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 938
-  Model: "Lancer Sportback"
+  Model: Lancer Sportback
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 939
-  Model: "Montero"
+  Model: Montero
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 940
-  Model: "Outlander 2WD"
+  Model: Outlander 2WD
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 941
-  Model: "Outlander 4WD"
+  Model: Outlander 4WD
   Make_ID: 61
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 942
-  Model: "4 Seater"
+  Model: 4 Seater
   Make_ID: 62
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 943
-  Model: "Aero 8"
+  Model: Aero 8
   Make_ID: 62
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 944
-  Model: "Aeromax"
+  Model: Aeromax
   Make_ID: 62
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 945
-  Model: "LIFECar"
+  Model: LIFECar
   Make_ID: 62
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 946
-  Model: "Plus 8"
+  Model: Plus 8
   Make_ID: 62
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 947
-  Model: "350Z"
+  Model: 350Z
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 949
-  Model: "370Z"
+  Model: 370Z
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 950
-  Model: "ALTIMA"
+  Model: ALTIMA
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 951
-  Model: "Altima Hybrid"
+  Model: Altima Hybrid
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 952
-  Model: "Armada"
+  Model: Armada
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 954
-  Model: "Cube"
+  Model: Cube
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 955
-  Model: "FRONTIER"
+  Model: FRONTIER
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 958
-  Model: "FX35"
+  Model: FX35
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 960
-  Model: "FX45"
+  Model: FX45
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 961
-  Model: "G35"
+  Model: G35
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 962
-  Model: "GT-R"
+  Model: GT-R
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 963
-  Model: "M35"
+  Model: M35
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 964
-  Model: "M35X"
+  Model: M35X
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 965
-  Model: "M45"
+  Model: M45
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 966
-  Model: "Maxima"
+  Model: Maxima
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 967
-  Model: "Murano"
+  Model: Murano
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 970
-  Model: "Pathfinder"
+  Model: Pathfinder
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 971
-  Model: "Q45"
+  Model: Q45
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 972
-  Model: "Q45 SPORT"
+  Model: Q45 SPORT
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 973
-  Model: "QUEST"
+  Model: QUEST
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 974
-  Model: "QX56 4WD"
+  Model: QX56 4WD
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 975
-  Model: "Rogue"
+  Model: Rogue
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 976
-  Model: "SENTRA"
+  Model: SENTRA
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 977
-  Model: "TITAN"
+  Model: TITAN
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 979
-  Model: "Versa"
+  Model: Versa
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 980
-  Model: "XTerra"
+  Model: XTerra
   Make_ID: 63
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 982
-  Model: "Agila"
+  Model: Agila
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 983
-  Model: "Alero"
+  Model: Alero
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 984
-  Model: "Antares"
+  Model: Antares
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 985
-  Model: "Anthem"
+  Model: Anthem
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 986
-  Model: "Aurora"
+  Model: Aurora
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 987
-  Model: "Bravada"
+  Model: Bravada
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 988
-  Model: "Ciera"
+  Model: Ciera
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 989
-  Model: "Cutlas"
+  Model: Cutlas
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 990
-  Model: "Intrique"
+  Model: Intrique
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 991
-  Model: "LSS"
+  Model: LSS
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 992
-  Model: "O4"
+  Model: O4
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 993
-  Model: "Profile"
+  Model: Profile
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 994
-  Model: "Recon"
+  Model: Recon
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 995
-  Model: "Sillhouette"
+  Model: Sillhouette
   Make_ID: 64
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 996
-  Model: "Antara"
+  Model: Antara
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 997
-  Model: "Astra"
+  Model: Astra
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 998
-  Model: "Corsa"
+  Model: Corsa
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 999
-  Model: "Eco-Speedster"
+  Model: Eco-Speedster
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1000
-  Model: "Frogster"
+  Model: Frogster
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1001
-  Model: "GT"
+  Model: GT
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1002
-  Model: "Hydrogen3"
+  Model: Hydrogen3
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1003
-  Model: "Insignia"
+  Model: Insignia
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1004
-  Model: "Kadett"
+  Model: Kadett
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1005
-  Model: "Maxx"
+  Model: Maxx
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1006
-  Model: "Meriva"
+  Model: Meriva
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1007
-  Model: "Omega"
+  Model: Omega
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1008
-  Model: "Signum"
+  Model: Signum
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1009
-  Model: "Tigra"
+  Model: Tigra
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1010
-  Model: "TRIXX"
+  Model: TRIXX
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1011
-  Model: "Vauxhall"
+  Model: Vauxhall
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1012
-  Model: "Vectra"
+  Model: Vectra
   Make_ID: 65
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1013
-  Model: "Zafira"
+  Model: Zafira
   Make_ID: 65
   Type_ID: 1
   Custom: 0
@@ -5343,7 +5340,7 @@
   Custom: 0
 -
   Model_ID: 1021
-  Model: "20Cup"
+  Model: 20Cup
   Make_ID: 66
   Type_ID: 1
   Custom: 0
@@ -5409,343 +5406,343 @@
   Custom: 0
 -
   Model_ID: 1032
-  Model: "Asphalte"
+  Model: Asphalte
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1033
-  Model: "e-doll"
+  Model: e-doll
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1034
-  Model: "Escapade"
+  Model: Escapade
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1035
-  Model: "H2O"
+  Model: H2O
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1036
-  Model: "Hoggar"
+  Model: Hoggar
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1037
-  Model: "Ion"
+  Model: Ion
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1038
-  Model: "Moonster"
+  Model: Moonster
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1039
-  Model: "Moovie"
+  Model: Moovie
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1040
-  Model: "Oxia"
+  Model: Oxia
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1041
-  Model: "Promethee"
+  Model: Promethee
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1042
-  Model: "Proxima"
+  Model: Proxima
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1043
-  Model: "Quark"
+  Model: Quark
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1044
-  Model: "Quasar"
+  Model: Quasar
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1045
-  Model: "RC"
+  Model: RC
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1046
-  Model: "Sesame"
+  Model: Sesame
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1047
-  Model: "Toureg"
+  Model: Toureg
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1048
-  Model: "Tulip"
+  Model: Tulip
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1049
-  Model: "Vroomster"
+  Model: Vroomster
   Make_ID: 66
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1050
-  Model: "Backpack"
+  Model: Backpack
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1051
-  Model: "Barracuda"
+  Model: Barracuda
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1052
-  Model: "Breeze"
+  Model: Breeze
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1053
-  Model: "GTX"
+  Model: GTX
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1054
-  Model: "Neon"
+  Model: Neon
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1055
-  Model: "Pronto"
+  Model: Pronto
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1056
-  Model: "Prowler"
+  Model: Prowler
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1057
-  Model: "PT"
+  Model: PT
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1058
-  Model: "Road Runner"
+  Model: Road Runner
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1059
-  Model: "Satellite"
+  Model: Satellite
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1060
-  Model: "Slingshot"
+  Model: Slingshot
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1061
-  Model: "Valiant Duster"
+  Model: Valiant Duster
   Make_ID: 67
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1062
-  Model: "Aztek"
+  Model: Aztek
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1063
-  Model: "Banshee"
+  Model: Banshee
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1064
-  Model: "Bonneville"
+  Model: Bonneville
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1065
-  Model: "Fiero"
+  Model: Fiero
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1066
-  Model: "Firebird"
+  Model: Firebird
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1067
-  Model: "Firehawk"
+  Model: Firehawk
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1068
-  Model: "G3 Wave"
+  Model: G3 Wave
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1069
-  Model: "G5"
+  Model: G5
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1070
-  Model: "G6"
+  Model: G6
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1071
-  Model: "G8"
+  Model: G8
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1072
-  Model: "GPX 300"
+  Model: GPX 300
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1073
-  Model: "Grand Am"
+  Model: Grand Am
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1074
-  Model: "Grand Prix"
+  Model: Grand Prix
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1075
-  Model: "GTO"
+  Model: GTO
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1076
-  Model: "Montana"
+  Model: Montana
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1077
-  Model: "Montana SV6"
+  Model: Montana SV6
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1078
-  Model: "Piranha"
+  Model: Piranha
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1079
-  Model: "Protosport"
+  Model: Protosport
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1080
-  Model: "Rageous"
+  Model: Rageous
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1081
-  Model: "REV"
+  Model: REV
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1082
-  Model: "Salsa"
+  Model: Salsa
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1083
-  Model: "Solstice"
+  Model: Solstice
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1084
-  Model: "Stinger"
+  Model: Stinger
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1085
-  Model: "Sunfire"
+  Model: Sunfire
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1086
-  Model: "Torrent"
+  Model: Torrent
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1087
-  Model: "Trans AM"
+  Model: Trans AM
   Make_ID: 68
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1088
-  Model: "Vibe"
+  Model: Vibe
   Make_ID: 68
   Type_ID: 1
   Custom: 0
@@ -5757,277 +5754,277 @@
   Custom: 0
 -
   Model_ID: 1090
-  Model: "911 Cabriolet"
+  Model: 911 Cabriolet
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1091
-  Model: "911 GT2"
+  Model: 911 GT2
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1092
-  Model: "911 GT3"
+  Model: 911 GT3
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1093
-  Model: "911 Targa"
+  Model: 911 Targa
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1094
-  Model: "BOXSTER"
+  Model: BOXSTER
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1095
-  Model: "BOXSTER S"
+  Model: BOXSTER S
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1096
-  Model: "CARRERA 2 COUPE"
+  Model: CARRERA 2 COUPE
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1097
-  Model: "CAYENNE"
+  Model: CAYENNE
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1098
-  Model: "CAYENNE S"
+  Model: CAYENNE S
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1099
-  Model: "CAYENNE TURBO"
+  Model: CAYENNE TURBO
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1100
-  Model: "CAYMAN S"
+  Model: CAYMAN S
   Make_ID: 69
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1101
-  Model: "Altica"
+  Model: Altica
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1102
-  Model: "Argos"
+  Model: Argos
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1103
-  Model: "Avantime"
+  Model: Avantime
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1104
-  Model: "BeBop"
+  Model: BeBop
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1105
-  Model: "Clio"
+  Model: Clio
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1106
-  Model: "Egeus"
+  Model: Egeus
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1107
-  Model: "Ellipse"
+  Model: Ellipse
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1108
-  Model: "Evado"
+  Model: Evado
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1109
-  Model: "Fiftie"
+  Model: Fiftie
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1110
-  Model: "Fluence"
+  Model: Fluence
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1111
-  Model: "Helem"
+  Model: Helem
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1112
-  Model: "Initiale"
+  Model: Initiale
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1113
-  Model: "Kangoo"
+  Model: Kangoo
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1114
-  Model: "Koleos"
+  Model: Koleos
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1115
-  Model: "Laguna"
+  Model: Laguna
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1116
-  Model: "Ludo"
+  Model: Ludo
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1117
-  Model: "Megane"
+  Model: Megane
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1118
-  Model: "Modus"
+  Model: Modus
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1120
-  Model: "Nepta"
+  Model: Nepta
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1121
-  Model: "Next"
+  Model: Next
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1122
-  Model: "Pangea"
+  Model: Pangea
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1123
-  Model: "Racoon"
+  Model: Racoon
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1124
-  Model: "Radiance"
+  Model: Radiance
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1125
-  Model: "Reinastella"
+  Model: Reinastella
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1126
-  Model: "Scenic"
+  Model: Scenic
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1128
-  Model: "SM5"
+  Model: SM5
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1129
-  Model: "SM7"
+  Model: SM7
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1130
-  Model: "Spider"
+  Model: Spider
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1131
-  Model: "Talisman"
+  Model: Talisman
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1132
-  Model: "Twingo"
+  Model: Twingo
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1133
-  Model: "Vel Satis"
+  Model: Vel Satis
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1134
-  Model: "Wind"
+  Model: Wind
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1135
-  Model: "Zo"
+  Model: Zo
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1136
-  Model: "Zoe"
+  Model: Zoe
   Make_ID: 70
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1137
-  Model: "Zoom"
+  Model: Zoom
   Make_ID: 70
   Type_ID: 1
   Custom: 0
@@ -6045,7 +6042,7 @@
   Custom: 0
 -
   Model_ID: 1140
-  Model: "414i"
+  Model: 414i
   Make_ID: 71
   Type_ID: 1
   Custom: 0
@@ -6069,43 +6066,43 @@
   Custom: 0
 -
   Model_ID: 1144
-  Model: "MGF"
+  Model: MGF
   Make_ID: 71
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1145
-  Model: "P95"
+  Model: P95
   Make_ID: 71
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1146
-  Model: "TCV"
+  Model: TCV
   Make_ID: 71
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1147
-  Model: "03-Sep"
+  Model: 03-Sep
   Make_ID: 72
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1148
-  Model: "04-Sep"
+  Model: 04-Sep
   Make_ID: 72
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1149
-  Model: "05-Sep"
+  Model: 05-Sep
   Make_ID: 72
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1150
-  Model: "07-Sep"
+  Model: 07-Sep
   Make_ID: 72
   Type_ID: 1
   Custom: 0
@@ -6123,25 +6120,25 @@
   Custom: 0
 -
   Model_ID: 1153
-  Model: "9X"
+  Model: 9X
   Make_ID: 72
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1154
-  Model: "Aero X"
+  Model: Aero X
   Make_ID: 72
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1155
-  Model: "RaceAbout 2000"
+  Model: RaceAbout 2000
   Make_ID: 72
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1156
-  Model: "Turbo X"
+  Model: Turbo X
   Make_ID: 72
   Type_ID: 1
   Custom: 0
@@ -6159,145 +6156,145 @@
   Custom: 0
 -
   Model_ID: 1159
-  Model: "Astra"
+  Model: Astra
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1160
-  Model: "Aura"
+  Model: Aura
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1161
-  Model: "Curve"
+  Model: Curve
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1162
-  Model: "CV1"
+  Model: CV1
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1163
-  Model: "Ion"
+  Model: Ion
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1164
-  Model: "LS"
+  Model: LS
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1165
-  Model: "Outlook"
+  Model: Outlook
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1166
-  Model: "PreVue"
+  Model: PreVue
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1167
-  Model: "Relay"
+  Model: Relay
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1168
-  Model: "SC"
+  Model: SC
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1169
-  Model: "SC1"
+  Model: SC1
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1170
-  Model: "SC2"
+  Model: SC2
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1171
-  Model: "SCX"
+  Model: SCX
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1172
-  Model: "Sky"
+  Model: Sky
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1173
-  Model: "SL"
+  Model: SL
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1174
-  Model: "Vue"
+  Model: Vue
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1175
-  Model: "Vue Hybrid"
+  Model: Vue Hybrid
   Make_ID: 73
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1176
-  Model: "ccX"
+  Model: ccX
   Make_ID: 74
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1177
-  Model: "Fuse"
+  Model: Fuse
   Make_ID: 74
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1178
-  Model: "t2B"
+  Model: t2B
   Make_ID: 74
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1179
-  Model: "tC"
+  Model: tC
   Make_ID: 74
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1180
-  Model: "xA"
+  Model: xA
   Make_ID: 74
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1181
-  Model: "xB"
+  Model: xB
   Make_ID: 74
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1182
-  Model: "xD"
+  Model: xD
   Make_ID: 74
   Type_ID: 1
   Custom: 0
@@ -6321,469 +6318,469 @@
   Custom: 0
 -
   Model_ID: 1186
-  Model: "ABT"
+  Model: ABT
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1187
-  Model: "Fabia"
+  Model: Fabia
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1188
-  Model: "Fabian"
+  Model: Fabian
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1189
-  Model: "Felicia"
+  Model: Felicia
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1190
-  Model: "Joyster"
+  Model: Joyster
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1191
-  Model: "Montreux"
+  Model: Montreux
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1192
-  Model: "Octavia"
+  Model: Octavia
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1193
-  Model: "Roomster"
+  Model: Roomster
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1194
-  Model: "Superb"
+  Model: Superb
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1195
-  Model: "Tudor"
+  Model: Tudor
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1196
-  Model: "Yeti"
+  Model: Yeti
   Make_ID: 75
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1197
-  Model: "Avanti"
+  Model: Avanti
   Make_ID: 76
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1198
-  Model: "SVO Lister"
+  Model: SVO Lister
   Make_ID: 76
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1199
-  Model: "Baja"
+  Model: Baja
   Make_ID: 77
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1200
-  Model: "Forester"
+  Model: Forester
   Make_ID: 77
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1201
-  Model: "Impreza"
+  Model: Impreza
   Make_ID: 77
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1202
-  Model: "Legacy"
+  Model: Legacy
   Make_ID: 77
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1203
-  Model: "Outback"
+  Model: Outback
   Make_ID: 77
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1204
-  Model: "Tribeca"
+  Model: Tribeca
   Make_ID: 77
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1205
-  Model: "AERIO"
+  Model: AERIO
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1206
-  Model: "AERIO SX"
+  Model: AERIO SX
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1207
-  Model: "AERIO SX AWD"
+  Model: AERIO SX AWD
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1208
-  Model: "Equator"
+  Model: Equator
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1209
-  Model: "Forenza"
+  Model: Forenza
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1210
-  Model: "GRAND VITARA XL-7"
+  Model: GRAND VITARA XL-7
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1211
-  Model: "GRAND VITARA XL-7 4WD"
+  Model: GRAND VITARA XL-7 4WD
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1212
-  Model: "GRAND VITARA XV6"
+  Model: GRAND VITARA XV6
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1213
-  Model: "GRAND VITARA XV6 AWD"
+  Model: GRAND VITARA XV6 AWD
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1214
-  Model: "Reno"
+  Model: Reno
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1215
-  Model: "Swift"
+  Model: Swift
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1216
-  Model: "SX 4 Hatchback"
+  Model: SX 4 Hatchback
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1217
-  Model: "SX 4 Sedan"
+  Model: SX 4 Sedan
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1218
-  Model: "XL7"
+  Model: XL7
   Make_ID: 78
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1219
-  Model: "MTX"
+  Model: MTX
   Make_ID: 79
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1220
-  Model: "4RUNNER 2WD"
+  Model: 4RUNNER 2WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1221
-  Model: "4RUNNER 4WD"
+  Model: 4RUNNER 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1222
-  Model: "AVALON"
+  Model: AVALON
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1223
-  Model: "CAMRY"
+  Model: CAMRY
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1224
-  Model: "CAMRY HYBRID"
+  Model: CAMRY HYBRID
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1225
-  Model: "CAMRY SOLARA"
+  Model: CAMRY SOLARA
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1226
-  Model: "CAMRY SOLARA CONVERTIBLE"
+  Model: CAMRY SOLARA CONVERTIBLE
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1227
-  Model: "COROLLA"
+  Model: COROLLA
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1228
-  Model: "ES 330"
+  Model: ES 330
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1229
-  Model: "FJ Cruiser"
+  Model: FJ Cruiser
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1230
-  Model: "GS 300 4WD"
+  Model: GS 300 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1231
-  Model: "GS 300/GS 430"
+  Model: GS 300/GS 430
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1232
-  Model: "GX 470"
+  Model: GX 470
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1233
-  Model: "HIGHLANDER 2WD"
+  Model: HIGHLANDER 2WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1234
-  Model: "HIGHLANDER 4WD"
+  Model: HIGHLANDER 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1235
-  Model: "HIGHLANDER HYBRID 2WD"
+  Model: HIGHLANDER HYBRID 2WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1236
-  Model: "HIGHLANDER HYBRID 4WD"
+  Model: HIGHLANDER HYBRID 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1237
-  Model: "IS 250"
+  Model: IS 250
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1238
-  Model: "IS 250 AWD"
+  Model: IS 250 AWD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1239
-  Model: "IS 350"
+  Model: IS 350
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1240
-  Model: "LS 430"
+  Model: LS 430
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1241
-  Model: "LX 470"
+  Model: LX 470
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1242
-  Model: "Matrix"
+  Model: Matrix
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1243
-  Model: "PRIUS"
+  Model: PRIUS
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1244
-  Model: "RAV4 2WD"
+  Model: RAV4 2WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1245
-  Model: "RAV4 4WD"
+  Model: RAV4 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1246
-  Model: "RX 330 2WD"
+  Model: RX 330 2WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1247
-  Model: "RX 330 4WD"
+  Model: RX 330 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1248
-  Model: "RX 400H 4WD"
+  Model: RX 400H 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1249
-  Model: "SC 430"
+  Model: SC 430
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1250
-  Model: "SCION TC"
+  Model: SCION TC
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1251
-  Model: "SCION XA"
+  Model: SCION XA
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1252
-  Model: "SCION XB"
+  Model: SCION XB
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1253
-  Model: "SEQUOIA 2WD"
+  Model: SEQUOIA 2WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1254
-  Model: "SEQUOIA 4WD"
+  Model: SEQUOIA 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1255
-  Model: "SIENNA 2WD"
+  Model: SIENNA 2WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1256
-  Model: "SIENNA 4WD"
+  Model: SIENNA 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1257
-  Model: "TACOMA 2WD"
+  Model: TACOMA 2WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1258
-  Model: "TACOMA 4WD"
+  Model: TACOMA 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1259
-  Model: "TUNDRA 2WD"
+  Model: TUNDRA 2WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1260
-  Model: "TUNDRA 4WD"
+  Model: TUNDRA 4WD
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1261
-  Model: "Venza"
+  Model: Venza
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1262
-  Model: "Yaris Hatchback"
+  Model: Yaris Hatchback
   Make_ID: 80
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1263
-  Model: "Yaris Sedan"
+  Model: Yaris Sedan
   Make_ID: 80
   Type_ID: 1
   Custom: 0
@@ -6801,1339 +6798,1339 @@
   Custom: 0
 -
   Model_ID: 1266
-  Model: "P50"
+  Model: P50
   Make_ID: 81
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1267
-  Model: "2500M"
+  Model: 2500M
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1268
-  Model: "3000S"
+  Model: 3000S
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1269
-  Model: "Cerbera"
+  Model: Cerbera
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1270
-  Model: "Chimaera"
+  Model: Chimaera
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1271
-  Model: "Griffith"
+  Model: Griffith
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1272
-  Model: "Sagaris"
+  Model: Sagaris
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1273
-  Model: "Speed 12"
+  Model: Speed 12
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1274
-  Model: "T350"
+  Model: T350
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1275
-  Model: "T440"
+  Model: T440
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1276
-  Model: "Tamora"
+  Model: Tamora
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1277
-  Model: "Tasmin"
+  Model: Tasmin
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1278
-  Model: "Tuscan"
+  Model: Tuscan
   Make_ID: 82
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1279
-  Model: "Agila"
+  Model: Agila
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1280
-  Model: "Astra"
+  Model: Astra
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1281
-  Model: "Calibra"
+  Model: Calibra
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1282
-  Model: "Cavalier"
+  Model: Cavalier
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1283
-  Model: "Hurlingham"
+  Model: Hurlingham
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1284
-  Model: "Maxx"
+  Model: Maxx
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1285
-  Model: "SRV"
+  Model: SRV
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1286
-  Model: "VX"
+  Model: VX
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1287
-  Model: "VX220"
+  Model: VX220
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1288
-  Model: "VXR"
+  Model: VXR
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1289
-  Model: "Zimmerli"
+  Model: Zimmerli
   Make_ID: 83
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1290
-  Model: "City Golf"
+  Model: City Golf
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1291
-  Model: "City Jetta"
+  Model: City Jetta
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1292
-  Model: "Eos"
+  Model: Eos
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1293
-  Model: "GLI"
+  Model: GLI
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1294
-  Model: "GOLF"
+  Model: GOLF
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1295
-  Model: "GTI"
+  Model: GTI
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1296
-  Model: "JETTA"
+  Model: JETTA
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1297
-  Model: "NEW BEETLE"
+  Model: NEW BEETLE
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1298
-  Model: "NEW BEETLE CONVERTIBLE"
+  Model: NEW BEETLE CONVERTIBLE
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1299
-  Model: "PASSAT"
+  Model: PASSAT
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1300
-  Model: "PHAETON"
+  Model: PHAETON
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1301
-  Model: "RABBIT"
+  Model: RABBIT
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1302
-  Model: "Routan"
+  Model: Routan
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1303
-  Model: "Tiguan"
+  Model: Tiguan
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1304
-  Model: "TOUAREG 2"
+  Model: TOUAREG 2
   Make_ID: 84
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1305
-  Model: "C30"
+  Model: C30
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1306
-  Model: "C70"
+  Model: C70
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1307
-  Model: "S40"
+  Model: S40
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1308
-  Model: "S60"
+  Model: S60
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1309
-  Model: "S80"
+  Model: S80
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1310
-  Model: "V50"
+  Model: V50
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1311
-  Model: "V70"
+  Model: V70
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1312
-  Model: "XC 70"
+  Model: XC 70
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1313
-  Model: "XC 90 5 seat"
+  Model: XC 90 5 seat
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1314
-  Model: "XC 90 7 seat"
+  Model: XC 90 7 seat
   Make_ID: 85
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1315
-  Model: "Yugo"
+  Model: Yugo
   Make_ID: 86
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1316
-  Model: "PHANTOM"
+  Model: PHANTOM
   Make_ID: 87
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1318
-  Model: "250ex"
+  Model: 250ex
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1319
-  Model: "300ex"
+  Model: 300ex
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1320
-  Model: "FourTrax Foreman Rubicon"
+  Model: FourTrax Foreman Rubicon
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1321
-  Model: "FourTraxForeman"
+  Model: FourTraxForeman
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1322
-  Model: "Rancher"
+  Model: Rancher
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1323
-  Model: "Recon"
+  Model: Recon
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1324
-  Model: "Rincon"
+  Model: Rincon
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1325
-  Model: "TRM 450R"
+  Model: TRM 450R
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1326
-  Model: "TRX 250X"
+  Model: TRX 250X
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1327
-  Model: "TRX 300X"
+  Model: TRX 300X
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1328
-  Model: "TRX 400X"
+  Model: TRX 400X
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1329
-  Model: "TRX 700XX"
+  Model: TRX 700XX
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1330
-  Model: "TRX 90X"
+  Model: TRX 90X
   Make_ID: 34
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1331
-  Model: "KingQuad 400AS"
+  Model: KingQuad 400AS
   Make_ID: 78
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1332
-  Model: "KingQuad 400FS"
+  Model: KingQuad 400FS
   Make_ID: 78
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1333
-  Model: "KingQuad 450AXi"
+  Model: KingQuad 450AXi
   Make_ID: 78
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1334
-  Model: "KingQuad 750AXi"
+  Model: KingQuad 750AXi
   Make_ID: 78
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1335
-  Model: "Ozark 250"
+  Model: Ozark 250
   Make_ID: 78
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1336
-  Model: "QuadRacer R450"
+  Model: QuadRacer R450
   Make_ID: 78
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1337
-  Model: "QuadSport Z400"
+  Model: QuadSport Z400
   Make_ID: 78
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1338
-  Model: "QuadSport Z50"
+  Model: QuadSport Z50
   Make_ID: 78
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1339
-  Model: "QuadSport Z90"
+  Model: QuadSport Z90
   Make_ID: 78
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1340
-  Model: "Big Bear 250"
+  Model: Big Bear 250
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1341
-  Model: "Big Bear 400"
+  Model: Big Bear 400
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1342
-  Model: "Grizzly 125"
+  Model: Grizzly 125
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1343
-  Model: "Grizzly 350"
+  Model: Grizzly 350
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1344
-  Model: "Grizzly 700"
+  Model: Grizzly 700
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1345
-  Model: "Raptor 250"
+  Model: Raptor 250
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1346
-  Model: "Raptor 350"
+  Model: Raptor 350
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1347
-  Model: "Raptor 50"
+  Model: Raptor 50
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1348
-  Model: "Raptor 700"
+  Model: Raptor 700
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1349
-  Model: "Raptor 80"
+  Model: Raptor 80
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1350
-  Model: "Rhino 450"
+  Model: Rhino 450
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1351
-  Model: "Rhino 700"
+  Model: Rhino 700
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1352
-  Model: "Wolverine 350"
+  Model: Wolverine 350
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1353
-  Model: "Wolverine 450"
+  Model: Wolverine 450
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1354
-  Model: "YFZ450 SE"
+  Model: YFZ450 SE
   Make_ID: 89
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1355
-  Model: "Bayou 250"
+  Model: Bayou 250
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1356
-  Model: "Brute Force 650"
+  Model: Brute Force 650
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1357
-  Model: "Brute Force 750"
+  Model: Brute Force 750
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1358
-  Model: "KFX450R"
+  Model: KFX450R
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1359
-  Model: "KFX50"
+  Model: KFX50
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1360
-  Model: "KFX700"
+  Model: KFX700
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1361
-  Model: "KFX90"
+  Model: KFX90
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1362
-  Model: "Mule 4010"
+  Model: Mule 4010
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1363
-  Model: "Mule 610"
+  Model: Mule 610
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1364
-  Model: "Prairie 360"
+  Model: Prairie 360
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1365
-  Model: "Teryx 750"
+  Model: Teryx 750
   Make_ID: 90
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1366
-  Model: "Outlaw"
+  Model: Outlaw
   Make_ID: 91
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1367
-  Model: "Phoenix"
+  Model: Phoenix
   Make_ID: 91
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1368
-  Model: "Ranger RZR"
+  Model: Ranger RZR
   Make_ID: 91
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1369
-  Model: "Scrambler"
+  Model: Scrambler
   Make_ID: 91
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1370
-  Model: "Sportman Touring"
+  Model: Sportman Touring
   Make_ID: 91
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1371
-  Model: "Sportman XP"
+  Model: Sportman XP
   Make_ID: 91
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1372
-  Model: "Sportmans"
+  Model: Sportmans
   Make_ID: 91
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1373
-  Model: "Trailboss"
+  Model: Trailboss
   Make_ID: 91
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1374
-  Model: "DS"
+  Model: DS
   Make_ID: 92
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1375
-  Model: "DS250"
+  Model: DS250
   Make_ID: 92
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1376
-  Model: "DS450EFI"
+  Model: DS450EFI
   Make_ID: 92
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1377
-  Model: "Outlander"
+  Model: Outlander
   Make_ID: 92
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1378
-  Model: "Outlander Max"
+  Model: Outlander Max
   Make_ID: 92
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1379
-  Model: "Renegade"
+  Model: Renegade
   Make_ID: 92
   Type_ID: 2
   Custom: 0
 -
   Model_ID: 1380
-  Model: "CR 125"
+  Model: CR 125
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1381
-  Model: "CR 250"
+  Model: CR 250
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1382
-  Model: "CRF 125"
+  Model: CRF 125
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1383
-  Model: "CRF 250"
+  Model: CRF 250
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1384
-  Model: "XR 125"
+  Model: XR 125
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1385
-  Model: "XR 250"
+  Model: XR 250
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1386
-  Model: "CR 70"
+  Model: CR 70
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1387
-  Model: "CR 80"
+  Model: CR 80
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1388
-  Model: "CRF 100F"
+  Model: CRF 100F
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1389
-  Model: "CRF 150F"
+  Model: CRF 150F
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1390
-  Model: "CRF 150R"
+  Model: CRF 150R
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1392
-  Model: "CRF 230F"
+  Model: CRF 230F
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1393
-  Model: "CRF 250R"
+  Model: CRF 250R
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1394
-  Model: "CRF 250X"
+  Model: CRF 250X
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1395
-  Model: "CRF 450R"
+  Model: CRF 450R
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1396
-  Model: "CRF 450X"
+  Model: CRF 450X
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1397
-  Model: "CRF 80F"
+  Model: CRF 80F
   Make_ID: 34
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1398
-  Model: "DR-Z125"
+  Model: DR-Z125
   Make_ID: 78
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1399
-  Model: "DR-Z400E"
+  Model: DR-Z400E
   Make_ID: 78
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1400
-  Model: "DR-Z400SM"
+  Model: DR-Z400SM
   Make_ID: 78
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1401
-  Model: "RM-125"
+  Model: RM-125
   Make_ID: 78
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1402
-  Model: "RM-250"
+  Model: RM-250
   Make_ID: 78
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1403
-  Model: "RM-85"
+  Model: RM-85
   Make_ID: 78
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1404
-  Model: "RM-Z250"
+  Model: RM-Z250
   Make_ID: 78
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1405
-  Model: "RM-Z450"
+  Model: RM-Z450
   Make_ID: 78
   Type_ID: 3
   Custom: 0
 -
   Model_ID: 1423
-  Model: "MX Z"
+  Model: MX Z
   Make_ID: 95
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1424
-  Model: "Renegade"
+  Model: Renegade
   Make_ID: 95
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1425
-  Model: "Summit"
+  Model: Summit
   Make_ID: 95
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1426
-  Model: "GSX"
+  Model: GSX
   Make_ID: 95
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1427
-  Model: "Grand Touring"
+  Model: Grand Touring
   Make_ID: 95
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1428
-  Model: "Skandic"
+  Model: Skandic
   Make_ID: 95
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1429
-  Model: "Expedition"
+  Model: Expedition
   Make_ID: 95
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1431
-  Model: "Apex RTX"
+  Model: Apex RTX
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1432
-  Model: "FX Nytro RTX SE"
+  Model: FX Nytro RTX SE
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1433
-  Model: "FX Nytro RTX"
+  Model: FX Nytro RTX
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1434
-  Model: "FX Nytro"
+  Model: FX Nytro
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1435
-  Model: "Phazer RTX"
+  Model: Phazer RTX
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1436
-  Model: "Phazer"
+  Model: Phazer
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1437
-  Model: "FX Nytro XTX"
+  Model: FX Nytro XTX
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1438
-  Model: "Apex MTX"
+  Model: Apex MTX
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1439
-  Model: "FX Nytro MTX"
+  Model: FX Nytro MTX
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1440
-  Model: "Phazer MTX"
+  Model: Phazer MTX
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1441
-  Model: "Apex GT"
+  Model: Apex GT
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1442
-  Model: "RS Vector ER"
+  Model: RS Vector ER
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1443
-  Model: "RS Vector GT"
+  Model: RS Vector GT
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1444
-  Model: "Phazer GT"
+  Model: Phazer GT
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1445
-  Model: "Apex LTX GT"
+  Model: Apex LTX GT
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1446
-  Model: "Apex LTX"
+  Model: Apex LTX
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1447
-  Model: "RS Vector LTX GT"
+  Model: RS Vector LTX GT
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1448
-  Model: "RS Vector LTX"
+  Model: RS Vector LTX
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1449
-  Model: "RS Venture GT"
+  Model: RS Venture GT
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1450
-  Model: "RS Venture"
+  Model: RS Venture
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1451
-  Model: "FX Nytro MTX SE 162"
+  Model: FX Nytro MTX SE 162
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1452
-  Model: "FX Nytro MTX SE 153"
+  Model: FX Nytro MTX SE 153
   Make_ID: 89
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1454
-  Model: "550 IQ Shift"
+  Model: 550 IQ Shift
   Make_ID: 91
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1455
-  Model: "600 IQ"
+  Model: 600 IQ
   Make_ID: 91
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1456
-  Model: "600 IQ Shift"
+  Model: 600 IQ Shift
   Make_ID: 91
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1457
-  Model: "600 Rush"
+  Model: 600 Rush
   Make_ID: 91
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1458
-  Model: "800 Dragon IQ"
+  Model: 800 Dragon IQ
   Make_ID: 91
   Type_ID: 4
   Custom: 904
 -
   Model_ID: 1459
-  Model: "Mana 850"
+  Model: Mana 850
   Make_ID: 96
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1460
-  Model: "RSV 1000 R"
+  Model: RSV 1000 R
   Make_ID: 96
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1461
-  Model: "Tornado Tre 1130"
+  Model: Tornado Tre 1130
   Make_ID: 97
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1462
-  Model: "DB5R"
+  Model: DB5R
   Make_ID: 98
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1463
-  Model: "DB5S"
+  Model: DB5S
   Make_ID: 98
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1464
-  Model: "DB7"
+  Model: DB7
   Make_ID: 98
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1465
-  Model: "Tesi 3D"
+  Model: Tesi 3D
   Make_ID: 98
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1466
-  Model: "HP2 Sport "
+  Model: HP2 Sport 
   Make_ID: 12
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1467
-  Model: "1125R"
+  Model: 1125R
   Make_ID: 99
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1468
-  Model: "Firebolt XB12R"
+  Model: Firebolt XB12R
   Make_ID: 99
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1469
-  Model: "1190 RC8"
+  Model: 1190 RC8
   Make_ID: 101
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1470
-  Model: "Ninja 250R"
+  Model: Ninja 250R
   Make_ID: 90
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1471
-  Model: "Ninja 500R"
+  Model: Ninja 500R
   Make_ID: 90
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1472
-  Model: "Ninja 650R"
+  Model: Ninja 650R
   Make_ID: 90
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1473
-  Model: "Ninja ZX-10R"
+  Model: Ninja ZX-10R
   Make_ID: 90
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1474
-  Model: "Ninja ZX-14"
+  Model: Ninja ZX-14
   Make_ID: 90
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1475
-  Model: "Ninja ZX-6R"
+  Model: Ninja ZX-6R
   Make_ID: 90
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1476
-  Model: "ZZR 1400"
+  Model: ZZR 1400
   Make_ID: 90
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1477
-  Model: "ZZR 600"
+  Model: ZZR 600
   Make_ID: 90
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1478
-  Model: "MTT Superbike"
+  Model: MTT Superbike
   Make_ID: 102
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1479
-  Model: "AquaTrax F-15"
+  Model: AquaTrax F-15
   Make_ID: 34
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1480
-  Model: "AquaTrax F-12"
+  Model: AquaTrax F-12
   Make_ID: 34
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1481
-  Model: "1200 Sport"
+  Model: 1200 Sport
   Make_ID: 103
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1482
-  Model: "1200 Sport ABS"
+  Model: 1200 Sport ABS
   Make_ID: 103
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1483
-  Model: "Griso 1100"
+  Model: Griso 1100
   Make_ID: 103
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1484
-  Model: "MGS-01 Corsa"
+  Model: MGS-01 Corsa
   Make_ID: 103
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1485
-  Model: "800 SX-R"
+  Model: 800 SX-R
   Make_ID: 90
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1486
-  Model: " STX"
+  Model:  STX
   Make_ID: 90
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1487
-  Model: " STX-15"
+  Model:  STX-15
   Make_ID: 90
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1488
-  Model: " Ultra LX"
+  Model:  Ultra LX
   Make_ID: 90
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1489
-  Model: " Ultra 250X"
+  Model:  Ultra 250X
   Make_ID: 90
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1490
-  Model: " Ultra 260X"
+  Model:  Ultra 260X
   Make_ID: 90
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1491
-  Model: " Ultra 260 LX"
+  Model:  Ultra 260 LX
   Make_ID: 90
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1492
-  Model: "ZXI 1100"
+  Model: ZXI 1100
   Make_ID: 90
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1493
-  Model: "FZR"
+  Model: FZR
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1494
-  Model: " FZS"
+  Model:  FZS
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1495
-  Model: " FX Sho"
+  Model:  FX Sho
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1496
-  Model: " FX Cruiser Sho"
+  Model:  FX Cruiser Sho
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1497
-  Model: " FX Ho"
+  Model:  FX Ho
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1498
-  Model: " FX Cruiser Ho"
+  Model:  FX Cruiser Ho
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1499
-  Model: " VX Cruiser"
+  Model:  VX Cruiser
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1500
-  Model: " VX Deluxe"
+  Model:  VX Deluxe
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1501
-  Model: " VX Sport"
+  Model:  VX Sport
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1502
-  Model: " VX"
+  Model:  VX
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1503
-  Model: " Superjet"
+  Model:  Superjet
   Make_ID: 89
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1504
-  Model: "Superbike 1098"
+  Model: Superbike 1098
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1505
-  Model: "Superbike 1098 R"
+  Model: Superbike 1098 R
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1506
-  Model: "Superbike 1098 S"
+  Model: Superbike 1098 S
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1507
-  Model: "Superbike 848"
+  Model: Superbike 848
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1508
-  Model: "Desmosedici RR"
+  Model: Desmosedici RR
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1509
-  Model: "Superbike 1098 S Tricolore"
+  Model: Superbike 1098 S Tricolore
   Make_ID: 100
   Type_ID: 5
   Custom: 904
@@ -8145,613 +8142,613 @@
   Custom: 904
 -
   Model_ID: 1511
-  Model: "749 R"
+  Model: 749 R
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1512
-  Model: "749 Dark"
+  Model: 749 Dark
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1513
-  Model: "749s"
+  Model: 749s
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1514
-  Model: "999 R Superbike"
+  Model: 999 R Superbike
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1515
-  Model: "999 Superbike"
+  Model: 999 Superbike
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1516
-  Model: "99s Superbike"
+  Model: 99s Superbike
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1517
-  Model: "CBR 1000 RR"
+  Model: CBR 1000 RR
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1518
-  Model: "CBR 600 RR"
+  Model: CBR 600 RR
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1519
-  Model: "VFR 800 Interceptor"
+  Model: VFR 800 Interceptor
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1520
-  Model: "VFR 800 Interceptor ABS"
+  Model: VFR 800 Interceptor ABS
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1521
-  Model: "CBR 1000 RR Fireblade"
+  Model: CBR 1000 RR Fireblade
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1522
-  Model: "CBR 1100 XX Super Blackbird"
+  Model: CBR 1100 XX Super Blackbird
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1523
-  Model: "CBR600F"
+  Model: CBR600F
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1526
-  Model: "CBR 600 F4i"
+  Model: CBR 600 F4i
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1528
-  Model: "CBR 600 RR Movistar"
+  Model: CBR 600 RR Movistar
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1529
-  Model: "RC51"
+  Model: RC51
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1532
-  Model: "VTR 1000 F FireStorm"
+  Model: VTR 1000 F FireStorm
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1533
-  Model: "VTR 1000 SP-2"
+  Model: VTR 1000 SP-2
   Make_ID: 34
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1534
-  Model: "Daytona 650"
+  Model: Daytona 650
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1535
-  Model: "Daytona 955i"
+  Model: Daytona 955i
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1536
-  Model: "GSX-R 1000"
+  Model: GSX-R 1000
   Make_ID: 78
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1537
-  Model: "GSX-R 600"
+  Model: GSX-R 600
   Make_ID: 78
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1538
-  Model: "GSX-R 750"
+  Model: GSX-R 750
   Make_ID: 78
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1539
-  Model: "GSX-R1000 Phantom"
+  Model: GSX-R1000 Phantom
   Make_ID: 78
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1540
-  Model: "Hayabusa 1300"
+  Model: Hayabusa 1300
   Make_ID: 78
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1541
-  Model: "Katana 600"
+  Model: Katana 600
   Make_ID: 78
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1542
-  Model: "Katana 750"
+  Model: Katana 750
   Make_ID: 78
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1543
-  Model: "Daytona 675"
+  Model: Daytona 675
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1544
-  Model: "F4 1000 R "
+  Model: F4 1000 R 
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1545
-  Model: "F4 1000 S "
+  Model: F4 1000 S 
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1546
-  Model: "F4 1000 Veltro Pista "
+  Model: F4 1000 Veltro Pista 
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1547
-  Model: "F4 1000 Veltro Strada "
+  Model: F4 1000 Veltro Strada 
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1548
-  Model: "F4 750 S "
+  Model: F4 750 S 
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1549
-  Model: "F4 750 SPR "
+  Model: F4 750 SPR 
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1550
-  Model: "F4 Agostini"
+  Model: F4 Agostini
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1551
-  Model: "F4 Corse "
+  Model: F4 Corse 
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1552
-  Model: "F4 Mamba "
+  Model: F4 Mamba 
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1553
-  Model: "F4 Senna "
+  Model: F4 Senna 
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1554
-  Model: "F4 Tamburini"
+  Model: F4 Tamburini
   Make_ID: 105
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1555
-  Model: "Trophy 900"
+  Model: Trophy 900
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1556
-  Model: "Trophy 1200"
+  Model: Trophy 1200
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1557
-  Model: "Trident 750"
+  Model: Trident 750
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1558
-  Model: "Trident 900"
+  Model: Trident 900
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1559
-  Model: "Scrambler 900"
+  Model: Scrambler 900
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1560
-  Model: "Thruxton 900"
+  Model: Thruxton 900
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1561
-  Model: "Sprint ST"
+  Model: Sprint ST
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1562
-  Model: "Thunderbird 900"
+  Model: Thunderbird 900
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1563
-  Model: "Thunderbird Sport 900"
+  Model: Thunderbird Sport 900
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1564
-  Model: "Speedmaster"
+  Model: Speedmaster
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1565
-  Model: "Rocket III"
+  Model: Rocket III
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1566
-  Model: "Speed Triple 955i"
+  Model: Speed Triple 955i
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1567
-  Model: "Speed Triple 1050"
+  Model: Speed Triple 1050
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1568
-  Model: "Street Triple 675"
+  Model: Street Triple 675
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1569
-  Model: "Tiger 955i"
+  Model: Tiger 955i
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1570
-  Model: "Thunderbird 1600"
+  Model: Thunderbird 1600
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1571
-  Model: "KX65"
+  Model: KX65
   Make_ID: 90
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1572
-  Model: " KX85"
+  Model:  KX85
   Make_ID: 90
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1573
-  Model: " KX100"
+  Model:  KX100
   Make_ID: 90
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1574
-  Model: " KX250F"
+  Model:  KX250F
   Make_ID: 90
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1575
-  Model: " KX450F"
+  Model:  KX450F
   Make_ID: 90
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1576
-  Model: "KLX450R"
+  Model: KLX450R
   Make_ID: 90
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1577
-  Model: " KLX140"
+  Model:  KLX140
   Make_ID: 90
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1578
-  Model: " KLX110"
+  Model:  KLX110
   Make_ID: 90
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1579
-  Model: "50SX"
+  Model: 50SX
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1580
-  Model: " 65SX"
+  Model:  65SX
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1581
-  Model: " 85SX"
+  Model:  85SX
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1582
-  Model: " 105SX"
+  Model:  105SX
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1583
-  Model: " 125SX"
+  Model:  125SX
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1584
-  Model: " 150SX"
+  Model:  150SX
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1585
-  Model: " 250SX"
+  Model:  250SX
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1586
-  Model: " 250SX-F"
+  Model:  250SX-F
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1587
-  Model: " 450SX-F"
+  Model:  450SX-F
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1588
-  Model: " 450EXC"
+  Model:  450EXC
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1589
-  Model: " 530EXC"
+  Model:  530EXC
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1590
-  Model: " 690 Enduro R"
+  Model:  690 Enduro R
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1591
-  Model: " 950 Super Enduro R"
+  Model:  950 Super Enduro R
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1592
-  Model: " 105XC"
+  Model:  105XC
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1593
-  Model: " 200XC"
+  Model:  200XC
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1594
-  Model: " 250XC"
+  Model:  250XC
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1595
-  Model: " 300XC"
+  Model:  300XC
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1596
-  Model: " 250XC-F"
+  Model:  250XC-F
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1597
-  Model: " 450XC-F"
+  Model:  450XC-F
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1598
-  Model: " 505XC-F"
+  Model:  505XC-F
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1599
-  Model: " 200XC-W"
+  Model:  200XC-W
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1600
-  Model: " 250XC-W"
+  Model:  250XC-W
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1601
-  Model: " 250XCF-W"
+  Model:  250XCF-W
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1602
-  Model: " 300XC-W"
+  Model:  300XC-W
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1603
-  Model: " 400XC-W"
+  Model:  400XC-W
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1604
-  Model: " 450XC-W"
+  Model:  450XC-W
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1605
-  Model: " 530XC-W"
+  Model:  530XC-W
   Make_ID: 101
   Type_ID: 3
   Custom: 890
 -
   Model_ID: 1606
-  Model: "450XC"
+  Model: 450XC
   Make_ID: 101
   Type_ID: 2
   Custom: 890
 -
   Model_ID: 1607
-  Model: " 525XC"
+  Model:  525XC
   Make_ID: 101
   Type_ID: 2
   Custom: 890
 -
   Model_ID: 1608
-  Model: " 450SC"
+  Model:  450SC
   Make_ID: 101
   Type_ID: 2
   Custom: 890
 -
   Model_ID: 1609
-  Model: " 505SC  "
+  Model:  505SC  
   Make_ID: 101
   Type_ID: 2
   Custom: 890
 -
   Model_ID: 1610
-  Model: "690 SMC"
+  Model: 690 SMC
   Make_ID: 101
   Type_ID: 5
   Custom: 890
 -
   Model_ID: 1611
-  Model: " 990 Adventure"
+  Model:  990 Adventure
   Make_ID: 101
   Type_ID: 5
   Custom: 890
 -
   Model_ID: 1612
-  Model: "Spyder RT"
+  Model: Spyder RT
   Make_ID: 92
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1613
-  Model: "Spyder RS"
+  Model: Spyder RS
   Make_ID: 92
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1614
-  Model: "Spyder Roadster"
+  Model: Spyder Roadster
   Make_ID: 92
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1615
-  Model: "Daytona"
+  Model: Daytona
   Make_ID: 23
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1616
-  Model: "Cobalt SS"
+  Model: Cobalt SS
   Make_ID: 18
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1617
-  Model: "240sx"
+  Model: 240sx
   Make_ID: 63
   Type_ID: 1
   Custom: 890
@@ -8763,235 +8760,235 @@
   Custom: 890
 -
   Model_ID: 1624
-  Model: "Pickup"
+  Model: Pickup
   Make_ID: 80
   Type_ID: 1
   Custom: 890
 -
   Model_ID: 1625
-  Model: "Pickup 4x4"
+  Model: Pickup 4x4
   Make_ID: 80
   Type_ID: 1
   Custom: 890
 -
   Model_ID: 1626
-  Model: "RXT 215"
+  Model: RXT 215
   Make_ID: 110
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1627
-  Model: "RXT iS 260"
+  Model: RXT iS 260
   Make_ID: 110
   Type_ID: 6
   Custom: 890
 -
   Model_ID: 1629
-  Model: "WR 400"
+  Model: WR 400
   Make_ID: 89
   Type_ID: 5
   Custom: 890
 -
   Model_ID: 1630
-  Model: "Z8"
+  Model: Z8
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1631
-  Model: "M6"
+  Model: M6
   Make_ID: 12
   Type_ID: 1
   Custom: 0
 -
   Model_ID: 1632
-  Model: "FZ26"
+  Model: FZ26
   Make_ID: 89
   Type_ID: 5
   Custom: 890
 -
   Model_ID: 1633
-  Model: "FZ26R"
+  Model: FZ26R
   Make_ID: 89
   Type_ID: 5
   Custom: 890
 -
   Model_ID: 1634
-  Model: "MAZDASPEED6"
+  Model: MAZDASPEED6
   Make_ID: 55
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1635
-  Model: "McLAREN"
+  Model: McLAREN
   Make_ID: 56
   Type_ID: 1
   Custom: 1038
 -
   Model_ID: 1636
-  Model: "Sno Pro 500"
+  Model: Sno Pro 500
   Make_ID: 111
   Type_ID: 4
   Custom: 890
 -
   Model_ID: 1637
-  Model: "F6 Sno Pro"
+  Model: F6 Sno Pro
   Make_ID: 111
   Type_ID: 4
   Custom: 890
 -
   Model_ID: 1638
-  Model: "YZF-R6"
+  Model: YZF-R6
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1639
-  Model: "FZ1"
+  Model: FZ1
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1640
-  Model: "YZF-R1"
+  Model: YZF-R1
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1641
-  Model: "FZ6R"
+  Model: FZ6R
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1642
-  Model: "FJR1300A"
+  Model: FJR1300A
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1643
-  Model: "WR250X"
+  Model: WR250X
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1644
-  Model: "WR250R"
+  Model: WR250R
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1645
-  Model: "XT250"
+  Model: XT250
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1646
-  Model: "TW200"
+  Model: TW200
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1647
-  Model: "FZ8"
+  Model: FZ8
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1648
-  Model: "Super TÃ©nÃ©rÃ©"
+  Model: Super TÃ©nÃ©rÃ©
   Make_ID: 89
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1649
-  Model: "Lancer Ralliart"
+  Model: Lancer Ralliart
   Make_ID: 61
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1650
-  Model: "Camaro SS"
+  Model: Camaro SS
   Make_ID: 18
   Type_ID: 1
   Custom: 890
 -
   Model_ID: 1651
-  Model: "Element"
+  Model: Element
   Make_ID: 34
   Type_ID: 1
   Custom: 1072
 -
   Model_ID: 1652
-  Model: "Escort"
+  Model: Escort
   Make_ID: 27
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1653
-  Model: "ZX2"
+  Model: ZX2
   Make_ID: 27
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1654
-  Model: "CRX"
+  Model: CRX
   Make_ID: 34
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1655
-  Model: "NX2000"
+  Model: NX2000
   Make_ID: 63
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1656
-  Model: "Mirage"
+  Model: Mirage
   Make_ID: 61
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1657
-  Model: "Eclipse GT"
+  Model: Eclipse GT
   Make_ID: 61
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1658
-  Model: "Eclipse GTS"
+  Model: Eclipse GTS
   Make_ID: 61
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1659
-  Model: "Eclipse GST"
+  Model: Eclipse GST
   Make_ID: 61
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1660
-  Model: "Eclipse GSX"
+  Model: Eclipse GSX
   Make_ID: 61
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1661
-  Model: "CR-X Del Sol"
+  Model: CR-X Del Sol
   Make_ID: 34
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1662
-  Model: "Impreza WRX"
+  Model: Impreza WRX
   Make_ID: 77
   Type_ID: 1
   Custom: 904
 -
   Model_ID: 1663
-  Model: "Impreza WRX STI"
+  Model: Impreza WRX STI
   Make_ID: 77
   Type_ID: 1
   Custom: 904
@@ -9003,44 +9000,43 @@
   Custom: 904
 -
   Model_ID: 1665
-  Model: "Street Triple 675R"
+  Model: Street Triple 675R
   Make_ID: 104
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1666
-  Model: "Diavel"
+  Model: Diavel
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1667
-  Model: "Hypermotard"
+  Model: Hypermotard
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1668
-  Model: "Monster"
+  Model: Monster
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1669
-  Model: "Multistrada"
+  Model: Multistrada
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1670
-  Model: "StreetFighter"
+  Model: StreetFighter
   Make_ID: 100
   Type_ID: 5
   Custom: 904
 -
   Model_ID: 1671
-  Model: "Superbike"
+  Model: Superbike
   Make_ID: 100
   Type_ID: 5
   Custom: 904
-...
