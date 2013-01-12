@@ -11,7 +11,7 @@
   margin:5px;
 }
 .photo-item:hover{
-  background-color:#9B59BB;
+  background-color:#fe781e;
 }
 #vehicle_id{
   margin-bottom: 0px;
@@ -76,7 +76,7 @@
   margin:0px !important;
 }
 .navbar a:hover{
-  color:#9B59BB !important;
+  color:#ff7518 !important;
 }
 .badge-tag a{
   float:left;

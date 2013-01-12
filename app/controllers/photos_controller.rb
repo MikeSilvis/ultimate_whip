@@ -5,4 +5,8 @@ class PhotosController < ApplicationController
     redirect_to "/#/photos/#{params[:id]}"
   end
 
+  def new
+
+  end
+
 end

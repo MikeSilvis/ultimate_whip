@@ -11,10 +11,9 @@ UltimateWhip::Application.routes.draw do
       end
     end
   end
-  resources :photos, only: [:show]
+  resources :photos, only: [:show,:new]
   resources :garage_photos
   resources :makes, only: [:show]
   root :to => "whips#index"
   devise_for :users
-
 end
