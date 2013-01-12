@@ -24,8 +24,4 @@ private
     redirect_to :root unless @photo.garage.user == current_user
   end
 
-  def require_ride
-    redirect_to new_garage_path, :alert => "You must have a vehicle first" unless (current_user.vehicles.size > 0)
-  end
-
 end
