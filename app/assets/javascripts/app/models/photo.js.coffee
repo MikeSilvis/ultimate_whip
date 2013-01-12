@@ -2,6 +2,8 @@ class App.Photo extends Spine.Model
   @configure 'Photo', 'photo_url_thumb', 'tags_string'
   @extend Spine.Model.Ajax
 
+  @url: => "/api/v1/photos"
+
   @fetch: (params) =>
     if tags = $("#tags-select").val()
       @previousTags or= []

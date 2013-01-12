@@ -1,4 +1,4 @@
-class CommentsController < ApplicationController
+class Api::V1::CommentsController < ApplicationController
   before_filter :authenticate_user!, only: :create
 
   def create
@@ -11,7 +11,7 @@ class CommentsController < ApplicationController
   end
 
   def index
-    render json: Comment.find_all_by_commentable_id(params[:commentable_id]), root: false
+    render json: Comment.where(commentable_id: params[:commentable_id]).includes(:user), root: false
   end
 
 end

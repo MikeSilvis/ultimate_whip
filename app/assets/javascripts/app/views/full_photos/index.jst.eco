@@ -1,21 +1,25 @@
 <div class="mikes-modal">
   <img src='<%= @photo_url_large %>'>
   <div class="description">
-  <h2 class="title">
+  <h4 class="title">
     <a href="#/tags/<%= @username %>" data-tag="<%= @username %>" class='tag'>
       <%= @username %>'s
     </a>
-  </h1>
+  </h4>
   <h3><%= @garage.year %> <%= @garage.model_name %></h3>
-  <small>
-    <strong>Posted:</strong> <%= @created_at_in_words %>
-  </small>
   <div class='tags'>
     <% for tag in @tags: %>
-      <span class="label label-inverse" style="float:left; margin:5px;">
+      <span class="badge badge-inverse badge-tag">
         <a href="#/tags/<%= tag.seo_friendly_name %>" class='tag' data-tag="<%= tag.name  %>"><%= tag.name %></a>
       </span>
     <% end %>
   </div>
+  <div class='social-share'>
+    <a href="#" class='facebook'>
+      <img src="/assets/social-icons/32/Facebook.png">
+    </a>
+    <a href="#" class='twitter'>
+      <img src="/assets/social-icons/32/Twitter.png">
+  </a>
   <div id="comments"></div>
 </div>

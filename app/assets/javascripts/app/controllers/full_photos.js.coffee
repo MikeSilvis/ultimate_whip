@@ -32,6 +32,14 @@ class App.FullPhotos extends Spine.Controller
       tag = $(this).attr("data-tag").replace RegExp(" ", "g"), "-"
       $("#tags-select").find("##{tag}").attr("selected", true).change()
       $(".mikes-modal").trigger("close")
+    $(".facebook").click (e) ->
+      photo = FullPhoto.find(id)
+      e.preventDefault();
+      window.open("https://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=#{photo.facebook_title()}&p%5Bsummary%5D=#{photo.facebook_share_summary()}&p%5Burl%5D=#{photo.facebook_full_url()}",'sharer','toolbar=0,status=0,width=548,height=325');
+    $(".twitter").click (e) ->
+      photo = FullPhoto.find(id)
+      e.preventDefault()
+      window.open("https://twitter.com/intent/tweet?text=#{photo.twitter_tweet()}",'sharer','toolbar=0,status=0,width=548,height=325');
 
 alerts = (type, message) ->
     $("#alert-js").append("<div class='alert alert-#{type}' id='files-uploaded-succesfully'>#{message}</div>")

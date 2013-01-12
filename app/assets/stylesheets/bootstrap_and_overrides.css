@@ -78,3 +78,13 @@
 .navbar a:hover{
   color:#9B59BB !important;
 }
+.badge-tag a{
+  float:left;
+  margin:2px;
+  padding:5px;
+  color:white;
+}
+.badge-tag a:hover{
+  text-decoration:none;
+  color:#ff7518;
+}

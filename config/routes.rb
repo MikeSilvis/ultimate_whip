@@ -1,12 +1,17 @@
 UltimateWhip::Application.routes.draw do
-  resources :tags
   resources :garages
-  resources :comments
-  resources :photos do
-    collection do
-      get "file_name"
+  namespace "api" do ## Used for Ajax purposes
+    namespace "v1" do
+      resources :comments
+      resources :tags
+      resources :photos do
+        collection do
+          get "file_name"
+        end
+      end
     end
   end
+  resources :photos, only: [:show]
   resources :garage_photos
   resources :makes, only: [:show]
   root :to => "whips#index"

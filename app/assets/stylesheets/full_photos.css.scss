@@ -1,3 +1,23 @@
+.tags{
+  float:left;
+  width:100%;
+}
+.social-share{
+  float:left;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:100%;
+  .facebook {
+    position:absolute;
+    right:5px;
+    top:50px;
+  }
+  .twitter{
+    position:absolute;
+    right:5px;
+    top:90px;
+  }
+}
 #comments-area{
   padding-top:5px;
   overflow:auto;
@@ -17,3 +37,4 @@
     height:30px;
   }
 }
+

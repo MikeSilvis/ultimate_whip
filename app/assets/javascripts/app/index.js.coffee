@@ -17,4 +17,5 @@ class App extends Spine.Controller
     @current_user = new App.CurrentUser({el: @el})
 
 window.App = App
+window.Domain = window.location.host
 Spine.Route.setup()
