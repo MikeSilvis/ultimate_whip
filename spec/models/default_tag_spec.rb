@@ -1,4 +1,4 @@
 require 'spec_helper'
 
-describe Make do
+describe DefaultTag do
 end

@@ -9,3 +9,6 @@ jQuery ->
     $("#garage_year").attr("disabled", false).select2()
   $("#garage_color_id, #garage_year,#garage_model_id").select2()
   $("#garage_year").select2("disable")
+
+  $(".garage_tags").attr("multiple", "true")
+

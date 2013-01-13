@@ -1,10 +1,10 @@
 require File.expand_path("../../../app/lib/image_scrapper.rb", __FILE__)
 require 'vcr'
-require 'fakeweb'
+require 'webmock'
 
 VCR.configure do |c|
-  c.cassette_library_dir = 'fixtures/vcr_cassettes'
-  c.hook_into :fakeweb
+  c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  c.hook_into :webmock
 end
 
 describe ImageScrapper do
@@ -12,7 +12,7 @@ describe ImageScrapper do
 
   context "#find_images_for_page" do
     it "finds all the images that could be relative" do
-      VCR.use_cassette('find_images_for_page', record: :once) do
+      VCR.use_cassette('find_images_for_page') do
         original_post = ImageScrapper.new(post_url).send(:original_post)
         ImageScrapper.new(post_url).find_images_for_page(original_post).size.should == 15
       end
@@ -21,7 +21,7 @@ describe ImageScrapper do
 
   context "#find_all_images" do
     it "finds all images on the first page and the rest of the pages" do
-      VCR.use_cassette('find_all_images', record: :once) do
+      VCR.use_cassette('find_all_images') do
         ImageScrapper.new(post_url).find_all_images.size.should == 15
       end
     end
@@ -29,12 +29,12 @@ describe ImageScrapper do
 
   context "#valid_image?" do
     it "returns an image larger than 600x500" do
-      VCR.use_cassette('valid_image', record: :once) do
+      VCR.use_cassette('valid_image') do
         ImageScrapper.new(post_url).valid_image?('http://www.ind-distribution.com/images/AT34.jpg').should be_true
       end
     end
     it "returns false an image smaller than 600x500" do
-      VCR.use_cassette('invalid_image', record: :once) do
+      VCR.use_cassette('invalid_image') do
         ImageScrapper.new(post_url).valid_image?('http://www.m3post.com/forums/customavatars/avatar74907_1.gif').should_not be_true
       end
     end
@@ -42,8 +42,8 @@ describe ImageScrapper do
 
   context "#all_pages" do
     it "combines all of the pages together" do
-      VCR.use_cassette('all_pages', record: :once) do
-        ImageScrapper.new(post_url).send(:all_pages).size.should == 3
+      VCR.use_cassette('all_pages') do
+        ImageScrapper.new(post_url).send(:all_pages).size.should == 4
       end
     end
   end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121217015838) do
+ActiveRecord::Schema.define(:version => 20130113000128) do
 
   create_table "colors", :force => true do |t|
     t.string    "name"
@@ -32,6 +32,13 @@ ActiveRecord::Schema.define(:version => 20121217015838) do
   add_index "comments", ["commentable_id"], :name => "index_comments_on_commentable_id"
   add_index "comments", ["commentable_type"], :name => "index_comments_on_commentable_type"
   add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
+
+  create_table "default_tags", :force => true do |t|
+    t.integer  "garage_id"
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "follows", :force => true do |t|
     t.string    "follower_type"
