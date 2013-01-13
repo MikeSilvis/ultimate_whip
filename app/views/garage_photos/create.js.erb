@@ -1,7 +1,3 @@
-<% if @photo.new_record? %>
-  alert("Failed to upload painting: <%= j @painting.errors.full_messages.join(', ').html_safe %>");
-<% else %>
-  $("#photo-insert").append("<%= j render(@photo) %>");
-  tags = JSON.parse($(".current_tokens").attr("data-tokens"));
-  $(".garage_photo_tags").last().select2({tags:tags, tokenSeparators: [","]});
-<% end %>
+$("#photo-insert").append("<%= j render(@photo) %>");
+tags = JSON.parse($(".current_tokens").attr("data-tokens"));
+$(".garage_photo_tags").last().select2({tags:tags, tokenSeparators: [","]});
