@@ -13,4 +13,10 @@ class GaragePhotosController < ApplicationController
     render json: true
   end
 
+  def delete
+    photo = current_user.photos.find(params[:id])
+    photo.destroy
+    render json: true
+  end
+
 end

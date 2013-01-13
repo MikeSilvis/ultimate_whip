@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
   acts_as_liker
   attr_accessible :email, :password, :username, :password_confirmation, :remember_me
   has_many :vehicles, class_name: "Garage"
+  has_many :photos, :through => :vehicles
   has_many :likes
   validates_uniqueness_of :username, :email
   accepts_nested_attributes_for :vehicles

@@ -7,12 +7,11 @@
     = f.file_field :photo, multiple: true, name: "garage_photo[photo]", style: "display:none;"
   hr
   h3 Manage Default Tags
-  = simple_form_for current_user, remote: true do |f|
-    = f.association :vehicles
-  /- current_user.vehicles.each do |vehicle|
-   /h4= vehicle.model.name
-   /= simple_form_for vehicle, remote: true do |f|
-     /= f.input :tag_list, input_html: { class: "garage_tags" }, label: "Tags (BBS, GTHaus, Dinan)"
+  - current_user.vehicles.each do |vehicle|
+   h4= vehicle.model.name
+   = simple_form_for vehicle, remote: true do |f|
+     = f.input :tag_list, input_html: { class: "garage_tags" }, label: "Tags (BBS, GTHaus, Dinan)"
+  button.btn.btn-primary.full-width#update-default-tags Update Default Tags
 
 .span8#photos(style="display:none;")
   .progress.progress-striped.active
@@ -20,6 +19,15 @@
   h1 Uploaded Pictures
   #photo-insert.row
   .row
-    a.btn.btn-large.btn-primary.btn-block#finish-tagging Finish Tagging
+    a.btn.btn-large.btn-primary.btn-block.finish-tagging Finish Tagging
+.clear
+hr
+.row.span11
+  h3 Modify the tags of your existing photos
+  - current_user.photos.each do |photo|
+    = render partial: "garage_photos/garage_photo", locals: { photo: photo }
+  .clear
+  .row
+    a.btn.btn-large.btn-primary.finish-tagging.full-width Finish Tagging
 
 .current_tokens data-tokens=Tag.pluck(:name).to_json

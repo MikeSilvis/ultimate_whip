@@ -38,9 +38,14 @@ jQuery ->
         removeCounterIfComplete(@numberOfFiles, @numberOfFilesFinished)
         $(".progress .bar").css "width", uploadPercantage(@numberOfFiles, @numberOfFilesFinished)
 
-    $("#finish-tagging").click ->
+    $(".finish-tagging").click ->
       $('.edit_garage_photo').submit()
       alerts("success", "Photos have been saved. Now <a href='/'>browse others!</a>")
+      $(window).scrollTop("3000000000")
+    $("#update-default-tags").click ->
+      $(".edit_garage").submit()
+      alerts("success", "All photos uploaded for these vehicles will now have these default tags")
+
 
 uploadPercantage = (numberOfFiles, numberOfFilesFinished) ->
   ((numberOfFilesFinished / numberOfFiles) * 100) + "%"

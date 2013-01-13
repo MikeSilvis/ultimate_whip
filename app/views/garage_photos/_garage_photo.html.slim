@@ -1,7 +1,8 @@
 .span6.no-margin
-  = image_tag @photo.photo(:thumb), class: 'thumbnail span3'
+  = image_tag photo.photo(:thumb), class: 'thumbnail span3'
   .span6
-    = simple_form_for @photo, remote: true do |f|
-      = f.input :tag_list, label: "Tags (BBS, GTHaus, Dinan)", input_html: { class: "garage_photo_tags" }
+    = simple_form_for photo, remote: true do |f|
+      = f.input :tag_list, label: "Tags (BBS, GTHaus, Dinan)", input_html: { class: "garage_photo_tags full-width" }
+    button.btn.btn-danger.delete-photo id=(photo.id) x
   .clear
   hr
