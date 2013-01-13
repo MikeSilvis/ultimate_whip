@@ -11,6 +11,7 @@ class User < ActiveRecord::Base
   has_many :vehicles, class_name: "Garage"
   has_many :likes
   validates_uniqueness_of :username, :email
+  accepts_nested_attributes_for :vehicles
 
   def secret_hash
     Digest::MD5.hexdigest("#{email}-#{username}")

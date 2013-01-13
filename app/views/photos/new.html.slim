@@ -1,10 +1,19 @@
 #progress-area
 .span3.well
-  h1 Upload Pictures!
+  h3 Upload Pictures!
   = simple_form_for GaragePhoto.new do |f|
     = f.association :garage, :collection => current_user.vehicles.map { |v| [v.model.name, v.id] }, :include_blank => false, label: "Upload images for..."
     #dropzone.fade.well drag images here
     = f.file_field :photo, multiple: true, name: "garage_photo[photo]", style: "display:none;"
+  hr
+  h3 Manage Default Tags
+  = simple_form_for current_user, remote: true do |f|
+    = f.association :vehicles
+  /- current_user.vehicles.each do |vehicle|
+   /h4= vehicle.model.name
+   /= simple_form_for vehicle, remote: true do |f|
+     /= f.input :tag_list, input_html: { class: "garage_tags" }, label: "Tags (BBS, GTHaus, Dinan)"
+
 .span8#photos(style="display:none;")
   .progress.progress-striped.active
     .bar

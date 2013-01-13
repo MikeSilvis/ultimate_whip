@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails'
 group :development do
   gem 'sqlite3'
+  gem 'newrelic_rpm'
 end
 
 group :production do
@@ -16,8 +17,8 @@ group :assets do
   gem 'jquery-fileupload-rails'
 end
 
-group :development do
-  gem 'newrelic_rpm'
+group :test do
+  gem "factory_girl_rails"
 end
 gem 'eco'
 gem 'spine-rails'
@@ -40,4 +41,4 @@ gem 'acts_as_commentable'
 gem "kaminari"
 gem 'mini_magick'
 gem 'vcr'
-gem 'fakeweb'
+gem 'webmock'

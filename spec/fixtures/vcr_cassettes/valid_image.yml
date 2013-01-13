@@ -7,9 +7,9 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      accept:
+      Accept:
       - ! '*/*'
-      user-agent:
+      User-Agent:
       - Ruby
   response:
     status:
@@ -17,25 +17,25 @@ http_interactions:
       message: !binary |-
         T0s=
     headers:
-      !binary "ZGF0ZQ==":
+      !binary "RGF0ZQ==":
       - !binary |-
-        TW9uLCAxNyBEZWMgMjAxMiAxNzowNDo1NCBHTVQ=
-      !binary "c2VydmVy":
+        U3VuLCAxMyBKYW4gMjAxMyAwNDoyMzowOCBHTVQ=
+      !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
-      !binary "bGFzdC1tb2RpZmllZA==":
+      !binary "TGFzdC1Nb2RpZmllZA==":
       - !binary |-
         VHVlLCAwNiBBcHIgMjAxMCAwMzo0NDo0NSBHTVQ=
-      !binary "ZXRhZw==":
+      !binary "RXRhZw==":
       - !binary |-
         IjkyMDJlYy02ZGUyNS00ODM4OTQ0MzcxNDkwIg==
-      !binary "YWNjZXB0LXJhbmdlcw==":
+      !binary "QWNjZXB0LVJhbmdlcw==":
       - !binary |-
         Ynl0ZXM=
-      !binary "Y29udGVudC1sZW5ndGg=":
+      !binary "Q29udGVudC1MZW5ndGg=":
       - !binary |-
         NDUwMDg1
-      !binary "Y29udGVudC10eXBl":
+      !binary "Q29udGVudC1UeXBl":
       - !binary |-
         aW1hZ2UvanBlZw==
     body:
@@ -10043,7 +10043,6 @@ http_interactions:
         3/w1Eg7nDs/Gm6yZpXYXEEgYbt/sXM9yDVSDuLWFsm/zNa0/y6iFcnlQ9I/C
         p4AY7eXTXqrcPtEdzfRSVNQsEjbfClXggQtpXwP8emV6KjqcFwBzBeXTSjW2
         YGwzZK+KioCz21w0ZFRQ/wByFZDp4a+HTEy44Hl11U/0nbUA5kr/2Q==
-    http_version: !binary |-
-      MS4x
-  recorded_at: Mon, 17 Dec 2012 17:04:54 GMT
-recorded_with: VCR 2.1.1
+    http_version: 
+  recorded_at: Sun, 13 Jan 2013 04:23:21 GMT
+recorded_with: VCR 2.4.0
