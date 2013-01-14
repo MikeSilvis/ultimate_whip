@@ -19,6 +19,8 @@ end
 
 group :test do
   gem "factory_girl_rails"
+  gem 'webmock'
+  gem 'vcr'
 end
 gem 'eco'
 gem 'spine-rails'
@@ -40,5 +42,3 @@ gem 'socialization'
 gem 'acts_as_commentable'
 gem "kaminari"
 gem 'mini_magick'
-gem 'vcr'
-gem 'webmock'

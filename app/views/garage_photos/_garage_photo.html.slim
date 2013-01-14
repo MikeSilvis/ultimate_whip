@@ -1,8 +1,8 @@
-.span6.no-margin
+.span6.no-margin.photo-container id=("photo_#{photo.id}")
   = image_tag photo.photo(:thumb), class: 'thumbnail span3'
-  .span6
+  .span8
     = simple_form_for photo, remote: true do |f|
       = f.input :tag_list, label: "Tags (BBS, GTHaus, Dinan)", input_html: { class: "garage_photo_tags full-width" }
-    button.btn.btn-danger.delete-photo id=(photo.id) x
+    = link_to 'x', photo, method: :delete, class: "btn btn-danger delete-photo", id: photo.id, remote: true
   .clear
   hr

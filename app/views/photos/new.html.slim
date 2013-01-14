@@ -16,10 +16,11 @@
 .span8#photos(style="display:none;")
   .progress.progress-striped.active
     .bar
-  h1 Uploaded Pictures
+  h1 New Pictures
   #photo-insert.row
+  .clear
   .row
-    a.btn.btn-large.btn-primary.btn-block.finish-tagging Finish Tagging
+    a.btn.btn-large.btn-primary.btn-block.finish-tagging.new-tags Finish Tagging
 .clear
 hr
 .row.span11
@@ -29,5 +30,4 @@ hr
   .clear
   .row
     a.btn.btn-large.btn-primary.finish-tagging.full-width Finish Tagging
-
 .current_tokens data-tokens=Tag.pluck(:name).to_json

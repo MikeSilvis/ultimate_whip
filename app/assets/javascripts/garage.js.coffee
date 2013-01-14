@@ -10,7 +10,7 @@ jQuery ->
   $("#garage_color_id, #garage_year,#garage_model_id").select2()
   $("#garage_year").select2("disable")
 
-  tags = JSON.parse($(".current_tokens").attr("data-tokens"));
-  $(".garage_tags").select2({tags:tags, tokenSeparators: [","]});
-  $(".garage_photo_tags").select2({tags:tags, tokenSeparators: [","]});
-  
+  if $(".garage_tags").length
+    tags = JSON.parse($(".current_tokens").attr("data-tokens"));
+    $(".garage_tags").select2({tags:tags, tokenSeparators: [","]});
+    $(".garage_photo_tags").select2({tags:tags, tokenSeparators: [","]});

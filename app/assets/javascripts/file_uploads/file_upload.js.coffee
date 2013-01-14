@@ -29,6 +29,7 @@ jQuery ->
         $("#photos").show()
         types = /(\.|\/)(gif|jpe?g|png)$/i
         file = data.files[0]
+        $(".progress .bar").css "width", 10
         if types.test(file.type) || types.test(file.name)
           data.submit()
         else
@@ -45,6 +46,8 @@ jQuery ->
     $("#update-default-tags").click ->
       $(".edit_garage").submit()
       alerts("success", "All photos uploaded for these vehicles will now have these default tags")
+    $(".delete-photo").click ->
+      $("#photo_#{this.id}").fadeOut("slow")
 
 
 uploadPercantage = (numberOfFiles, numberOfFilesFinished) ->
@@ -56,8 +59,8 @@ allFilesUploaded = (numberOfFiles, numberOfFilesFinished) ->
 removeCounterIfComplete = (numberOfFiles, numberOfFilesFinished) ->
   if allFilesUploaded(numberOfFiles, numberOfFilesFinished) == 0
     $(".progress").remove()
+    $(".new-tags").css("display", "block")
     $(".alert").remove()
-    $("#finish-tagging").css("display":"block")
     alerts("success", "<strong>Congratulations!</strong> All your files have been uploaded.")
 
 alerts = (type, message) ->

@@ -11,11 +11,6 @@ class Api::V1::PhotosController < ApplicationController
     render json: GaragePhoto.find_one(params[:id]), root: false, :serializer => PhotoFullSerializer
   end
 
-  def destroy
-    @photo.destroy
-    render json: {destroyed: true}
-  end
-
 private
 
   def require_yours
