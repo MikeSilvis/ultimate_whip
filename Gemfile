@@ -18,7 +18,7 @@ group :assets do
 end
 
 group :test do
-  gem "factory_girl_rails"
+  gem 'factory_girl_rails'
   gem 'webmock'
   gem 'vcr'
 end
@@ -40,5 +40,6 @@ gem 'simple_form'
 gem 'acts-as-taggable-on'
 gem 'socialization'
 gem 'acts_as_commentable'
-gem "kaminari"
+gem 'kaminari'
 gem 'mini_magick'
+gem 'airbrake'

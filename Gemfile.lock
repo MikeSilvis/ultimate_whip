@@ -34,6 +34,9 @@ GEM
       rails (~> 3.0)
     acts_as_commentable (4.0.0)
     addressable (2.3.2)
+    airbrake (3.1.2)
+      activesupport
+      builder
     arel (3.0.2)
     aws-s3 (0.6.3)
       builder
@@ -206,6 +209,7 @@ DEPENDENCIES
   active_model_serializers
   acts-as-taggable-on
   acts_as_commentable
+  airbrake
   aws-s3
   aws-sdk
   coffee-rails
