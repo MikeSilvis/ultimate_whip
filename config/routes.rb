@@ -11,7 +11,6 @@ UltimateWhip::Application.routes.draw do
       end
     end
   end
-  resources :users
   resources :photos, only: [:show,:new]
   resources :garage_photos
   resources :makes, only: [:show]
