@@ -33,11 +33,6 @@ class App.Photos extends Spine.Controller
   renderModal: (e) =>
     new App.FullPhotos(e.target.id)
 
-  deletePhoto: (e) =>
-    $(".close").click()
-    App.Photo.find(e.target.id).destroy()
-    alerts("success", "<strong>DELETED!</strong> That photo has been deleted.")
-
   infinteScroll:  =>
     $(window).bind "scroll", ->
       if $(window).scrollTop() > $(document).height() - window.innerHeight - 500
