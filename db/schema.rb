@@ -177,9 +177,11 @@ ActiveRecord::Schema.define(:version => 20130126130459) do
     t.string    "last_sign_in_ip"
     t.timestamp "created_at",                             :null => false
     t.timestamp "updated_at",                             :null => false
+    t.string    "token"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token", :unique => true
+  add_index "users", ["token"], :name => "index_users_on_token"
 
 end
