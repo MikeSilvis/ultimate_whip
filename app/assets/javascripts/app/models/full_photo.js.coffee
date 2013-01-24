@@ -8,5 +8,5 @@ class App.FullPhoto extends Spine.Model
   facebook_share_image: => encodeURI("#{this.photo_url_large}.jpg")
   facebook_full_url: => encodeURI("http://#{Domain}/photos/#{this.id}")
   facebook_title: => encodeURI("#{this.username}'s #{this.garage.year} #{this.garage.model_name}")
-  twitter_tweet: => encodeURI("checkout #{this.username}'s #{this.garage.year} #{this.garage.model_name} on @auxotic #{this.facebook_full_url()}")
+  twitter_tweet: => encodeURI("Checkout #{this.username}'s #{this.garage.year} #{this.garage.model_name} on @auxotic #{this.facebook_full_url()}")
 
