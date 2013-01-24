@@ -3,10 +3,11 @@ class GaragePhoto < ActiveRecord::Base
   acts_as_taggable
   acts_as_likeable
   acts_as_commentable
-  attr_accessible :garage_id, :photo, :tag_list
+  attr_accessible :garage_id, :photo, :tag_list, :photo
 
   belongs_to :garage
   delegate :username, :user_id, :secret_hash, :user, to: :garage
+  delegate :make_name, :model_name, to: :garage
 
   has_attached_file :photo,
     :storage => :s3,

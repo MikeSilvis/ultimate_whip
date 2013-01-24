@@ -1,6 +1,6 @@
 class Garage < ActiveRecord::Base
   acts_as_taggable
-  attr_accessible :color, :year, :user, :model, :make_id, :model_id, :color_id
+  attr_accessible :color, :year, :user, :model, :model_id, :color_id
   belongs_to :user
   belongs_to :model
   belongs_to :color
@@ -19,4 +19,15 @@ class Garage < ActiveRecord::Base
     self.tag_list = [year, model.name, model.make.name, username].join(", ")
   end
 
+  def make
+    model.make
+  end
+
+  def make_name
+    make.name
+  end
+
+  def model_name
+    model.name
+  end
 end

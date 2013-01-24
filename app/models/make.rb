@@ -2,6 +2,7 @@ class Make < ActiveRecord::Base
   attr_accessible :model_id, :name, :type_id
   has_many :models
 
+
   def self.all_ordered_by_name
     Make.order("name")
   end
