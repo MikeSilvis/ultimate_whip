@@ -120,7 +120,6 @@ GEM
       responders (~> 0.6)
     jbuilder (0.9.1)
       activesupport (>= 3.0.0)
-    jbuilder (1.0.2)
     journey (1.0.4)
     jquery-fileupload-rails (0.4.0)
       actionpack (>= 3.1)
@@ -234,6 +233,7 @@ GEM
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    uniquify (0.1.0)
     uuidtools (2.1.3)
     vcr (2.4.0)
     warden (1.2.1)
@@ -278,5 +278,6 @@ DEPENDENCIES
   spine-rails
   sqlite3
   uglifier
+  uniquify
   vcr
   webmock

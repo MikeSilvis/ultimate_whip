@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   acts_as_liker
+  uniquify :token, :length => 32
   attr_accessible :email, :password, :username, :password_confirmation, :remember_me
   has_many :vehicles, class_name: "Garage"
   has_many :photos, :through => :vehicles
