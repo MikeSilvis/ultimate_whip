@@ -10,7 +10,8 @@
   <div class='tags'>
     <% for tag in @tags: %>
       <span class="badge badge-inverse badge-tag">
-        <a class='tag' href="/tags/<%= tag.seo_friendly_name %>" id="<%= tag.seo_friendly_name %>"><%= tag.name %></a>
+        <% seo_name = tag.name.replace(new RegExp(" ","g"), "-") %>
+        <a class='tag' href="/tags/<%= seo_name %>" id="<%= seo_name %>"><%= tag.name %></a>
       </span>
     <% end %>
   </div>
