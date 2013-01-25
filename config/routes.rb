@@ -3,7 +3,6 @@ UltimateWhip::Application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
-  resources :garages
   namespace "api" do ## Used for Ajax purposes
     namespace "v1" do
       resources :comments
@@ -15,9 +14,14 @@ UltimateWhip::Application.routes.draw do
       end
     end
   end
+
   resources :photos, only: [:show,:new]
+  resources :tags, only: [:show]
+
+  resources :garages
   resources :garage_photos
   resources :makes, only: [:show]
+  resources :registration_succesful, only: [:index]
   root :to => "whips#index"
   devise_for :users
 end

@@ -20,6 +20,8 @@ end
 group :test do
   gem 'factory_girl_rails'
   gem 'webmock'
+  gem 'capybara'
+  gem 'simplecov'
   gem 'vcr'
 end
 gem 'eco'

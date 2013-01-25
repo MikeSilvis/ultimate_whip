@@ -2,9 +2,9 @@ class PhotosController < ApplicationController
 
   before_filter :authenticate_user!, only: [:new]
   before_filter :require_ride, only: :new
-  # redirects for facebook and twitter sharing purposes
+
   def show
-    redirect_to "/#/photos/#{params[:id]}"
+    render "whips/index"
   end
 
   def new

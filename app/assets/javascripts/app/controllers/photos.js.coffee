@@ -10,14 +10,7 @@ class App.Photos extends Spine.Controller
     @html @view('photos/index')()
     Photo.bind 'refresh', @render
     Photo.fetch()
-    @setupRoutes()
 
-  setupRoutes: ->
-    if window.location.href.match(/\/photos\/(\d*)/)
-      @renderModal({ target: { id: window.location.href.match(/\/photos\/(\d*)/)[1] }})
-    @routes
-      "/photos/:id": (params) =>
-        @renderModal({ target: { id: params.id }})
 
   render: =>
     if @tags != $("#tags-select").val()
@@ -25,13 +18,21 @@ class App.Photos extends Spine.Controller
     for photo in Photo.all().sort().reverse()
       new App.PhotoItem(photo) unless $("#photo_#{photo.id}").length
     @tags = $("#tags-select").val()
+    @setupRoutes()
     @infinteScroll()
+
+  setupRoutes: ->
+    @routes
+      "/photos/:id": (params) =>
+        new App.FullPhotos(parseInt(params.id))
+      "/tags/:id": (params) =>
+        $("#tags-select").find("##{params.id}").attr("selected", true).change()
+      "/users/:id": (params) =>
+        $("#tags-select").find("##{params.id}").attr("selected", true).change()
+    Spine.Route.setup(history: true)
 
   changeUrl: (e) =>
     @navigate("/photos", e.target.id)
-
-  renderModal: (e) =>
-    new App.FullPhotos(e.target.id)
 
   infinteScroll:  =>
     $(window).bind "scroll", ->

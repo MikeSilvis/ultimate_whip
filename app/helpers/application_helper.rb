@@ -1,4 +1,5 @@
 module ApplicationHelper
+
   def list_vehicles
     current_user.vehicles.includes(:model) if current_user
   end

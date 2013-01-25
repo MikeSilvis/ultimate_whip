@@ -2,7 +2,7 @@
   <img src='<%= @photo_url_large %>'>
   <div class="description">
   <h4 class="title">
-    <a href="#/tags/<%= @username %>" data-tag="<%= @username %>" class='tag'>
+    <a href="/tags/<%= @username %>" id="<%= @username %>" class='tag'>
       <%= @username %>'s
     </a>
   </h4>
@@ -10,7 +10,7 @@
   <div class='tags'>
     <% for tag in @tags: %>
       <span class="badge badge-inverse badge-tag">
-        <a href="#/tags/<%= tag.seo_friendly_name %>" class='tag' data-tag="<%= tag.name  %>"><%= tag.name %></a>
+        <a class='tag' href="/tags/<%= tag.seo_friendly_name %>" id="<%= tag.seo_friendly_name %>"><%= tag.name %></a>
       </span>
     <% end %>
   </div>

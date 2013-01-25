@@ -18,4 +18,3 @@ class App extends Spine.Controller
 
 window.App = App
 window.Domain = window.location.host
-Spine.Route.setup()
