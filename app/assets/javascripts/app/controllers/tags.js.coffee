@@ -16,8 +16,11 @@ class App.Tags extends Spine.Controller
     @el = @tagEl
     $("#search-area").html(@view('tags/index')(tags: Tag.all()))
     $("#tags-select").select2().change =>
-      last_tag = $("#tags-select").val().pop()
-      @navigate("/tags/#{last_tag}")
+      if $("#tags-select").val()
+        last_tag = $("#tags-select").val().pop()
+        @navigate("/tags/#{last_tag}")
+      else
+        @navigate("/")
       $("#photo_container").fadeOut("slow").fadeIn("slow")
       App.Photo.deleteAll()
       App.Photo.fetch()
