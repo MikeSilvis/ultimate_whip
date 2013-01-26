@@ -4,7 +4,6 @@ gem 'rails'
 group :development do
   gem 'sqlite3'
   gem 'quiet_assets'
-  gem 'newrelic_rpm'
 end
 
 group :production do
@@ -25,6 +24,7 @@ group :test do
   gem 'simplecov'
   gem 'vcr'
 end
+gem 'newrelic_rpm'
 gem 'eco'
 gem 'spine-rails'
 gem 'devise'
