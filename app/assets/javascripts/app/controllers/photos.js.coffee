@@ -27,8 +27,6 @@ class App.Photos extends Spine.Controller
         new App.FullPhotos(parseInt(params.id))
       "/tags/:id": (params) =>
         $("#tags-select").find("##{params.id}").attr("selected", true).change()
-      "/users/:id": (params) =>
-        $("#tags-select").find("##{params.id}").attr("selected", true).change()
     Spine.Route.setup(history: true)
 
   changeUrl: (e) =>

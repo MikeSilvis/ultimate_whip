@@ -30,7 +30,7 @@ class App.FullPhotos extends Spine.Controller
     $(".mikes-modal").bind "loaded", =>
       $(window).scrollTop(@location)
     $(".tag").click (e) =>
-      e.preventDefault()
+      e.preventDefault();
       $(".mikes-modal").trigger("close")
       @navigate("/tags/#{e.target.id}")
     $(".facebook").click (e) ->

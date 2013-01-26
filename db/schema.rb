@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130124004201) do
+ActiveRecord::Schema.define(:version => 20130126130459) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -95,6 +95,10 @@ ActiveRecord::Schema.define(:version => 20130124004201) do
     t.string    "original_url"
   end
 
+  add_index "garage_photos", ["created_at"], :name => "index_garage_photos_on_created_at"
+  add_index "garage_photos", ["garage_id"], :name => "index_garage_photos_on_garage_id"
+  add_index "garage_photos", ["original_url"], :name => "index_garage_photos_on_original_url"
+
   create_table "garages", :force => true do |t|
     t.integer   "model_id"
     t.integer   "year"
@@ -103,6 +107,9 @@ ActiveRecord::Schema.define(:version => 20130124004201) do
     t.timestamp "created_at", :null => false
     t.timestamp "updated_at", :null => false
   end
+
+  add_index "garages", ["model_id"], :name => "index_garages_on_model_id"
+  add_index "garages", ["user_id"], :name => "index_garages_on_user_id"
 
   create_table "likes", :force => true do |t|
     t.string    "liker_type"

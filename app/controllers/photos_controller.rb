@@ -8,7 +8,6 @@ class PhotosController < ApplicationController
   end
 
   def new
-
   end
 
   def require_ride

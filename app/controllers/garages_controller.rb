@@ -1,5 +1,6 @@
 class GaragesController < ApplicationController
   before_filter :authenticate_user!, only: [:new]
+  after_filter :expire_cache
 
   def new
   end

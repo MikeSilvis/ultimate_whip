@@ -1,14 +1,14 @@
 class GaragePhotosController < ApplicationController
   protect_from_forgery except: :create
   before_filter :authenticate_user!
+  after_filter :expire_cache
 
   def create
     @photo = Garage.find(params["garage_photo"]["garage_id"]).photos.create(photo: params["garage_photo"]["photo"])
   end
 
   def update
-    @photo = GaragePhoto.find(params[:id])
-    @photo.update_attributes(params[:garage_photo])
+    GaragePhoto.find(params[:id]).update_attributes(params[:garage_photo])
     render json: true
   end
 

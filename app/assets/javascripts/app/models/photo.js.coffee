@@ -10,7 +10,6 @@ class App.Photo extends Spine.Model
       unless (@fetchedWithFilter && (tags.toString() == @previousTags.toString()))
         @page = 0
         @totalPhotos = null
-        #$("#photo_container").html("")
       paramsData = () ->
         {page: page, tags: tags}
       @fetchedWithFilter = true

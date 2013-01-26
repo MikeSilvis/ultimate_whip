@@ -13,5 +13,4 @@ class Api::V1::CommentsController < ApplicationController
   def index
     render json: Comment.where(commentable_id: params[:commentable_id]).includes(:user), root: false
   end
-
 end

@@ -17,7 +17,7 @@ class App.Tags extends Spine.Controller
     $("#search-area").html(@view('tags/index')(tags: Tag.all()))
     $("#tags-select").select2().change =>
       if $("#tags-select").val()
-        last_tag = $("#tags-select").val().pop()
+        last_tag = $("#tags-select").val().pop().replace(new RegExp(" ","g"), "-")
         @navigate("/tags/#{last_tag}")
       else
         @navigate("/")

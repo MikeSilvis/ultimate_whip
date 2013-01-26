@@ -3,6 +3,9 @@ class Api::V1::PhotosController < ApplicationController
   before_filter :authenticate_user!, only: [:create, :new]
   before_filter :require_yours, only: :destroy
 
+  caches_action :index, :cache_path => Proc.new { |c| c.params }
+  caches_page :show
+
   def index
     render json: GaragePhoto.find_all(params[:page], params[:tags]).to_a, root: false
   end
