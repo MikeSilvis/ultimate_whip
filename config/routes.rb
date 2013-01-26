@@ -9,6 +9,7 @@ UltimateWhip::Application.routes.draw do
       resources :tags
       resources :photos do
         collection do
+          get 'pages/:page/tags/:tags', to: "photos#index"
           get "file_name"
         end
       end

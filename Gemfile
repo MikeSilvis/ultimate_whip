@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails'
 group :development do
   gem 'sqlite3'
+  gem 'quiet_assets'
   gem 'newrelic_rpm'
 end
 
