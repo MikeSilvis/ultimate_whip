@@ -1,5 +1,5 @@
 class Model < ActiveRecord::Base
-  attr_accessible :name, :make
+  attr_accessible :name, :make, :make_id
   belongs_to :make
 
   def self.create_from_yaml

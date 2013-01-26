@@ -1,4 +1,4 @@
-class Api::V1::CommentsController < ApplicationController
+class Api::V1::CommentsController < ApiController
   before_filter :authenticate_user!, only: :create
 
   def create
