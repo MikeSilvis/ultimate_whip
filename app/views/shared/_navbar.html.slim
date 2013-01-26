@@ -8,6 +8,7 @@
         ul.nav.pull-right
           - if current_user
             li= link_to "+ Photos", new_photo_path
+            li= link_to('Logout', destroy_user_session_path, :method => :delete)
           - else
             li
               = link_to "Sign up", new_user_registration_path

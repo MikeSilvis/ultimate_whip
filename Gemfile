@@ -2,12 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails'
 group :development do
-  gem 'sqlite3'
   gem 'quiet_assets'
-end
-
-group :production do
-  gem 'pg'
 end
 
 group :assets do
@@ -25,6 +20,7 @@ group :test do
   gem 'vcr'
 end
 gem 'newrelic_rpm'
+gem 'pg'
 gem 'eco'
 gem 'spine-rails'
 gem 'devise'
