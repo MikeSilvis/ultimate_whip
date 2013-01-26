@@ -1,0 +1,11 @@
+.row.landing
+  .span6
+    h2= @landing.title
+    = @landing.description.html_safe
+  .span5.join-box.offset1
+    .well
+      h3.center-text Join Auxotic Today!
+      = render partial: "/layouts/signup"
+.row.center-photos
+  - latest_photos.each do |photo|
+    .photo-item= image_tag photo.photo(:thumb)

@@ -17,6 +17,7 @@ UltimateWhip::Application.routes.draw do
 
   resources :photos, only: [:show,:new, :index]
   resources :tags, only: [:show, :new]
+  resources :landings, only: [:show]
 
   resources :garages
   resources :garage_photos

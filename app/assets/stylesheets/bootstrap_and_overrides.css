@@ -88,3 +88,9 @@
   text-decoration:none;
   color:#ff7518;
 }
+.container {
+  width:1000px;
+}
+.row {
+  margin-left:0px;
+}

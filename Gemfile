@@ -44,3 +44,4 @@ gem 'mini_magick'
 gem 'airbrake'
 gem 'activeadmin'
 gem 'uniquify'
+gem "ckeditor"
