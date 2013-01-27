@@ -4,7 +4,8 @@ html
     img alt="BMW e92 m3" src="http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/132/large/38254030019_original.jpg?1349839114" style="display:none;"
     .navbar
       .navbar-inner
-        = link_to image_tag("Auxotic-Logo-Landing.png"), "/", class: "logo"
+        .landing-logo-container
+          = link_to image_tag("Auxotic-Logo-Landing.png"), "/", class: "logo"
     .container
       .row
         = render partial: "shared/flash", locals: { flash: flash }

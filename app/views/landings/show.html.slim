@@ -1,3 +1,6 @@
+- content_for(:title) do
+  = @landing.title
+
 .row.landing
   .span6
     h2= @landing.title
@@ -7,5 +10,7 @@
       h3.center-text Join Auxotic Today!
       = render partial: "/layouts/signup"
 .row.center-photos
-  - latest_photos.each do |photo|
-    .photo-item-landing= image_tag photo.photo(:thumb)
+  .photo-item-landing= image_tag "landing/landing-1.png"
+  .photo-item-landing= image_tag "landing/landing-2.png"
+  .photo-item-landing= image_tag "landing/landing-3.png"
+  .photo-item-landing= image_tag "landing/landing-4.png"
