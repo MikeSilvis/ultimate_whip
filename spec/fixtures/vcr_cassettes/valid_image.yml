@@ -19,7 +19,7 @@ http_interactions:
     headers:
       !binary "RGF0ZQ==":
       - !binary |-
-        U3VuLCAxMyBKYW4gMjAxMyAwNDoyMzowOCBHTVQ=
+        U3VuLCAwMyBGZWIgMjAxMyAxNjoyNjo0OSBHTVQ=
       !binary "U2VydmVy":
       - !binary |-
         QXBhY2hl
@@ -10044,5 +10044,5 @@ http_interactions:
         p4AY7eXTXqrcPtEdzfRSVNQsEjbfClXggQtpXwP8emV6KjqcFwBzBeXTSjW2
         YGwzZK+KioCz21w0ZFRQ/wByFZDp4a+HTEy44Hl11U/0nbUA5kr/2Q==
     http_version: 
-  recorded_at: Sun, 13 Jan 2013 04:23:21 GMT
+  recorded_at: Sun, 03 Feb 2013 16:26:50 GMT
 recorded_with: VCR 2.4.0

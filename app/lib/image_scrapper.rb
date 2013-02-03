@@ -10,7 +10,7 @@ class ImageScrapper
   end
 
   def find_all_images
-    all_pages.collect do |page|
+    all_pages.each do |page|
       all_images.concat find_images_for_page(page)
     end
     all_images_urls
@@ -52,7 +52,7 @@ class ImageScrapper
   def open_next_page(current_page)
     url = current_page.search(".pagenav").xpath('//a[starts-with(@title, "Next Page")]')
     unless url.empty?
-      page = Nokogiri::HTML(open(url.first["href"]))
+      page = Nokogiri::HTML(open("http://www.m3post.com/forums/#{url.first["href"]}"))
       pages_to_check.push page
       all_pages_array.push page
     end
