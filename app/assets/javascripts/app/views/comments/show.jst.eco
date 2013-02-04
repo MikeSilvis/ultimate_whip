@@ -3,7 +3,7 @@
   <% for comment in @comments: %>
     <div class='comment'>
       <small>
-        <strong><%= comment.username %>:</strong> <%= comment.message %>
+        <strong><a href="/tags/<%= comment.usernmame %>"><%= comment.username %></a>:</strong> <%= comment.message %>
         <br>
         <span class="said-at"><%= comment.created_at_in_words %></span>
       </small>
