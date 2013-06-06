@@ -6,8 +6,8 @@
   padding-bottom: 0px;
 }
 .photo-item{
-  float:left;
   cursor: pointer;
+  display:inline-block;
   margin:5px;
 }
 .photo-item:hover{
@@ -44,7 +44,7 @@
 }
 #search-area{
   margin: 0 auto;
-  width: 600px;
+  width:50%;
 }
 .clear {
   clear:both;
@@ -76,4 +76,12 @@
 }
 .row {
   margin-left:0px;
+}
+@media all and (max-width: 600px) {
+  .logo { display:block; width:100%; text-align:center; }
+  .nav.pull-right { width:100%;}
+  .nav.pull-right li { width:50%; text-align:center;}
+  #uvTab { display:none; }
+  #search-area { width:100%; margin:0; }
+  #s2id_tags-select { width:350px !important; }
 }

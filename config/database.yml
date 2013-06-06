@@ -7,9 +7,7 @@ development:
   adapter: postgresql
   encoding: unicode
   database: auxotic_dev
-  pool: 5
-  username: mike
-  password:
+  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -18,9 +16,7 @@ test:
   adapter: postgresql
   encoding: unicode
   database: auxotic_test
-  pool: 5
-  username: mike
-  password:
+  host: localhost
 
 production:
   adapter: sqlite3

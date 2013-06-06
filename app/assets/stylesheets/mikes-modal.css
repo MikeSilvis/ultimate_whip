@@ -42,3 +42,9 @@
   left: 0;
   z-index: 10000;
 }
+
+@media all and (max-width: 600px) {
+  .description { clear:both; width: 90% !important; }
+  .mikes-modal img { max-width:100% !important; }
+  #comments { margin-top: 20px; }
+}
