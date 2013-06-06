@@ -31,27 +31,10 @@
 }
 #photo_container{
   text-align: center;
-  margin: 0 auto;
-  width:881px;
 }
 .img-polaroid{
   margin:4px;
   padding:0px;
-}
-@media all and (min-width: 1200px) {
-    #photo_container {
-        width:881px;
-    }
-}
-@media all and (min-width: 1400px) {
-    #photo_container {
-        width:1100px;
-    }
-}
-@media all and (min-width: 1600px) {
-    #photo_container {
-        width:1541px;
-    }
 }
 #filter-whips{
   float:left;
