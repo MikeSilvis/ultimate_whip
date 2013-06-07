@@ -2,7 +2,6 @@
   .navbar-inner
     .container-fluid
       = link_to image_tag("Auxotic-Logo-Header.png"), "/", class: "logo"
-      #search-area
       ul.nav.pull-right
         - if current_user
           li= link_to "+ Photos", new_photo_path
@@ -10,3 +9,4 @@
         - else
           li= link_to "Sign up", new_user_registration_path
           li= link_to "Login", new_user_session_path
+      #search-area

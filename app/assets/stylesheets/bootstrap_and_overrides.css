@@ -37,9 +37,6 @@
   padding:0px;
 }
 #filter-whips{
-  float:left;
-  height:30px;
-  width:60%;
   padding: 8px 10px 5px 10px;
 }
 #search-area{
@@ -77,11 +74,12 @@
 .row {
   margin-left:0px;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 1000px) {
   .logo { display:block; width:100%; text-align:center; }
   .nav.pull-right { width:100%;}
   .nav.pull-right li { width:50%; text-align:center;}
   #uvTab { display:none; }
-  #search-area { width:100%; margin:0; }
-  #s2id_tags-select { width:350px !important; }
+  #search-area { width:90%; margin:0 auto; }
+  #filter-whips { padding-bottom:20px; }
+  #s2id_tags-select { width:100% !important; }
 }
