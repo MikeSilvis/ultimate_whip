@@ -1,17 +1,12 @@
 .navbar.navbar-fixed-top
   .navbar-inner
     .container-fluid
-      a.btn.btn-navbar data-target=".nav-collapse" data-toggle="collapse"
       = link_to image_tag("Auxotic-Logo-Header.png"), "/", class: "logo"
-      .nav-collapse
-        #search-area
-        ul.nav.pull-right
-          - if current_user
-            li= link_to "+ Photos", new_photo_path
-            li= link_to('Logout', destroy_user_session_path, :method => :delete)
-          - else
-            li
-              = link_to "Sign up", new_user_registration_path
-            li.divider-vertical
-            li.drop.down
-              = link_to "Login", new_user_session_path
+      ul.nav.pull-right
+        - if current_user
+          li= link_to "+ Photos", new_photo_path
+          li= link_to('Logout', destroy_user_session_path, :method => :delete)
+        - else
+          li= link_to "Sign up", new_user_registration_path
+          li= link_to "Login", new_user_session_path
+      #search-area
