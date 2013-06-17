@@ -4,7 +4,7 @@ gem 'rails'
 group :development do
   gem 'quiet_assets'
 end
-
+gem 'spiderable'
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
