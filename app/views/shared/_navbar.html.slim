@@ -1,12 +1,14 @@
-.navbar.navbar-fixed-top
-  .navbar-inner
-    .container-fluid
-      = link_to image_tag("Auxotic-Logo-Header.png"), "/", class: "logo"
-      ul.nav.pull-right
-        - if current_user
-          li= link_to "+ Photos", new_photo_path
-          li= link_to('Logout', destroy_user_session_path, :method => :delete)
-        - else
-          li= link_to "Sign up", new_user_registration_path
-          li= link_to "Login", new_user_session_path
-      #search-area
+nav.navbar
+  a.logo href="/"
+    img alt="" src="/assets/Auxotic-Logo-Header.png"
+  .register-area
+    .toggle-login
+      i.icon-reorder.icon-2x
+    #search-area
+    .register
+      - if current_user
+        li= link_to "+ Photos", new_photo_path
+        li= link_to('Logout', destroy_user_session_path, :method => :delete)
+      - else
+        li= link_to "Sign up", new_user_registration_path
+        li= link_to "Login", new_user_session_path

@@ -1,8 +1,6 @@
-<div id="filter-whips">
-  <select multiple="multiple" id="tags-select" data-placeholder="filter" style="width:580px; height:15px !important; line-height:15px !important;">
-    <option></option>
-    <% for tag in @tags: %>
-      <option id="<%= tag.seo_friendly_name %>" value="<%= tag.name %>"><%= tag.name %></option>
-    <% end %>
-  </select>
-</div>
+<select multiple="multiple" id="tags-select" data-placeholder="search..." >
+  <option></option>
+  <% for tag in @tags: %>
+    <option id="<%= tag.seo_friendly_name %>" value="<%= tag.name %>"><%= tag.name %></option>
+  <% end %>
+</select>

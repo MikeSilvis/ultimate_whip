@@ -18,3 +18,6 @@ class App extends Spine.Controller
 
 window.App = App
 window.Domain = window.location.host
+
+String::seoName = () ->
+  this.valueOf().replace(RegExp(" ", "g"), "-").toLowerCase()

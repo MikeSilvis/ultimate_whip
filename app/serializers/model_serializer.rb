@@ -1,9 +1,5 @@
 class ModelSerializer < ActiveModel::Serializer
-  attributes :id, :name, :updated_at, :make_name
+  attributes :id, :name, :updated_at
+
   has_one :make
-
-  def make_name
-    self.make.name
-  end
-
 end

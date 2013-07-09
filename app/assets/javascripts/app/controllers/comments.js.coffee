@@ -1,29 +1,39 @@
 Comment = App.Comment
+alreadyFetched = {}
 
 class App.Comments extends Spine.Controller
   events:
-    "keyup .new-comment" : "addComment"
+    "keydown .new-comment" : "addComment"
 
-  constructor: (el, commentable_id) ->
+  constructor: ->
     super
-    Comment.deleteAll()
-    @commentable_id = commentable_id
-    Comment.fetch({commentable_id: @commentable_id})
     Comment.bind 'refresh change', @render
+    if @alreadyFetched()
+      @render()
+    else
+      Comment.fetch({commentable_id: @object.id, commentable_type: @object})
+      @setAlreadyFetched()
 
+  alreadyFetched: =>
+    alreadyFetched["#{@object.id}-#{@object.class}"]
+
+  setAlreadyFetched: (bool = true) =>
+    alreadyFetched["#{@object.id}-#{@object.class}"] = bool
 
   render: =>
-    comments = Comment.all()
-    @html @view('comments/show')(comments: comments)
-    $("#comments-area").css("max-height":@commentsAreaHeight()).scrollTop(11000)
+    @html @view('comments/show')(comments: @allCommentsForObject())
+    #$("#comments-area").css("max-height":@commentsAreaHeight()).scrollTop(11000)
+
+  allCommentsForObject: =>
+    _.where Comment.all(),
+      commentable_id: @object.id
+      commentable_type: @object.class
 
   addComment: (e) =>
-    if e.keyCode is 13
-      App.Comment.create message: $(".new-comment").val(), commentable_id: @commentable_id, username: $("meta[name=user-username]").attr("content"), created_at_in_words: "just now"
+    e.stopPropagation()
+    if e.keyCode is 13 && @el.find(".new-comment").val().length > 1
+      App.Comment.create(message: @el.find(".new-comment").val(), commentable_id: @object.id, username: $("meta[name=user-username]").attr("content"), commentable_type: @object.class)
       $(".new-comment").val("")
-    else
-      currentHeight = $(".new-comment").height()
-      $(".new-comment").height(currentHeight + 15) if ($(".new-comment").val().length % 33 == 0)
 
-  commentsAreaHeight: =>
-    ($(".mikes-modal").height() * .58) - 10
+  #commentsAreaHeight: =>
+    #($(".mikes-modal").height() * .58) - 10

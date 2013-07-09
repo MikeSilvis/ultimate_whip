@@ -5,4 +5,4 @@ class App.CurrentUser extends Spine.Controller
     @render()
 
   render: =>
-    @tags = new App.Tags({el: @el})
+    window.tags = new App.Tags({el: $("#search-area")})

@@ -7,6 +7,7 @@ class GaragePhoto < ActiveRecord::Base
   before_create :create_default_tags
 
   belongs_to :garage
+  has_one :model, through: :garage
   delegate :username, :user_id, :secret_hash, :user, to: :garage
   delegate :make_name, :model_name, to: :garage
 
@@ -17,6 +18,12 @@ class GaragePhoto < ActiveRecord::Base
       :large => "1200x900",
       :thumb => "200x200#"
     }
+
+    def self.find_all(page, tags)
+      query = self.order("created_at DESC").includes(:tags, :garage).page(page)
+      query = query.tagged_with(tags.split(",")) if tags
+      query
+    end
 
     def photo_url_thumb
       photo.url(:thumb)
@@ -50,22 +57,8 @@ class GaragePhoto < ActiveRecord::Base
       tags.join(", ")
     end
 
-    def self.find_all(page, tags)
-      query = self.order("created_at DESC").includes(:tags, :garage).page(page)
-      query = query.tagged_with(tags.split(",")) if tags
-      query
-    end
-
-    def self.find_one(id)
-      includes_for_json.where(id: id).first
-    end
-
     def self.find_by_file_name(name)
       includes_for_json.where(photo_file_name: name).order("created_at DESC").first
-    end
-
-    def self.includes_for_json
-      self.includes(:garage, :tags, :comments)
     end
 
     def self.create_photos_from_blog(url, garage_id)
@@ -73,9 +66,7 @@ class GaragePhoto < ActiveRecord::Base
       images.each do |img|
         photo = open(img)
         begin
-          gp = GaragePhoto.where(:original_url => img, :garage_id => garage_id).first_or_create(:photo => photo)
-          g = Garage.find_by_id(garage_id)
-          gp.save
+          GaragePhoto.where(:original_url => img, :garage_id => garage_id).first_or_create(:photo => photo).save
         end
       end
     end

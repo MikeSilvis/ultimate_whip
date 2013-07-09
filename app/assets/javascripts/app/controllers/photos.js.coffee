@@ -11,7 +11,6 @@ class App.Photos extends Spine.Controller
     Photo.bind 'refresh', @render
     Photo.fetch()
 
-
   render: =>
     if @tags != $("#tags-select").val()
       @html @view('photos/index')()

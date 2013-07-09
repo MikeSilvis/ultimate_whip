@@ -8,7 +8,4 @@ class Color < ActiveRecord::Base
     end
   end
 
-  def cars_with_color
-    #color.   
-  end
 end

@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails'
 group :development do
   gem 'quiet_assets'
+  gem 'thin'
 end
 gem 'spiderable'
 group :assets do
