@@ -18,14 +18,23 @@
 //= require jquery-fileupload/basic
 //= require jquery-fileupload/vendor/tmpl
 
-jQuery(function() {
+$(function() {
+  $(".toggle-login").click(function(){
+    $("#search-area").toggle();
+    $("#tags-select").select2();
+    if ($("#search-area").is(":visible")) {
+      $(".feed").css("margin-top", 120);
+    } else {
+      $(".feed").css("margin-top", 0);
+    }
+    $(".register").toggle();
+  });
   if ($("#app").length) {
     return new App({
       el: $("#app")
     });
   }
 });
-
 /// Uservoice
 var uvOptions = {};
 (function() {

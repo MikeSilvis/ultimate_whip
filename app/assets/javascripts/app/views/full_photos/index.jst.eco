@@ -2,8 +2,8 @@
   <img src='<%= @photo_url_large %>'>
   <div class="description">
   <h4 class="title">
-    <a href="/tags/<%= @username %>" id="<%= @username %>" class='tag'>
-      <%= @username %>'s
+    <a href="/tags/<%= @user.username %>" id="<%= @user.username  %>" class='tag'>
+      <%= @user.username %>'s
     </a>
   </h4>
   <h3><%= @garage.year %> <%= @garage.model_name %></h3>
@@ -15,12 +15,20 @@
       </span>
     <% end %>
   </div>
-  <div class='social-share'>
-    <a href="#" class='facebook'>
-      <img src="/assets/social-icons/32/Facebook.png">
-    </a>
-    <a href="#" class='twitter'>
-      <img src="/assets/social-icons/32/Twitter.png">
-  </a>
-  <div id="comments"></div>
+
+  <% if false: %>
+    <div class='social-share'>
+      <a href="#" class='facebook'>
+        <img src="/assets/social-icons/32/Facebook.png">
+      </a>
+      <a href="#" class='twitter'>
+        <img src="/assets/social-icons/32/Twitter.png">
+      </a>
+    </div>
+  <% end %>
+
+  <div class="comments">
+    <img src='/assets/loading.gif'/>
+  </div>
+
 </div>

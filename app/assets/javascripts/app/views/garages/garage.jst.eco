@@ -1,0 +1,31 @@
+<li class="item" id="<%= @id %>_garage">
+  <ul class="info">
+    <li>
+      <% if false: %>
+        <img src="http://speedcountry.com/images/member/904/avatar/large/4d9781fab8d66.png" alt="">
+      <% end %>
+      <h5><a href="/tags/<%= @user.name %>"><%= @user.name %></a></h5>
+      <p>
+        <a href="/tags/<%= @year %>"><%= @year %></a>
+        <a href="/tags/<%= @model.name.seoName() %>"><%= @model.name %></a>
+        <a href="/tags/<%= @model.make.name.seoName() %>"><%= @model.make.name %></a>
+      </p>
+      <p>
+        <%= @photos.length %> Photos
+      </p>
+    </li>
+    <li><%= @updated_at_short %></li>
+    <li>
+      <% for photo in @photos.slice(0,@photoLimit): %>
+        <a href="/photos/<%= photo.id %>-<%= @user.username %>">
+          <img src="<%= photo.photo_url_thumb %>" alt="<%= photo.tags_string %>" id="p-<%= photo.id %>">
+         </a>
+      <% end %>
+    </li>
+  </ul>
+  <div class="more-info">
+    <div class="comments">
+      <img src='/assets/loading.gif'/>
+    </div>
+  </div>
+</li>

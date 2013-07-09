@@ -1,17 +1,11 @@
-<div class="clear"></div>
-<div id="comments-area">
+<ul>
   <% for comment in @comments: %>
-    <div class='comment'>
-      <small>
-        <strong><a href="/tags/<%= comment.username %>"><%= comment.username %></a>:</strong> <%= comment.message %>
-        <br>
-        <span class="said-at"><%= comment.created_at_in_words %></span>
-      </small>
-    </div>
+      <li><p><strong><a href="/tags/<%= comment.username %>"><%= comment.username %></a> says: </strong><%= comment.message %></p></li>
   <% end %>
-  <% if $("meta[name=user-username]").attr("content"): %>
-    <textarea name="new-comment" placeholder="write a comment..." class='new-comment'></textarea>
-  <% else: %>
-    <small class='new-comment'><a href='/users/sign_in' class='btn btn-warning' style='width:100%'>Sign in  to comment.</a>
-  <% end %>
-</div>
+</ul>
+
+<% if $("meta[name=user-username]").attr("content"): %>
+  <textarea name="new-comment" placeholder="write a comment..." class="new-comment"></textarea>
+<% else: %>
+  <small class='new-comment'><a href='/users/sign_in' class='btn btn-warning' style='width:94%'>Sign in  to comment.</a>
+<% end %>

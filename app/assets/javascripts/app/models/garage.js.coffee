@@ -1,14 +1,25 @@
-class App.Photo extends Spine.Model
-  @configure 'Photo', 'photo_url_thumb', 'tags_string'
+class App.Garage extends Spine.Model
+  @configure 'Garage', 'id', 'user', 'year', 'updated_at_short'
+
   @extend Spine.Model.Ajax
 
+  @url: => "/api/v1/garages"
+
   constructor: ->
-    @class = "GaragePhoto"
+    @photoLimit = 5
+    @class = "Garage"
+    @active = false
     super
 
-  @url: => "/api/v1/photos"
+  setPhotoLimit: (limit) =>
+    @photoLimit = limit
+
+  setActive: (bool=true) =>
+    @active = bool
 
   @fetch: (params) =>
+    $("#loading").show()
+    $("#photo_container").fadeOut("slow")
     if tags = $("#tags-select").val()
       @previousTags or= []
       unless (@fetchedWithFilter && (tags.toString() == @previousTags.toString()))
@@ -30,8 +41,8 @@ class App.Photo extends Spine.Model
 
     page = @page + 1
     @page = page
-    return false if (App.Photo.all().length == @totalPhotos)
-    @totalPhotos = App.Photo.all().length
+    return false if (App.Garage.all().length == @totalPhotos)
+    @totalPhotos = App.Garage.all().length
 
     params or=
       data: paramsData()

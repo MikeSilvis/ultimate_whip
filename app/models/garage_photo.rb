@@ -50,22 +50,8 @@ class GaragePhoto < ActiveRecord::Base
       tags.join(", ")
     end
 
-    def self.find_all(page, tags)
-      query = self.order("created_at DESC").includes(:tags, :garage).page(page)
-      query = query.tagged_with(tags.split(",")) if tags
-      query
-    end
-
-    def self.find_one(id)
-      includes_for_json.where(id: id).first
-    end
-
     def self.find_by_file_name(name)
       includes_for_json.where(photo_file_name: name).order("created_at DESC").first
-    end
-
-    def self.includes_for_json
-      self.includes(:garage, :tags, :comments)
     end
 
     def self.create_photos_from_blog(url, garage_id)
@@ -73,9 +59,7 @@ class GaragePhoto < ActiveRecord::Base
       images.each do |img|
         photo = open(img)
         begin
-          gp = GaragePhoto.where(:original_url => img, :garage_id => garage_id).first_or_create(:photo => photo)
-          g = Garage.find_by_id(garage_id)
-          gp.save
+          GaragePhoto.where(:original_url => img, :garage_id => garage_id).first_or_create(:photo => photo).save
         end
       end
     end
