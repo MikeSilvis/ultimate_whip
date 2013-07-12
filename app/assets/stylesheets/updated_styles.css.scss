@@ -278,13 +278,13 @@ body {
     }
   }
 }
-@media all and (min-width: 660px) {
+@media all and (min-width: 630px) {
   #search-bar, .register {
     display: block !important;
   }
 }
 
-@media all and (max-width: 660px) {
+@media all and (max-width: 630px) {
   .navbar {
     .logo {
       text-align: center;
