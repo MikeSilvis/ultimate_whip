@@ -6,6 +6,9 @@
   top: 50%;
   display: none;
 }
+.mikes-modal a {
+  text-decoration:none;
+}
 .mikes-modal img {
   float: left;
 }

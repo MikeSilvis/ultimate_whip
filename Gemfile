@@ -6,10 +6,13 @@ ruby '1.9.3'
 group :development do
   gem 'quiet_assets'
 end
-gem 'thin'
+
+gem 'unicorn'
 gem 'spiderable'
+
 group :assets do
   gem 'sass-rails'
+  gem 'turbo-sprockets-rails3'
   gem 'coffee-rails'
   gem 'uglifier'
   gem 'jquery-fileupload-rails'

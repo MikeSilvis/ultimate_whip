@@ -16,7 +16,8 @@ class GaragePhoto < ActiveRecord::Base
     :s3_credentials => "#{Rails.root}/config/s3.yml",
     :styles => {
       :large => "1200x900",
-      :thumb => "200x200#"
+      :thumb => "200x200#",
+      :wide => "100x50"
     }
 
     def self.find_all(page, tags)
