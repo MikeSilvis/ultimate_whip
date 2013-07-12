@@ -1,5 +1,4 @@
 UltimateWhip::Application.routes.draw do
-  ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
@@ -26,4 +25,6 @@ UltimateWhip::Application.routes.draw do
   resources :registration_succesful, only: [:index]
   root :to => "whips#index"
   devise_for :users
+
+  ActiveAdmin.routes(self)
 end
