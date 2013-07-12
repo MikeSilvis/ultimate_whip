@@ -17,7 +17,14 @@ class Garage < ActiveRecord::Base
   end
 
   def self.find_all(page, tags)
-    GaragePhoto.find_all(page, tags).map(&:garage).uniq
+    query = select("DISTINCT on (garages.updated_at, garages.id) garages.*")
+      .joins("JOIN garage_photos on garages.id = garage_photos.garage_id")
+      .joins("JOIN taggings on garage_photos.id = taggings.taggable_id")
+      .joins("JOIN tags on tags.id = taggings.tag_id")
+      .page(page)
+      .order("garages.updated_at DESC")
+    query = query.where("(lower(tags.name) IN (?))", tags) if tags
+    query
   end
 
   def create_default_tags
