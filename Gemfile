@@ -48,6 +48,6 @@ gem 'acts_as_commentable'
 gem 'kaminari'
 gem 'mini_magick'
 gem 'airbrake'
-gem "activeadmin", github: "gregbell/active_admin"
+gem "activeadmin"
 gem 'uniquify'
 gem "ckeditor"
