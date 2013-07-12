@@ -5,8 +5,8 @@ ruby '1.9.3'
 
 group :development do
   gem 'quiet_assets'
-  gem 'thin'
 end
+gem 'thin'
 gem 'spiderable'
 group :assets do
   gem 'sass-rails'
