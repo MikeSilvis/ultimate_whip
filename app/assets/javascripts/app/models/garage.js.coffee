@@ -3,7 +3,7 @@ class App.Garage extends Spine.Model
 
   @extend Spine.Model.Ajax
 
-  @url: => "/api/v1/garages"
+  @url: "/api/v1/garages"
 
   constructor: ->
     @photoLimit = 5

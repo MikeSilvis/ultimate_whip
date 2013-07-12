@@ -2,12 +2,6 @@ class Model < ActiveRecord::Base
   attr_accessible :name, :make, :make_id
   belongs_to :make
 
-  def make
-    Rails.cache.fetch make_id do
-      super
-    end
-  end
-
   def self.create_from_yaml
     Make.create_makes_from_yaml
     Color.create_from_yaml

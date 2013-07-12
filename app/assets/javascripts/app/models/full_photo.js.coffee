@@ -3,7 +3,7 @@ class App.FullPhoto extends Spine.Model
 
   @extend Spine.Model.Ajax
 
-  @url: => "/api/v1/photos"
+  @url: "/api/v1/photos"
 
   constructor: ->
     @class = "GaragePhoto"
