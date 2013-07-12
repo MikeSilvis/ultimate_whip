@@ -24,12 +24,6 @@ class Garage < ActiveRecord::Base
     self.tag_list = [year, model.name, model.make.name, username].join(", ")
   end
 
-  #def model
-    #Rails.cache.fetch "model_#{model_id}" do
-      #super
-    #end
-  #end
-
   def make
     model.make
   end

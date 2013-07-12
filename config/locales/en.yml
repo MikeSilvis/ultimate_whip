@@ -19,10 +19,10 @@ en:
         other: '%{count}m'
       x_months:
         one: 1m
-        other: '%{count}m'
+        other: '%{count}months'
       x_seconds:
         one: 1s
         other: '%{count}s'
       about_x_months:
         one: 1m
-        other: '%{count}m'
+        other: '%{count}months'

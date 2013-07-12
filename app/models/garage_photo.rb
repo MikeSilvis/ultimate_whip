@@ -21,8 +21,8 @@ class GaragePhoto < ActiveRecord::Base
     }
 
     def self.find_all(page, tags)
-      query = self.order("created_at DESC").includes(:tags, :garage).page(page)
-      query = query.tagged_with(tags.split(",")) if tags
+      query = self.order("created_at DESC").includes(:tags, :garage)
+      query = query.tagged_with(tags.split(",")) if tags.present
       query
     end
 
