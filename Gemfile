@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails'
+ruby '1.9.3'
+
 group :development do
   gem 'quiet_assets'
   gem 'thin'
