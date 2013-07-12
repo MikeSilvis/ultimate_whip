@@ -47,7 +47,7 @@ gem 'socialization'
 gem 'acts_as_commentable'
 gem 'kaminari'
 gem 'mini_magick'
-gem 'airbrake'
+gem 'sentry-raven'
 gem "activeadmin"
 gem 'uniquify'
 gem "ckeditor"
