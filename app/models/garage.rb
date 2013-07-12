@@ -23,6 +23,7 @@ class Garage < ActiveRecord::Base
       .joins("JOIN tags on tags.id = taggings.tag_id")
       .page(page)
       .order("garages.updated_at DESC")
+      .where("taggings.taggable_type = ?", "GaragePhoto")
     query = query.where("(lower(tags.name) IN (?))", tags) if tags
     query
   end
