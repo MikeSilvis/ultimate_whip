@@ -7,5 +7,7 @@
 <% if $("meta[name=user-username]").attr("content"): %>
   <textarea name="new-comment" placeholder="write a comment..." class="new-comment"></textarea>
 <% else: %>
-  <small class='new-comment'><a href='/users/sign_in' class='btn btn-warning' style='width:94%'>Sign in  to comment.</a>
+  <div class='new-comment'>
+    <a href='/users/sign_in' class='btn btn-warning btn-block' style='padding:5px 0px;'>Sign in  to comment.</a>
+  </div>
 <% end %>
