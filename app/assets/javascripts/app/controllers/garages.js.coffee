@@ -42,9 +42,9 @@ class App.Garages extends Spine.Controller
       $(".item.active").each ->
         garageItem[parseInt($(this).attr 'id')].removeActive()
       @garageItem[parseInt($target.attr 'id')].renderActive()
-      $("html, body").animate
-        scrollTop: $target.offset().top - 300
-      , 100
+      #$("html, body").animate
+        #scrollTop: $target.offset().top - 300
+      #, 100
 
 class App.GarageItem extends Spine.Controller
 

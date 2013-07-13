@@ -88,6 +88,9 @@
   height:50px;
   width:50px;
 }
+.container-fluid {
+  padding:0px;
+}
 
 @media all and (max-width: 1000px) {
   #uvTab { display:none; }

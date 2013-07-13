@@ -61,7 +61,7 @@ class MikesModal
     window.innerHeight * .8
 
   marginTop: =>
-    "-#{@modalBox.height() / 2}px"
+    "-#{(@modalBox.height() / 2) - 100}px"
 
   marginLeft: =>
     "-#{@modalBox.width() / 2}px"
