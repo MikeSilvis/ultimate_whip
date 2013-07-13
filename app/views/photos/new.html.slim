@@ -25,7 +25,7 @@
 hr
 .row.span11
   h3 Modify the tags of your existing photos
-  - current_user.photos.each do |photo|
+  - photos.each do |photo|
     = render partial: "garage_photos/garage_photo", locals: { photo: photo }
   .clear
   .row

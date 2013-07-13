@@ -6,7 +6,7 @@ class GaragePhoto < ActiveRecord::Base
   attr_accessible :garage_id, :photo, :tag_list, :photo
   before_create :create_default_tags
 
-  belongs_to :garage
+  belongs_to :garage, touch: true
   has_one :model, through: :garage
   delegate :username, :user_id, :secret_hash, :user, to: :garage
   delegate :make_name, :model_name, to: :garage

@@ -5,7 +5,8 @@ class Garage < ActiveRecord::Base
   belongs_to :user
   belongs_to :model
   belongs_to :color
-  has_many :photos, class_name: "GaragePhoto"
+  has_many :photos, class_name: "GaragePhoto", order: 'created_at DESC'
+  #has_many :photos, -> { order('updated_at DESC') }, class_name: 'GaragePhoto'
 
   before_create :create_default_tags
   delegate :username, :secret_hash, to: :user
@@ -24,6 +25,7 @@ class Garage < ActiveRecord::Base
       .page(page)
       .order("garages.updated_at DESC")
       .where("taggings.taggable_type = ?", "GaragePhoto")
+      .includes(:photos)
     query = query.where("(lower(tags.name) IN (?))", tags) if tags
     query
   end
