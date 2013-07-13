@@ -277,13 +277,13 @@ body {
     }
   }
 }
-@media all and (min-width: 630px) {
+@media all and (min-device-width: 480px) {
   #search-bar, .register {
     display: block !important;
   }
 }
 
-@media all and (max-width: 630px) {
+@media all and (max-device-width: 480px) {
   .navbar {
     .logo {
       text-align: center;
