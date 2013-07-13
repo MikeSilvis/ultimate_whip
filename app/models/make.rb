@@ -4,7 +4,7 @@ class Make < ActiveRecord::Base
 
 
   def self.all_ordered_by_name
-    Make.order("name")
+    Make.includes(:models).order("name")
   end
 
   def self.create_makes_from_yaml
