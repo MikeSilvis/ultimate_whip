@@ -74,6 +74,20 @@
 .photo-container .span8 { height:200px;  }
 .mikes-modal .comments { position:absolute; bottom:0; width:298px; }
 .mikes-modal .comments textarea { width:100%; }
+.alert {
+  position:fixed;
+  z-index: 1;
+  width:100%;
+  height:50px;
+  display:none;
+  line-height:50px;
+}
+.alert .close {
+  position:relative;
+  right:20px;
+  height:50px;
+  width:50px;
+}
 
 @media all and (max-width: 1000px) {
   #uvTab { display:none; }

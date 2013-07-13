@@ -42,7 +42,6 @@ jQuery ->
     $(".finish-tagging").click ->
       $('.edit_garage_photo').submit()
       alerts("success", "Photos have been saved. Now <a href='/'>browse others!</a>")
-      $(window).scrollTop("3000000000")
     $("#update-default-tags").click ->
       $(".edit_garage").submit()
       alerts("success", "All photos uploaded for these vehicles will now have these default tags")
@@ -64,6 +63,5 @@ removeCounterIfComplete = (numberOfFiles, numberOfFilesFinished) ->
     alerts("success", "<strong>Congratulations!</strong> All your files have been uploaded.")
 
 alerts = (type, message) ->
-    $("#alert-js").append("<div class='alert alert-#{type}' id='files-uploaded-succesfully'>#{message}</div>")
-    $(".alert").delay(10000).fadeOut 1000, ->
-      $(this).remove()
+    $("#alert-js").html "<div class='alert alert-#{type}' id='files-uploaded-succesfully'><button type='button' class='close'>&times;</button>#{message}</div>"
+    new ShowFlash(0)

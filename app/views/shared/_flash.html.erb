@@ -1,7 +1,6 @@
-<div class='registration'>
-  <% flash.each do |flash_notice| %>
-    <div class="alert alert-<%= flash_notice[0] %>">
-      <%= flash_notice[1] %>
-    </div>
-  <% end %>
-</div>
+<% flash.each do |flash_notice| %>
+  <div class="alert alert-<%= flash_notice[0] %>">
+    <button type="button" class="close">&times;</button>
+    <%= flash_notice[1] %>
+  </div>
+<% end %>
