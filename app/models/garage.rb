@@ -23,9 +23,9 @@ class Garage < ActiveRecord::Base
       .joins("JOIN taggings on garage_photos.id = taggings.taggable_id")
       .joins("JOIN tags on tags.id = taggings.tag_id")
       .page(page)
-      .order("garages.updated_at DESC")
       .where("taggings.taggable_type = ?", "GaragePhoto")
       .includes(:photos)
+      .order("garages.updated_at DESC")
     query = query.where("(lower(tags.name) IN (?))", tags) if tags
     query
   end

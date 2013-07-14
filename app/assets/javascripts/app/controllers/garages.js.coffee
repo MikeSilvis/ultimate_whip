@@ -20,8 +20,12 @@ class App.Garages extends Spine.Controller
   render: =>
     @html @view('garages/index')()
     @garageItem = {}
-    for garage in Garage.all().sort().reverse()
+    for garage in @sortedGarages().reverse()
       @garageItem[garage.id] = new App.GarageItem(garage) unless $("##{garage.id}_garage").length
+
+  sortedGarages: =>
+    _.sortBy Garage.all(), (obj) ->
+        obj.updated_at
 
   navigateTag: (e) =>
     if e.target.href && e.target.href.match(/\/tags\//)
