@@ -50,7 +50,9 @@ class MikesModal
     $(document).keyup (e) =>
       @modalBox.trigger "close" if e.keyCode is 27
     $(document).bind "touchend click", (e) =>
-      @modalBox.trigger "close" if e.target.id is "the-lights"
+      if e.target.id is "the-lights"
+        @modalBox.trigger "close"
+        e.stopPropogation()
     @modalBox.find(".close").click =>
       @modalBox.trigger "close"
 
@@ -61,7 +63,7 @@ class MikesModal
     window.innerHeight * .8
 
   marginTop: =>
-    "-#{(@modalBox.height() / 2) - 100}px"
+    "-#{(@modalBox.height() / 2)}px"
 
   marginLeft: =>
     "-#{@modalBox.width() / 2}px"
