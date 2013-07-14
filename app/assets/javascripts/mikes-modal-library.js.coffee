@@ -50,9 +50,7 @@ class MikesModal
     $(document).keyup (e) =>
       @modalBox.trigger "close" if e.keyCode is 27
     $(document).bind "touchend click", (e) =>
-      if e.target.id is "the-lights"
-        @modalBox.trigger "close"
-        e.stopPropogation()
+      @modalBox.trigger "close" if e.target.id is "the-lights"
     @modalBox.find(".close").click =>
       @modalBox.trigger "close"
 
@@ -83,7 +81,7 @@ class TheLights
         @theLights = $("#the-lights")
       else
         @theLights = $("<div id='the-lights'></div>")
-        @theLights.appendTo("body").css height: $(document).height()
+        @theLights.appendTo("body")
 
   bindClosed: =>
     @modalBox.bind "close", =>

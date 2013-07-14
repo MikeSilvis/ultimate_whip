@@ -58,12 +58,17 @@ class App.GarageItem extends Spine.Controller
   add: =>
     $(".feed").append @view('garages/garage')(@garage)
     @container = $("##{@garage.id}_garage")
+    @convertToTimeAgo()
 
   update: =>
     @container.after @view('garages/garage')(@garage)
     @container.remove()
     @container = $("##{@garage.id}_garage")
     @addCommentsIfActive()
+    @convertToTimeAgo()
+
+  convertToTimeAgo: =>
+    @container.find("time.timeago").timeago()
 
   addCommentsIfActive: =>
     new App.Comments(el: @container.find(".comments"), object: @garage) if @garage.active

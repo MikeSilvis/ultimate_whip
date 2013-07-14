@@ -1,10 +1,5 @@
 class GarageSerializer < ActiveModel::Serializer
-  include ActionView::Helpers::DateHelper
-  attributes :id, :year, :updated_at, :updated_at_short
-
-  def updated_at_short
-    time_ago_in_words self.updated_at
-  end
+  attributes :id, :year, :updated_at
 
   has_one :model
   has_one :user

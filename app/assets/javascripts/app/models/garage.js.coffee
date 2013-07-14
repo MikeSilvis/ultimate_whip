@@ -6,7 +6,7 @@ class App.Garage extends Spine.Model
   @url: "/api/v1/garages"
 
   constructor: ->
-    @photoLimit = 5
+    @photoLimit = 8
     @class = "Garage"
     @active = false
     super

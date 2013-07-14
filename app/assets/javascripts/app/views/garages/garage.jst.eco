@@ -14,7 +14,9 @@
         <%= @photos.length %> Photos
       </p>
     </li>
-    <li><%= @updated_at_short %></li>
+    <li>
+      <time class='timeago' datetime="<%= @updated_at %>"><%= @updated_at %></time>
+    </li>
     <li>
       <% for photo in @photos.slice(0,@photoLimit): %>
         <a href="/photos/<%= photo.id %>-<%= @user.username %>">
