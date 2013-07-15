@@ -16,9 +16,10 @@ class GaragePhoto < ActiveRecord::Base
     :s3_credentials => "#{Rails.root}/config/s3.yml",
     :styles => {
       :large => "1200x900",
-      :thumb => "100x100#",
+      :thumb => "54x54#",
       :wide => "100x50"
-    }
+    },
+    convert_options: { thumb: "-quality 60" }
 
     def self.find_all(page, tags)
       query = self.order("created_at DESC").includes(:tags, :garage)
