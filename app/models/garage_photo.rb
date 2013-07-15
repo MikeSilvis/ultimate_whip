@@ -16,7 +16,7 @@ class GaragePhoto < ActiveRecord::Base
     :s3_credentials => "#{Rails.root}/config/s3.yml",
     :styles => {
       :large => "1200x900",
-      :thumb => "200x200#",
+      :thumb => "50x50#",
       :wide => "100x50"
     }
 
@@ -65,11 +65,12 @@ class GaragePhoto < ActiveRecord::Base
     def self.create_photos_from_blog(url, garage_id)
       images = ImageScrapper.new(url).find_all_images
       images.each do |img|
-        photo = open(img)
         begin
-          GaragePhoto.where(:original_url => img, :garage_id => garage_id).first_or_create(:photo => photo).save
+          GaragePhoto.where(:original_url => img, :garage_id => garage_id).first_or_create(:photo => open(img)).save
         end
       end
+      GaragePhotoSweeper.send(:new).sweep(GaragePhoto.last)
+      TagSweeper.send(:new).sweep(Tag.last)
     end
 
 end
