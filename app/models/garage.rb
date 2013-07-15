@@ -26,7 +26,7 @@ class Garage < ActiveRecord::Base
       .where("taggings.taggable_type = ?", "GaragePhoto")
       .includes(:photos)
       .order("garages.updated_at DESC")
-    query = query.where("(lower(tags.name) IN (?))", tags) if tags
+    query = query.where("(lower(tags.name) IN (?))", tags.map(&:downcase)) if tags
     query
   end
 

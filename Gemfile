@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails'
-ruby '1.9.3'
+ruby '2.0.0'
 
 group :development do
   gem 'quiet_assets'
