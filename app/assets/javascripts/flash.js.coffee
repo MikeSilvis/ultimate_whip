@@ -10,4 +10,6 @@ class window.ShowFlash
     ), 8000
     $(".alert .close").click ->
       $(".alert").slideUp("slow")
+    if $(".container-fluid").find('.alert').length
+      $("#alert-js").prepend $(".alert")
 
