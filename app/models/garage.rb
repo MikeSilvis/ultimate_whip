@@ -19,9 +19,9 @@ class Garage < ActiveRecord::Base
 
   def self.find_all(page, tags)
     if tags
-      Garage.where(id: GaragePhoto.select("DISTINCT(garage_id)").tagged_with(tags)).page(page).order("updated_at DESC")
+      Garage.where(id: GaragePhoto.select("DISTINCT(garage_id)").tagged_with(tags)).page(page).order("updated_at DESC").includes(:photos)
     else
-      Garage.page(page).order("updated_at DESC")
+      Garage.page(page).order("garages.updated_at DESC").includes(:photos).joins(:photos)
     end
   end
 
