@@ -18,17 +18,26 @@ class Garage < ActiveRecord::Base
   end
 
   def self.find_all(page, tags)
-    query = select("DISTINCT on (garages.updated_at, garages.id) garages.*")
-      .joins("JOIN garage_photos on garages.id = garage_photos.garage_id")
-      .joins("JOIN taggings on garage_photos.id = taggings.taggable_id")
-      .joins("JOIN tags on tags.id = taggings.tag_id")
-      .page(page)
-      .where("taggings.taggable_type = ?", "GaragePhoto")
-      .includes(:photos)
-      .order("garages.updated_at DESC")
-    query = query.where("(lower(tags.name) IN (?))", tags.map(&:downcase)) if tags
-    query
+    if tags
+      Garage.where(id: GaragePhoto.select("DISTINCT(garage_id)").tagged_with(tags)).page(page).order("updated_at DESC")
+    else
+      Garage.page(page).order("updated_at DESC")
+    end
   end
+
+  # old find all
+  #def self.find_all(page, tags)
+    #query = select("DISTINCT on (garages.updated_at, garages.id) garages.*")
+      #.joins("JOIN garage_photos on garages.id = garage_photos.garage_id")
+      #.joins("JOIN taggings on garage_photos.id = taggings.taggable_id")
+      #.joins("JOIN tags on tags.id = taggings.tag_id")
+      #.page(page)
+      #.where("taggings.taggable_type = ?", "GaragePhoto")
+      #.includes(:photos)
+      #.order("garages.updated_at DESC")
+    #query = query.where("(lower(tags.name) IN (?))", tags.map(&:downcase)) if tags
+    #query
+  #end
 
   def create_default_tags
     self.tag_list = [year, model.name, model.make.name, username].join(", ")
