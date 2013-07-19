@@ -25,6 +25,6 @@ class User < ActiveRecord::Base
   end
 
   def has_linked_to?(provider)
-    Identity.where({user_id: id, provider: provider}).exists?
+    Identity.exists?({user_id: id, provider: provider})
   end
 end
