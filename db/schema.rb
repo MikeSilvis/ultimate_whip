@@ -104,14 +104,6 @@ ActiveRecord::Schema.define(:version => 20130713230249) do
   add_index "garages", ["model_id"], :name => "index_garages_on_model_id"
   add_index "garages", ["user_id"], :name => "index_garages_on_user_id"
 
-  create_table "identities", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.integer  "user_id"
-    t.string   "provider"
-    t.string   "uid"
-  end
-
   create_table "landings", :force => true do |t|
     t.string   "title"
     t.string   "slug"

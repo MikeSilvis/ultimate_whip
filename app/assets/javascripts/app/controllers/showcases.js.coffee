@@ -46,9 +46,8 @@ class App.Showcases extends Spine.Controller
 
   setActive: (e) ->
     id = parseInt $(".showcase .others .active").attr('id')
-    item = $("##{id}_garage")
-    garages.renderActive item
-    $.scrollTo(item.offset().top - (window.innerHeight / 2) + $("nav").height(), 500)
+    garages.renderActive $("##{id}_garage")
+    $.scrollTo $("##{id}_garage").offset().top - (window.innerHeight / 2) + $("nav").height(), 500
 
 class App.ShowcaseItem extends Spine.Controller
 
