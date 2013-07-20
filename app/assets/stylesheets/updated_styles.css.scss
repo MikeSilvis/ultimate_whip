@@ -30,11 +30,11 @@ a:hover { color: $orange; }
     display: inline-block;
     margin: 0px;
     padding: 0px;
-    font-size: 24px;
+    font-size: 18px;
     outline: none;
     float: left;
     width: 50%;
-    height:50px;
+    height:55px;
     .select2-choices {
       border:none;
       background:none;
@@ -50,7 +50,6 @@ a:hover { color: $orange; }
     .select2-input {
       height:50px !important;
       border: none;
-      width:40% !important;
       &:focus {
         color: $orange;
         border:none;
@@ -86,15 +85,19 @@ a:hover { color: $orange; }
 .showcase {
   background: #080808;
   border-bottom: 1px solid rgb(88, 88, 88);
+  margin-top:-100px;
+  h2 {
+    color:white;
+  }
   .current-featured {
     height: 300px;
-    background: url('http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/025/large/IMG_2177.jpeg?1369890878') no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     position: relative;
-    border-bottom: 1px solid #007fff;
+    border-bottom: 1px solid $blue;
     .info {
       color: white;
+      cursor:pointer;
       background-color: rgba(0, 0, 0, 0.8);
       padding: 15px;
       position: absolute;
@@ -109,32 +112,30 @@ a:hover { color: $orange; }
     }
   }
   .others {
-    ul {
-      padding: 0px;
-      margin: 0px;
-      background-color: #222;
-      text-align: center;
-      li {
-        list-style: none;
-        display: inline-block;
-        color: $gray;
-        border-right: 1px solid $gray;
-        width: 16%;
-        margin-left: -5px;
-        cursor: pointer;
-        p {
-          margin: 5px 0px;
-          font-size: 0.8em;
-        }
-        &.active {
-          background-color: white;
-          color: #080808;
-          border-bottom: 5px solid $orange;
-          border-right: 0px;
-        }
-        &:last-child {
-          border-right: 0px;
-        }
+    padding: 0px;
+    margin: 0px;
+    background-color: #222;
+    text-align: center;
+    li {
+      list-style: none;
+      display: inline-block;
+      color: $gray;
+      border-right: 1px solid $gray;
+      width: 16%;
+      margin-left: -5px;
+      cursor: pointer;
+      p {
+        margin: 5px 0px;
+        font-size: 0.8em;
+      }
+      &.active {
+        background-color: white;
+        color: #080808;
+        border-bottom: 5px solid $orange;
+        border-right: 0px;
+      }
+      &:last-child {
+        border-right: 0px;
       }
     }
     img {
@@ -149,6 +150,7 @@ a:hover { color: $orange; }
 .feed {
   margin: 0 auto;
   width: 95%;
+  margin-top:20px;
   list-style: none;
   padding-left: 0px;
   li.item {

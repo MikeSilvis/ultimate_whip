@@ -1,0 +1,4 @@
+<li id='<%= @image.id %>_other' class='<%= 'active' if @image.active %>'>
+  <img src="<%=@image.photo_thumb %>" alt="" />
+  <p><%= @image.caption %></p>
+</li>

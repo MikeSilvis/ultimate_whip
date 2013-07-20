@@ -13,7 +13,8 @@ class App.Tags extends Spine.Controller
     Tag.fetch()
 
   render: =>
-    @garages = new App.Garages({el: $('.feed')})
+    window.garages = new App.Garages({el: $('.feed')})
+    new App.Showcases({el: $(".showcase")})
     @html @view('tags/index')(tags: Tag.all())
     @setupRoutes()
     @tags.select2().change =>

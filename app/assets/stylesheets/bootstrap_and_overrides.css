@@ -1,5 +1,5 @@
-.row-fluid {
-  padding-top:100px;
+body {
+  background: url('bg.png')
 }
 .login-nav {
   padding: 15px !important;
@@ -89,9 +89,31 @@
   width:50px;
 }
 .container-fluid {
+  margin-top:100px;
   padding:0px;
 }
-
+.select2-input {
+  height:30px !important;
+}
+.registration {
+  width:500px;
+  margin:0 auto;
+}
+.string input, .email input, .password input, .integer input{
+  font-size:20px !important;
+  height:50px !important;
+  width:100%;
+}
+.select select{
+  width:100%;
+}
+.logo {
+  float:left;
+  padding-top:2px;
+}
+.select2-input {
+  font-family: "Open Sans",Calibri,Candara,Arial,sans-serif !important;
+}
 @media all and (max-width: 1000px) {
   #uvTab { display:none; }
   #search-area { width:90%; margin:0 auto; }
@@ -99,3 +121,4 @@
   .mikes-modal .comments { position:static; float:left; width:100%; }
   .registration { width:90%; }
 }
+

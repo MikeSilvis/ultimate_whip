@@ -28,7 +28,6 @@ class App.FullPhotos extends Spine.Controller
   listenEvents: =>
     $(".mikes-modal").bind "loaded", =>
       $(window).scrollTop(@location)
-      tags.navigateForTag()
     $(".tag").click (e) =>
       e.preventDefault()
       $(".mikes-modal").trigger("close")
@@ -39,8 +38,3 @@ class App.FullPhotos extends Spine.Controller
     #$(".twitter").click (e) ->
       #e.preventDefault()
       #window.open("https://twitter.com/intent/tweet?text=#{@photo.twitter_tweet()}",'sharer','toolbar=0,status=0,width=548,height=325');
-
-alerts = (type, message) ->
-    $("#alert-js").append("<div class='alert alert-#{type}' id='files-uploaded-succesfully'>#{message}</div>")
-    $(".alert").delay(10000).fadeOut 1000, ->
-      $(this).remove()

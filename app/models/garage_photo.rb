@@ -16,8 +16,9 @@ class GaragePhoto < ActiveRecord::Base
     :s3_credentials => "#{Rails.root}/config/s3.yml",
     :styles => {
       :large => "1200x900",
+      :featured => "1200x300#",
       :thumb => "54x54#",
-      :wide => "100x50"
+      :wide => "100x50#"
     },
     convert_options: { thumb: "-quality 60" }
 

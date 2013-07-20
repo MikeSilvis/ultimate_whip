@@ -19,9 +19,9 @@ class App.Garages extends Spine.Controller
 
   render: =>
     @html @view('garages/index')()
-    @garageItem = {}
+    window.garageItem = {}
     for garage in @sortedGarages().reverse()
-      @garageItem[garage.id] = new App.GarageItem(garage) unless $("##{garage.id}_garage").length
+      garageItem[garage.id] = new App.GarageItem(garage) unless $("##{garage.id}_garage").length
 
   sortedGarages: =>
     _.sortBy Garage.all(), (obj) ->
@@ -39,16 +39,16 @@ class App.Garages extends Spine.Controller
       @navigate('/photos', $(e.target).closest("a").attr("href").replace(/\/photos\//,""))
     e.stopPropagation()
 
-  setActive: (e) ->
-    $target = $(e.currentTarget)
-    garageItem = @garageItem
-    unless $target.hasClass("active")
+  setActive: (e) =>
+    @renderActive $(e.currentTarget)
+
+  renderActive: (target) =>
+    item = garageItem
+    unless target.hasClass("active")
       $(".item.active").each ->
-        garageItem[parseInt($(this).attr 'id')].removeActive()
-      @garageItem[parseInt($target.attr 'id')].renderActive()
-      #$("html, body").animate
-        #scrollTop: $target.offset().top - 300
-      #, 100
+        item[parseInt($(this).attr 'id')].removeActive()
+      garageItem[parseInt(target.attr 'id')].renderActive()
+
 
 class App.GarageItem extends Spine.Controller
 
