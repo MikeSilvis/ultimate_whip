@@ -1,6 +1,6 @@
 <style>
   .showcase .current-featured{
-    background: url(<%= @image.photo_large %>) no-repeat center center fixed;
+    background: url(<%= @image.photo_large %>) no-repeat center -110px fixed;
     background-size:cover;
   }
 </style>

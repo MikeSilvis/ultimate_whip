@@ -30,7 +30,7 @@ class App.Showcases extends Spine.Controller
       new App.Showcase(
         id: 2,
         active: false,
-        photo_large: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/026/featured/IMG_2181.jpeg?1373957462",
+        photo_large: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/100/featured/open-uri20130712-2-hgjsc9?1374286254",
         photo_thumb: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/101/wide/open-uri20130712-2-1794mar?1373912804",
         caption: "esquire's M3!",
         description: "Featuring Akrapovic Evolution Exhaust"
