@@ -18,7 +18,7 @@ class Garage < ActiveRecord::Base
   end
 
   def self.find_all(page, tags)
-    query = Garage.page(page).order("garages.updated_at DESC").includes(:photos).includes(:color, :user, :model)
+    query = Garage.page(page).order("garages.updated_at DESC").includes(:photos).includes(:color, :user, { model: :make }).joins(:photos)
     query = query.where(id: GaragePhoto.select("DISTINCT(garage_id)").tagged_with(tags)) if tags
     query
   end

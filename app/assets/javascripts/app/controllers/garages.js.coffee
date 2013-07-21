@@ -22,6 +22,13 @@ class App.Garages extends Spine.Controller
     window.garageItem = {}
     for garage in @sortedGarages().reverse()
       garageItem[garage.id] = new App.GarageItem(garage) unless $("##{garage.id}_garage").length
+    @infinteScroll()
+
+  infinteScroll:  =>
+    $(window).bind "scroll", ->
+      if $(window).scrollTop() > $(document).height() - window.innerHeight - 500
+        $(window).unbind "scroll"
+        Garage.fetch()
 
   sortedGarages: =>
     _.sortBy Garage.all(), (obj) ->

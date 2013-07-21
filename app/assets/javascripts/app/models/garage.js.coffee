@@ -40,7 +40,9 @@ class App.Garage extends Spine.Model
 
     page = @page + 1
     @page = page
-    return false if (App.Garage.all().length == @totalPhotos)
+    if (App.Garage.all().length == @totalPhotos)
+      $("#loading").hide()
+      return false
     @totalPhotos = App.Garage.all().length
 
     params or=
