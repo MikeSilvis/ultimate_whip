@@ -12,7 +12,7 @@ class Api::V1::GaragesController < ApplicationController
   def update
     g = Garage.where(id: params[:id]).includes(:photos).first
     params[:images].each do |k,img|
-      g.photos.where(original_url: img).first_or_create(photo: open(img)).save rescue nil
+      g.photos.where(original_url: img).first_or_create(photo: open(img)).save
     end
     render json: true
   end

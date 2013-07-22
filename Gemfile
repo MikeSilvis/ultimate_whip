@@ -7,7 +7,7 @@ group :development do
   gem 'quiet_assets'
 end
 
-gem 'thin'
+gem 'unicorn'
 gem 'spiderable'
 
 group :assets do
