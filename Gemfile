@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails'
-ruby '2.0.0'
+ruby '1.9.3'
 
 group :development do
   gem 'quiet_assets'
@@ -25,6 +25,8 @@ group :test do
   gem 'simplecov'
   gem 'vcr'
 end
+
+gem 'typhoeus'
 gem 'newrelic_rpm'
 gem 'pg'
 gem 'eco'
@@ -50,6 +52,7 @@ gem 'acts_as_commentable'
 gem 'kaminari'
 gem 'mini_magick'
 gem 'sentry-raven'
+gem 'iron_worker_ng'
 gem "activeadmin"
 gem 'uniquify'
 gem "ckeditor"

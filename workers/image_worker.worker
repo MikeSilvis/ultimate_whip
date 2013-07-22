@@ -1,0 +1,14 @@
+runtime "ruby"
+
+gem 'typhoeus'
+gem 'nokogiri'
+gem 'mini_magick'
+
+remote
+
+dir '../app/lib'
+
+name 'ImageWorker'
+
+
+exec "image_worker.rb"

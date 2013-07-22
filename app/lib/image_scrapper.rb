@@ -24,7 +24,7 @@ class ImageScrapper
   end
 
   def valid_image?(image_url)
-    if image_url.present? && (image_url =~ /gif/)
+    if !image_url.nil?  && !image_url.empty? && (image_url =~ /gif/)
       false
     else
       begin
@@ -50,14 +50,14 @@ class ImageScrapper
     @original_posts ||= post_urls.map { |url| Nokogiri::HTML(open(url)) }
   end
 
-  def open_next_page(current_page)
-    url = current_page.search(".pagenav").xpath('//a[starts-with(@title, "Next Page")]')
-    unless url.empty?
-      page = Nokogiri::HTML(open("http://www.m3post.com/forums/#{url.first["href"]}"))
-      pages_to_check.push page
-      all_pages_array.push page
-    end
-  end
+  #def open_next_page(current_page)
+    #url = current_page.search(".pagenav").xpath('//a[starts-with(@title, "Next Page")]')
+    #unless url.empty?
+      #page = Nokogiri::HTML(open("http://www.m3post.com/forums/#{url.first["href"]}"))
+      #pages_to_check.push page
+      #all_pages_array.push page
+    #end
+  #end
 
   def all_pages
     #find_more_pages
@@ -72,11 +72,11 @@ class ImageScrapper
     @pages_to_check ||= [original_post]
   end
 
-  def find_more_pages
-    if pages_to_check.length > 0
-      open_next_page(pages_to_check.pop)
-      find_more_pages
-    end
-  end
+  #def find_more_pages
+    #if pages_to_check.length > 0
+      #open_next_page(pages_to_check.pop)
+      #find_more_pages
+    #end
+  #end
 
 end

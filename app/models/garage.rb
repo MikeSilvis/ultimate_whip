@@ -45,10 +45,8 @@ class Garage < ActiveRecord::Base
 private
 
   def bulk_upload_photos
-    urls = self.forum_urls.split(",").map(&:strip)
-    Thread.new do
-      GaragePhoto.create_photos_from_blog(urls, self.forum_div, self.id)
-    end
+    client = IronWorkerNG::Client.new
+    client.tasks.create('ImageWorker', { urls: self.forum_urls.split(",").map(&:strip), div: forum_div })
   end
 
 end
