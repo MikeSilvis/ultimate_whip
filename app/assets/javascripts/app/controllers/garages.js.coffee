@@ -85,7 +85,7 @@ class App.GarageItem extends Spine.Controller
     new App.Comments(el: @container.find(".comments"), object: @garage) if @garage.active
 
   renderActive: =>
-    @garage.setPhotoLimit(20)
+    @garage.setPhotoLimit(100)
     @garage.setActive()
     @update()
     @container.addClass "active"
