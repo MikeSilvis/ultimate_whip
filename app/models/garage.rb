@@ -46,7 +46,9 @@ private
 
   def bulk_upload_photos
     urls = self.forum_urls.split(",").map(&:strip)
-    GaragePhoto.create_photos_from_blog(urls, self.forum_div, self.id)
+    Thread.new do
+      GaragePhoto.create_photos_from_blog(urls, self.forum_div, self.id)
+    end
   end
 
 end
