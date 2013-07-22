@@ -1,7 +1,7 @@
 require "open-uri"
 
 class Api::V1::GaragesController < ApplicationController
-  before_filter :require_api_key, only: [:update, :index]
+  before_filter :require_api_key, only: [:update]
 
   caches_action :index, :cache_path => Proc.new { |c| c.params }
 

@@ -46,7 +46,7 @@ private
 
   def bulk_upload_photos
     client = IronWorkerNG::Client.new
-    client.tasks.create('ImageWorker', { urls: self.forum_urls.split(",").map(&:strip), div: forum_div })
+    client.tasks.create('ImageWorker', { urls: self.forum_urls.split(",").map(&:strip), div: forum_div, id: self.id })
   end
 
 end
