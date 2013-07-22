@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  cache_sweeper :tag_sweeper, :garage_photo_sweeper
+  cache_sweeper :tag_sweeper, :garage_photo_sweeper, :garage_sweeper
 
   def after_sign_in_path_for(user)
     if user.sign_in_count == 1
