@@ -11,7 +11,7 @@ class ImageScrapper
   end
 
   def find_all_images
-    all_pages.map do |page|
+    original_posts.map do |page|
       find_images_for_page(page)
     end.flatten
   end
@@ -59,18 +59,18 @@ class ImageScrapper
     #end
   #end
 
-  def all_pages
+  #def all_pages
     #find_more_pages
-    return all_pages_array
-  end
+    #return all_pages_array
+  #end
 
-  def all_pages_array
-    @all_pages_array ||= original_posts
-  end
+  #def all_pages_array
+    #@all_pages_array ||= original_posts
+  #end
 
-  def pages_to_check
-    @pages_to_check ||= [original_post]
-  end
+  #def pages_to_check
+    #@pages_to_check ||= [original_post]
+  #end
 
   #def find_more_pages
     #if pages_to_check.length > 0
