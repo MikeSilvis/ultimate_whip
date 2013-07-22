@@ -1,7 +1,7 @@
 class GaragePhoto < ActiveRecord::Base
   require "open-uri"
   acts_as_taggable
-  acts_as_likeable
+  #acts_as_likeable
   acts_as_commentable
   attr_accessible :garage_id, :photo, :tag_list, :photo
   before_create :create_default_tags
@@ -64,8 +64,8 @@ class GaragePhoto < ActiveRecord::Base
       includes_for_json.where(photo_file_name: name).order("created_at DESC").first
     end
 
-    def self.create_photos_from_blog(url, garage_id)
-      images = ImageScrapper.new(url).find_all_images
+    def self.create_photos_from_blog(urls, div, garage_id)
+      images = ImageScrapper.new(urls.uniq,div).find_all_images
       images.each do |img|
         begin
           GaragePhoto.where(:original_url => img, :garage_id => garage_id).first_or_create(:photo => open(img)).save

@@ -3,32 +3,33 @@ require 'open-uri'
 require 'mini_magick'
 
 class ImageScrapper
-  attr_accessor :post_url
+  attr_accessor :post_urls, :div_with_images
 
-  def initialize post_url
-    self.post_url = post_url
+  def initialize post_urls, div_with_images
+    self.post_urls = post_urls
+    self.div_with_images = div_with_images
   end
 
   def find_all_images
-    all_pages.each do |page|
-      all_images.concat find_images_for_page(page)
-    end
-    all_images_urls
+    all_pages.map do |page|
+      find_images_for_page(page)
+    end.flatten
   end
 
   def find_images_for_page(page)
-    page.xpath('//div[starts-with(@id, "post_message")]').search("img").select do |image|
-      valid_image?(image['src']) ? image['src'] : nil
-    end
+    page.search("#{div_with_images}").search("img").map do |image|
+      img = image['src'].to_s.gsub("medium", "large")
+      valid_image?(img) ? img : nil
+    end.compact
   end
 
   def valid_image?(image_url)
-    if image_url =~ /gif/
+    if image_url.present? && (image_url =~ /gif/)
       false
     else
       begin
         image = MiniMagick::Image.open(image_url)
-        (image[:width] > 600) && (image[:height] > 500) && (image[:format] != 'gif')
+        (image[:width] > 600) && (image[:height] > 450) && (image[:format] != 'gif')
       rescue
         false
       end
@@ -45,8 +46,8 @@ class ImageScrapper
     all_images.map { |img| img['src'] }.uniq
   end
 
-  def original_post
-    @original_post ||= Nokogiri::HTML(open(post_url))
+  def original_posts
+    @original_posts ||= post_urls.map { |url| Nokogiri::HTML(open(url)) }
   end
 
   def open_next_page(current_page)
@@ -59,12 +60,12 @@ class ImageScrapper
   end
 
   def all_pages
-    find_more_pages
+    #find_more_pages
     return all_pages_array
   end
 
   def all_pages_array
-    @all_pages_array ||= [original_post]
+    @all_pages_array ||= original_posts
   end
 
   def pages_to_check
