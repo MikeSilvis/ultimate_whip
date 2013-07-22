@@ -1,13 +1,14 @@
 require 'typhoeus'
+require 'uri'
 require './lib/image_scrapper'
 
-puts "URLs are" + params[:urls]
-puts "Div is" + params[:div]
-puts "id is" + params[:id]
+puts "URLs are #{params[:urls]}"
+puts "Div is #{params[:div]}"
+puts "id is #{params[:id]}"
 
-images =ImageScrapper.new(params[:urls], params[:div]).find_all_images
+images = ImageScrapper.new(params[:urls], params[:div]).find_all_images
 puts images
 
-Typhoeus.put("localhost:3000/api/v1/garages/#{params[:id]}", images: images, api: "mikeisawesome" )
+Typhoeus.put("http://auxotic.com/api/v1/garages/#{params[:id]}?api=mikeisawesome", params: { images: images } )
 
 puts 'job complete'
