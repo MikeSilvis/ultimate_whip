@@ -11,13 +11,15 @@ class Api::V1::GaragesController < ApplicationController
 
   def update
     g = Garage.where(id: params[:id]).includes(:photos).first
+    before_count = g.photos.count
     params[:images].each do |k,img|
       g.photos.where(original_url: img).first_or_create(photo: open(img)).save rescue nil
     end
-    render json: true
+    render json: { images_requested: params[:images].count, images_saved: (g.photos.count - before_count) }
   end
 
 private
+
 
   def require_api_key
     render json: false unless params[:api] == "mikeisawesome"

@@ -28,8 +28,8 @@ ActiveAdmin.register_page "Dashboard" do
       column do
         panel "Recent Photos" do
           table_for GaragePhoto.order("created_at DESC").limit(10) do
-            column(:photo) { |photo| image_tag photo.photo(:thumb) }
             column(:id) { |photo| link_to photo.id, admin_garage_photo_path(photo) }
+            column(:photo) { |photo| image_tag photo.photo(:thumb) }
           end
         end
       end
