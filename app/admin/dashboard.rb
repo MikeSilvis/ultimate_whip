@@ -33,6 +33,16 @@ ActiveAdmin.register_page "Dashboard" do
           end
         end
       end
+      column do
+        panel "Recent Comments" do
+          table_for Comment.order("created_at DESC").limit(10) do
+            column(:user) { |comment| comment.user.username }
+            column(:comment) { |comment| comment.comment }
+            column("On") { |comment| comment.commentable_type }
+            column(:url) { |comment| link_to comment.url, comment.url, target: "_blank"  }
+          end
+        end
+      end
     end
   end
 
