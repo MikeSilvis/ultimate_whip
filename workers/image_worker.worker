@@ -1,6 +1,6 @@
 runtime "ruby"
 
-gem 'faraday'
+gem 'typhoeus'
 gem 'nokogiri'
 gem 'mini_magick'
 
