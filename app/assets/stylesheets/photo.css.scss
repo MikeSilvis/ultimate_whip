@@ -1,0 +1,94 @@
+@import 'updated_styles';
+
+.photo {
+
+  text-align:center;
+  margin-top:-46px;
+  height:100%;
+  h1 { line-height:60px; }
+  .controls { margin:40px 0px; }
+
+  .nav.nav-pills{
+    position:fixed;
+    width:100%;
+    padding-top:1px;
+    height:37px;
+    z-index:1;
+    background-color:$orange;
+    margin-bottom:0px;
+    li {
+      width:100px;
+      float:none;
+      display:inline-block;
+      &.active {
+        a {
+          background-color:$black;
+        }
+      }
+    }
+  }
+  .upload-area {
+    padding-top:80px;
+  }
+  .hover {
+    background-color:$blue;
+  }
+  .thumbnail {
+    display:inline-block;
+    &:hover {
+      background-color:$blue;
+    }
+  }
+  ul.manage {
+    list-style:none;
+    margin:0px;
+    margin-bottom:40px;
+    li.vehicle {
+      background-color:white;
+      width:80%;
+      margin:0 auto;
+      padding:20px;
+      border-bottom:1px solid $black;
+      &:first-child {
+        border-top-right-radius:4px;
+        border-top-left-radius:4px;
+      }
+      &:last-child {
+        border-bottom:none;
+        border-bottom-right-radius:4px;
+        border-bottom-left-radius:4px;
+      }
+    }
+    .bio {
+      text-align:left;
+      display:inline-block;
+      float:left;
+      h4 { margin-top:0px; }
+    }
+    .controls { margin:20px 0px 0px; }
+    .control-group { margin:0px; }
+    .pictures {
+      display:inline-block;
+      .thumbnail { margin:4px; }
+    }
+  }
+  .thumbnail { cursor:pointer; }
+  .thumbnail:hover, .thumbnail-hover { background-color:$red; }
+  .select2-container { width:100%; }
+  .progress { width:50%; margin:0 auto; }
+}
+.delete-image { cursor:pointer; }
+
+@media all and (max-width: 480px) {
+  .photo {
+    height:auto;
+    .upload-button { margin-top: 0px; }
+    #garage_photo_garage_id { width:80% !important; }
+    .drag, .or { display:none; }
+    .upload-area { padding-top:40px; }
+    .upload-area .or { margin:20px 0px; }
+    .manage { padding-top:40px; }
+    .progress { margin-top:10px; width:80%; }
+  }
+
+}

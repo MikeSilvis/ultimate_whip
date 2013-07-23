@@ -3,11 +3,15 @@ class PhotosController < ApplicationController
   before_filter :authenticate_user!, only: [:new]
   before_filter :require_ride, only: :new
 
+  def index
+  end
+
   def show
     render "whips/index"
   end
 
   def new
+    render template: "photos/new2"
   end
 
 private

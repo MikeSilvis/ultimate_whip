@@ -7,7 +7,7 @@
     Hello from Auxotic! <br><br>
     It appears <%= @from_user.username %> someone has left you a comment on discussion you were having. <br><br>
     It says "<%= @comment.comment %>" <br><br>
-    To reply to his comment <a href='http://auxotic.com/<%= @user %>'>click here</a> <br><br>
+    To reply to his comment <a href='http://auxotic.com/<%= @comment.url %>'>click here</a> <br><br>
     Sincerely, <br><br>
     <a href="http://auxotic.com">Auxotic.com</a>
   </body>

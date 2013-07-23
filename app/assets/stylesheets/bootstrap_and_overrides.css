@@ -25,6 +25,8 @@ body {
   float:right;
   width:200px;
 }
+.progress { height:20px; }
+.progress-info { background-color:#eeeeee; }
 #file-count{
   height: 30px;
   margin-bottom: 3px;
