@@ -22,7 +22,7 @@ class Comment < ActiveRecord::Base
     if self.commentable_type == "GaragePhoto"
       photo_path(self.commentable)
     else
-      tag_path(self.commentable)
+      tag_path(self.commentable.user.username)
     end
   end
 
