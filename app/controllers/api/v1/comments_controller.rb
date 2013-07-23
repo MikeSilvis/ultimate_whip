@@ -3,12 +3,23 @@ class Api::V1::CommentsController < ApiController
 
   def create
     object = params[:comment][:commentable_type].constantize.find(params[:comment][:commentable_id])
-    object.comments.create(user_id: current_user.id, comment: params[:comment][:message])
-    #UserMailer.notify_photo_comment(comment).deliver
+    comment = object.comments.create(user_id: current_user.id, comment: params[:comment][:message])
+    send_emails(object,comment)
     render json: true
   end
 
   def index
     render json: Comment.where('commentable_id = ? AND commentable_type = ?',  params[:commentable_id], params[:commentable_type]).includes(:user), root: false
   end
+
+private
+
+  def send_emails(object, comment)
+    object.comments.each do |c|
+      Thread.new do
+        UserMailer.notify_photo_comment(c).deliver
+      end
+    end
+  end
+
 end
