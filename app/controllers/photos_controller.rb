@@ -11,7 +11,6 @@ class PhotosController < ApplicationController
   end
 
   def new
-    render template: "photos/new2"
   end
 
 private

@@ -1,33 +1,12 @@
-#progress-area
-.span3.well
-  h3 Upload Pictures!
-  = simple_form_for GaragePhoto.new do |f|
-    = f.association :garage, :collection => current_user.vehicles.map { |v| [v.model.name, v.id] }, :include_blank => false, label: "Upload images for..."
-    #dropzone.fade.well drag images here
-    = f.file_field :photo, name: "garage_photo[photo]", style: "display:none;"
-  hr
-  h3 Manage Default Tags
-  - current_user.vehicles.each do |vehicle|
-   h4= vehicle.model.name
-   = simple_form_for vehicle, remote: true do |f|
-     = f.input :tag_list, input_html: { class: "garage_tags" }, label: "Tags (BBS, GTHaus, Dinan)"
-  button.btn.btn-primary.full-width#update-default-tags Update Default Tags
 
-.span8#photos(style="display:none;")
-  .progress.progress-striped.active
-    .bar
-  h1 New Pictures
-  #photo-insert.row
-  .clear
-  .row
-    a.btn.btn-large.btn-primary.btn-block.finish-tagging.new-tags Finish Tagging
-.clear
-hr
-.row.span11
-  h3 Modify the tags of your existing photos
-  - photos.each do |photo|
-    = render partial: "garage_photos/garage_photo", locals: { photo: photo }
-  .clear
-  .row
-    a.btn.btn-large.btn-primary.finish-tagging.full-width Finish Tagging
-.current_tokens data-tokens=Tag.pluck(:name).to_json
+= simple_form_for GaragePhoto.new do |f|
+  .photo#dropzone
+    = render partial: "shared/manage_pills"
+    .upload-area
+      .progress.progress-info.progress-striped.active(style="display:none;")
+        .bar style="width: 20%;"
+      h1 Upload Photos For
+      = f.association :garage, :collection => current_user.vehicles.map { |v| [v.model.name, v.id] }, include_blank: false, input_html: { style: 'width:50%;' }, label: false
+      h1.drag By dragging or
+      a.btn.btn-inverse.btn-large.upload-button href='#' choose photos to upload
+      = f.file_field :photo, name: "garage_photo[photo]", style: "display:none;", multiple: true
