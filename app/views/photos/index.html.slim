@@ -1,0 +1,17 @@
+.photo
+  = render partial: "shared/manage_pills"
+  .upload-area
+    = simple_form_for current_user, remote: true do |f|
+      ul.manage
+        = f.simple_fields_for :vehicles do |v|
+          li.vehicle
+            .bio
+              h4= "#{v.object.year} #{v.object.make_name} #{v.object.model_name}"
+            .pictures
+              = v.simple_fields_for :photos do |p|
+                = image_tag p.object.photo(:thumb), class: "thumbnail"
+                = p.hidden_field :_destroy, class: "delete-field"
+            = v.input :tag_list, label: false
+
+= image_tag 'icons/298-circlex@2x.png', style: "display:none;", class: 'delete-image'
+.current_tokens data-tokens=Tag.order(:name).pluck(:name).to_json

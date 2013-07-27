@@ -1,5 +1,5 @@
 jQuery ->
-  if $('#new_garage_photo').length
+  if false #$('#new_garage_photo').length
     $(document).bind "drop dragover", (e) ->
       e.preventDefault()
     $(document).bind "dragover", (e) ->
@@ -27,13 +27,13 @@ jQuery ->
         @numberOfFilesFinished or= 0
         @numberOfFiles++
         $("#photos").show()
-        types = /(\.|\/)(gif|jpe?g|png)$/i
+        types = /(\.|\/)(jpe?g|png)$/i
         file = data.files[0]
         $(".progress .bar").css "width", 10
         if types.test(file.type) || types.test(file.name)
           data.submit()
         else
-          alerts("error", "#{file.name} is not a gif, jpeg, or png image file")
+          alerts("error", "#{file.name} is not a jpeg, or png image file")
       done: ->
         @numberOfFilesFinished++
         removeCounterIfComplete(@numberOfFiles, @numberOfFilesFinished)

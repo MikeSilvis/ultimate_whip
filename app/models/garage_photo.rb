@@ -4,7 +4,6 @@ class GaragePhoto < ActiveRecord::Base
   #acts_as_likeable
   acts_as_commentable
   attr_accessible :garage_id, :photo, :tag_list, :photo
-  before_create :create_default_tags
 
   belongs_to :garage, touch: true
   has_one :model, through: :garage
@@ -15,18 +14,12 @@ class GaragePhoto < ActiveRecord::Base
     :storage => :s3,
     :s3_credentials => "#{Rails.root}/config/s3.yml",
     :styles => {
-      :large => "1200x900",
-      :featured => "1200x300#",
-      :thumb => "54x54#",
-      :wide => "100x50#"
+      large:       "1200x900",
+      featured:    "1200x300#",
+      thumb:       "54x54#",
+      wide:        "100x50#"
     },
     convert_options: { thumb: "-quality 60" }
-
-    def self.find_all(page, tags)
-      query = self.order("created_at DESC").includes(:tags, :garage)
-      query = query.tagged_with(tags.split(",")) if tags.present
-      query
-    end
 
     def photo_url_thumb
       photo.url(:thumb)
@@ -34,30 +27,6 @@ class GaragePhoto < ActiveRecord::Base
 
     def photo_url_large
       photo.url(:large)
-    end
-
-    def like_count
-      likers(User).size
-    end
-
-    def likes
-      @likes ||= likers(User)
-    end
-
-    def create_default_tags
-      self.tag_list = default_tags
-    end
-
-    def default_tags
-      self.garage.tag_list
-    end
-
-    def like_count
-      likes.size
-    end
-
-    def tags_string
-      tags.join(", ")
     end
 
     def self.find_by_file_name(name)

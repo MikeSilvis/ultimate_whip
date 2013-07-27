@@ -23,11 +23,10 @@ UltimateWhip::Application.routes.draw do
   resources :garage_photos
   resources :makes, only: [:show]
   resources :registration_succesful, only: [:index]
-  root :to => "whips#index"
+  resources :users, only: [:update]
   devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
 
+  root :to => "whips#index"
   ActiveAdmin.routes(self)
 
-  get 'users/account'
-  
 end
