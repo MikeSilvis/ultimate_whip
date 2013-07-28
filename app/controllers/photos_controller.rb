@@ -1,6 +1,6 @@
 class PhotosController < ApplicationController
 
-  before_filter :authenticate_user!, only: [:new]
+  before_filter :authenticate_user!, only: [:new, :index]
   before_filter :require_ride, only: :new
 
   def index
