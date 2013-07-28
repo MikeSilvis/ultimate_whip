@@ -13,13 +13,30 @@ class App.FullPhotos extends Spine.Controller
     $(".mikes-modal").mikesModal()
     FullPhoto.unbind "refresh"
     new App.Comments(el: @el.find(".comments"), object: @photo)
+    @setTitleBar()
+    @metaTags()
     @location = $(window).scrollTop()
     @listenEvents()
     @setupRoutes()
 
+  setTitleBar: =>
+    url = location.pathname.replace(/\/photos\//g," ").split("-")
+    url.shift()
+    make = url.shift()
+    model = url.join " "
+    @oldTitleBar = $("title").text()
+    $('title').text "Auxotic - #{make} #{model}"
+
+  metaTags: =>
+    keywords = $("meta[name='keywords']").attr('content')
+    tags = _.map App.FullPhoto.all()[0].tags, (obj) ->
+             obj.name
+    $("meta[name='keywords']").attr('content',"#{keywords}, #{tags}")
+
   setupRoutes: ->
     $(".mikes-modal").bind 'close', (e) =>
       $(window).scrollTop(@location)
+      $("title").text @oldTitleBar
       @navigate("/")
     #$(window).bind "hashchange", ->
       #$(".mikes-modal").trigger "close"

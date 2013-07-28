@@ -117,6 +117,13 @@ body {
 .select2-input {
   font-family: "Open Sans",Calibri,Candara,Arial,sans-serif !important;
 }
+.footer {
+  text-align:center;
+  padding:20px 0px;
+}
+.footer a {
+  padding:0px 40px;
+}
 @media all and (max-width: 1000px) {
   #uvTab { display:none; }
   #search-area { width:90%; margin:0 auto; }

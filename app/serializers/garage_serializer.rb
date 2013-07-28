@@ -5,6 +5,4 @@ class GarageSerializer < ActiveModel::Serializer
   has_one :user
   has_one :color
   has_many :photos
-  #has_many :tags
-
 end

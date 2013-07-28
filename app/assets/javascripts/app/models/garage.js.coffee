@@ -17,6 +17,9 @@ class App.Garage extends Spine.Model
   setActive: (bool=true) =>
     @active = bool
 
+  photoSeoUrl: =>
+    "#{@model.make.name} #{@model.name}".replace(/\ /g, "-")
+
   @fetch: (params) =>
     $("#loading").show()
     if tags = $("#tags-select").val()
