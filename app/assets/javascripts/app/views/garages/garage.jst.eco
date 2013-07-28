@@ -18,7 +18,7 @@
       <time class='timeago' datetime="<%= @updated_at %>"><%= @updated_at %></time>
     </li>
     <li>
-      <% for photo in @photos.slice(0,@photoLimit): %>
+      <% for photo in @sortedPhoto().slice(0,@photoLimit): %>
         <a href="/photos/<%= photo.id %>-<%= @photoSeoUrl() %>">
           <img src="<%= photo.photo_url_thumb %>" alt="<%= photo.tags_string %>" id="p-<%= photo.id %>">
          </a>

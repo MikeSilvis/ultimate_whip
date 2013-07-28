@@ -17,6 +17,11 @@ class App.Garage extends Spine.Model
   setActive: (bool=true) =>
     @active = bool
 
+  sortedPhoto: =>
+    _.sortBy(@photos, (obj) ->
+      obj.id
+    ).reverse()
+
   photoSeoUrl: =>
     "#{@model.make.name} #{@model.name}".replace(/\ /g, "-")
 
