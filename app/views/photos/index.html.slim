@@ -13,5 +13,5 @@
                 = p.hidden_field :_destroy, class: "delete-field"
             = v.input :tag_list, label: false
 
-= image_tag 'icons/298-circlex@2x.png', style: "display:none;", class: 'delete-image'
+= image_tag '298-circlex@2x.png', style: "display:none;", class: 'delete-image'
 .current_tokens data-tokens=Tag.order(:name).pluck(:name).to_json

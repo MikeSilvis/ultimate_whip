@@ -72,5 +72,5 @@ UltimateWhip::Application.configure do
     :password  => "6smhtwgbi6x2",
     :authentication  => :login
   }
-  config.action_mailer.default_url_options = { :host => 'm3snaps.com' }
+  config.action_mailer.default_url_options = { :host => 'auxotic.com' }
 end
