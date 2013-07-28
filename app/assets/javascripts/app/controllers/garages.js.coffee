@@ -6,9 +6,6 @@ class App.Garages extends Spine.Controller
     'click .item img'        :  'openPhoto'
     'click .item a'          :  'navigateTag'
     'click .item'            :  'setActive'
-    'touchstart .item img'   :  'openPhoto'
-    'touchstart  .item a'    :  'navigateTag'
-    'touchstart   .item'     :  'setActive'
 
   constructor: ->
     super
