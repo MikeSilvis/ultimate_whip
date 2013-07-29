@@ -36,7 +36,7 @@ class App.Showcases extends Spine.Controller
         photo_large: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/100/featured/open-uri20130712-2-hgjsc9?1374286254",
         normal_offset: -300,
         photo_iphone: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/100/featured_iphone/open-uri20130712-2-hgjsc9?1374286254",
-        iphone_offset: -200,
+        iphone_offset: 0,
         photo_thumb: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/101/wide/open-uri20130712-2-1794mar?1373912804",
         caption: "esquire's M3!",
         description: "Featuring Akrapovic Evolution Exhaust"
