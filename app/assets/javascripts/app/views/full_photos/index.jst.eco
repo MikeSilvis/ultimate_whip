@@ -6,7 +6,11 @@
       <%= @user.username %>'s
     </a>
   </h4>
-  <h3><%= @garage.year %> <%= @garage.model_name %></h3>
+  <h3>
+     <%= @garage.year %>
+     <%= @garage.model.make.name %>
+     <%= @garage.model.name %>
+  </h3>
   <div class='tags'>
     <% for tag in @tags: %>
       <span class="badge badge-inverse badge-tag">

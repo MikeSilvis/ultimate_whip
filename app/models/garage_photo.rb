@@ -1,6 +1,6 @@
 class GaragePhoto < ActiveRecord::Base
   require "open-uri"
-  acts_as_taggable
+  #acts_as_taggable
   #acts_as_likeable
   acts_as_commentable
   attr_accessible :garage_id, :photo, :tag_list, :photo

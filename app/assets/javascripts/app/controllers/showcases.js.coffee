@@ -23,14 +23,20 @@ class App.Showcases extends Spine.Controller
         id: 1,
         active: true,
         photo_large: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/001/featured/IMG_0068.jpg?1373957431",
+        normal_offset: 0,
+        photo_iphone:"http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/001/featured_iphone/IMG_0068.jpg?1374285922",
+        iphone_offset: 0,
         photo_thumb: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/004/wide/IMG_0069.jpg?1373912617",
         caption: "BimmerMike's M3!",
         description: "Featuring BBS Rims, Gt Haus Etc, and more!"
       ),
       new App.Showcase(
-        id: 2,
+        id: 7,
         active: false,
         photo_large: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/100/featured/open-uri20130712-2-hgjsc9?1374286254",
+        normal_offset: -300,
+        photo_iphone: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/100/featured_iphone/open-uri20130712-2-hgjsc9?1374286254",
+        iphone_offset: -200,
         photo_thumb: "http://s3.amazonaws.com/ultimate_whip/garage_photos/photos/000/000/101/wide/open-uri20130712-2-1794mar?1373912804",
         caption: "esquire's M3!",
         description: "Featuring Akrapovic Evolution Exhaust"

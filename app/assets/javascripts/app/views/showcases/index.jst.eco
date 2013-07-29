@@ -1,10 +1,12 @@
 <style>
   .showcase .current-featured{
+    background: url(<%= @image.photo_large %>) no-repeat center <%= @image.iphone_offset %>px fixed;
     background-size:cover;
   }
 
   @media all and (max-width: 480px) {
     .showcase .current-featured{
+      background: url(<%= @image.photo_iphone %>) no-repeat center <%= @image.iphone_offset %>px fixed;
       background-size:cover;
     }
   }
