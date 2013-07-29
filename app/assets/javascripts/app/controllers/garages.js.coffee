@@ -32,7 +32,7 @@ class App.Garages extends Spine.Controller
 
   sortedGarages: =>
     _.sortBy Garage.all(), (obj) ->
-        obj.updated_at
+        new Date obj.updated_at
 
   navigateTag: (e) =>
     if e.target.href && e.target.href.match(/\/tags\//)

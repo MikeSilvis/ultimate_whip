@@ -19,7 +19,7 @@ class App.Garage extends Spine.Model
 
   sortedPhoto: =>
     _.sortBy(@photos, (obj) ->
-      obj.created_at
+      obj.id
     ).reverse()
 
   photoSeoUrl: =>
