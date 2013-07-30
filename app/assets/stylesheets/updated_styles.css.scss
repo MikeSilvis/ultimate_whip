@@ -282,13 +282,13 @@ a:hover { color: $orange; }
     }
   }
 }
-@media all and (min-width: 480px) {
+@media all and (min-width: 700px) {
   #search-bar, .register {
     display: block !important;
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 700px) {
   .navbar {
     .logo {
       text-align: center;
