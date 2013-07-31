@@ -1,6 +1,7 @@
 class OmniauthCallbacksController < Devise::OmniauthCallbacksController
 
-	# Linkable accounts
+  before_filter :authenticate_user!, only: [:instagram]
+
 	def instagram
 		auth = request.env['omniauth.auth']
 
@@ -10,6 +11,6 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
 			flash[:error] = I18n.t "devise.omniauth_callbacks.failure", :kind => "Instagram"
 		end
 
-		redirect_to users_account_url
+		redirect_to new_photo_path(instagram: "success")
 	end
 end

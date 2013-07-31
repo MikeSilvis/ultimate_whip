@@ -4,6 +4,8 @@ head
   meta content="The next-generation automotive community for car enthusiasts to share their love for their rides online. Auxotic revolutionizes the typical car forum with a clean, next-gen interface for users to view, rate and comment on thousands of user’s rides from around the world. " name="description"
   meta content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" name="viewport"
   meta content="Mike Silvis" name="author"
+  meta content="!" name="fragment"
+  = yield :header
   = csrf_meta_tags
   = stylesheet_link_tag "application", "https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", :media => "all"
   = javascript_include_tag "application", "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"

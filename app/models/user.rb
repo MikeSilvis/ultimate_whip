@@ -21,10 +21,15 @@ class User < ActiveRecord::Base
   end
 
   def link_with_oauth(auth)
-    Identity.find_or_create_for_user_oauth(self,auth)
+    self.identities.find_or_create_for_user_oauth(auth)
   end
 
-  def has_linked_to?(provider)
-    Identity.exists?({user_id: id, provider: provider})
+  def is_linked_to?(provider)
+    self.identities.where(provider: provider).present?
   end
+
+  def instagram
+    self.identities.where(provider: "instagram").first
+  end
+
 end

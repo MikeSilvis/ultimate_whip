@@ -78,7 +78,7 @@ body {
 .mikes-modal .comments textarea { width:100%; }
 .alert {
   position:fixed;
-  z-index: 3;
+  z-index: 10000;
   width:100%;
   height:50px;
   top:0;

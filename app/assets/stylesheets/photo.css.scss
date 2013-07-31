@@ -6,7 +6,7 @@
   margin-top:-46px;
   height:100%;
   h1 { line-height:60px; }
-  .controls { margin:40px 0px; }
+  .controls { margin:20px 0px; }
 
   .nav.nav-pills{
     position:fixed;
@@ -76,8 +76,33 @@
   .thumbnail:hover, .thumbnail-hover { background-color:$red; }
   .select2-container { width:100%; }
   .progress { width:50%; margin:0 auto; }
+  .modal {
+    width:90%;
+    left:0;
+    text-align:left;
+    margin:0 5%;
+    .modal-body { text-align:center; max-height:auto; height:78%; }
+    .loading { display:block; margin:0 auto; padding-bottom:20px; }
+    .instagram {
+      display:inline-block;
+      height:85px;
+      width:85px;
+      .img {
+        margin: 5px;
+        width:75px;
+        height:75px;
+        &.thumbnail-hover, &:hover { cursor:pointer; border:4px solid $orange; margin: 1px; }
+      }
+    }
+    .checkmark, .add-image { cursor: pointer; }
+  }
 }
 .delete-image { cursor:pointer; }
+.grams {
+  float:left;
+  text-align:center;
+  width:100%;
+}
 
 @media all and (max-width: 480px) {
   .photo {
@@ -89,6 +114,8 @@
     .upload-area .or { margin:20px 0px; }
     .manage { padding-top:40px; }
     .progress { margin-top:10px; width:80%; }
+    .modal .modal-body { height: 315px; }
+    .modal.fade.in { top:2%; }
   }
 
 }

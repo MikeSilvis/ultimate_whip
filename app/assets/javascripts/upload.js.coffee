@@ -42,7 +42,7 @@ class FileUpload
     @numberOfFilesFinished += .5
     @progressBar((@numberOfFilesFinished / @numberOfFiles) * 100)
     if @numberOfFilesFinished == @numberOfFiles
-      new Flash 'success', "ALl photos uploaded. <a href='/photos'>View them here.</a>"
+      new Flash 'success', "All photos uploaded. <a href='/photos'>View them here.</a>"
 
   progressBar: (percentage=5) =>
     $(".progress").show()

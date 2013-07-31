@@ -1,11 +1,30 @@
+- if current_user.instagram
+  - content_for :header
+    meta content="#{current_user.instagram.token}" name="instagram-token"
+
 = simple_form_for GaragePhoto.new do |f|
   .photo#dropzone
     = render partial: "shared/manage_pills"
     .upload-area
       .progress.progress-info.progress-striped.active(style="display:none;")
         .bar style="width: 20%;"
-      h1 Upload Photos For
+      h1 Upload Photos
       = f.association :garage, :collection => current_user.vehicles.map { |v| [v.model.name, v.id] }, include_blank: false, input_html: { style: 'width:50%;' }, label: false
       h1.drag By dragging or
       a.btn.btn-inverse.btn-large.upload-button href='#' choose photos to upload
       = f.file_field :photo, name: "garage_photo[photo]", style: "display:none;", multiple: true
+      br
+      br
+      a.btn.btn-primary.btn-large.instagram-button choose photos from instagram
+
+    .modal.hide.fade#instagramModal
+      .modal-header
+        button.close aria-hidden="true" data-dismiss="modal" type="button" x
+        h3 Instagram Photos
+      .modal-body
+        .pics
+        img src="/assets/loading.gif" class='loading'
+      .modal-footer
+        a.btn.btn-primary.btn-block.upload.disabled href="#" Upload
+
+= image_tag '05-plus@2x.png', style: "display:none;", class: 'add-image'

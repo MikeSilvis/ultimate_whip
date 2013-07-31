@@ -1,6 +1,5 @@
 UltimateWhip::Application.routes.draw do
 
-  devise_for :admin_users, ActiveAdmin::Devise.config
 
   namespace "api" do ## Used for Ajax purposes
     namespace "v1" do
@@ -27,6 +26,9 @@ UltimateWhip::Application.routes.draw do
   devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
 
   root :to => "whips#index"
+
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
 end

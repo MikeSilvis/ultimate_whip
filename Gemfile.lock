@@ -106,6 +106,7 @@ GEM
     ethon (0.5.12)
       ffi (>= 1.3.0)
       mime-types (~> 1.18)
+    excon (0.25.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
     factory_girl (4.2.0)
@@ -121,6 +122,14 @@ GEM
       actionpack (>= 3.0)
     has_scope (0.5.1)
     hashie (2.0.5)
+    heroku (2.39.4)
+      heroku-api (~> 0.3.7)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.3.14)
+      excon (~> 0.25.1)
     hike (1.2.3)
     httpauth (0.2.0)
     i18n (0.6.1)
@@ -151,6 +160,8 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     kgio (2.8.0)
+    launchy (2.3.0)
+      addressable (~> 2.3)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -166,6 +177,7 @@ GEM
     multi_json (1.7.7)
     multipart-post (1.2.0)
     net-http-persistent (2.8)
+    netrc (0.7.7)
     newrelic_rpm (3.6.5.130)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
@@ -327,6 +339,7 @@ DEPENDENCIES
   devise
   eco
   factory_girl_rails
+  heroku
   iron_worker_ng
   jbuilder
   jquery-fileupload-rails

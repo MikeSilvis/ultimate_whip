@@ -5,8 +5,11 @@ class Identity < ActiveRecord::Base
 		Identity.where(:provider => auth.provider, :uid => auth.uid).first
 	end
 
-	def self.find_or_create_for_user_oauth(user,auth)
-		params = { user_id: user.id, provider: auth.provider, uid: auth.uid }
-		Identity.where(params).first_or_create
+	def self.find_or_create_for_user_oauth(auth)
+		where({
+       provider: auth.provider,
+       uid: auth.uid,
+       token: auth.credentials.token
+    }).first_or_create
 	end
 end
