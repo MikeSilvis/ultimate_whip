@@ -15,11 +15,9 @@ class Api::V1::CommentsController < ApiController
 private
 
   def send_emails(object, comment)
-    object.comments.each do |c|
-      Thread.new do
-        UserMailer.notify_photo_comment(c).deliver
-      end
-    end
+    #object.comments.each do |c|
+      #UserMailer.notify_photo_comment(comments).deliver
+    #end
   end
 
 end
