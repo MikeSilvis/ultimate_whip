@@ -16,7 +16,7 @@ private
 
   def send_emails(object, comment)
     object.comments.group_by(&:user).each do |u|
-      UserMail.notify_photo_comment(comment, u).deliver
+      Thread.new { UserMailer.notify_photo_comment(comment, u.first).deliver unless comment.user == current_user }
     end
   end
 
