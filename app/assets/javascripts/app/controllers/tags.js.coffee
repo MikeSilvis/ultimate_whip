@@ -17,7 +17,7 @@ class App.Tags extends Spine.Controller
     new App.Showcases({el: $(".showcase")})
     @html @view('tags/index')(tags: Tag.all())
     @setupRoutes()
-    @tags.select2().change =>
+    @tags.select2(minimumInputLength: 2).change =>
       @navigateForTag()
       App.Garage.deleteAll()
       App.Garage.fetch()
