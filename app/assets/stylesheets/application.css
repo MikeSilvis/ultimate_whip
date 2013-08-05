@@ -10,5 +10,5 @@
  *
  *= require_self
  *= require select2
- *= require_tree .
+ *= require_directory ./main
  */
