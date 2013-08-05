@@ -20,7 +20,7 @@ class App.Garages extends Spine.Controller
   render: =>
     @html @view('garages/index')()
     window.garageItem = {}
-    for garage in @sortedGarages().reverse()
+    for garage in Garage.all()
       garageItem[garage.id] = new App.GarageItem(garage) unless $("##{garage.id}_garage").length
     @infinteScroll()
 
@@ -29,10 +29,6 @@ class App.Garages extends Spine.Controller
       if $(window).scrollTop() > $(document).height() - window.innerHeight - 500
         $(window).unbind "scroll"
         Garage.fetch()
-
-  sortedGarages: =>
-    _.sortBy Garage.all(), (obj) ->
-        new Date obj.updated_at
 
   navigateTag: (e) =>
     if e.target.href && e.target.href.match(/\/tags\//)
