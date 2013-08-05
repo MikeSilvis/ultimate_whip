@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails'
-ruby '1.9.3'
+gem 'rails', '3.2.13'
+ruby '2.0.0'
 
 group :development do
   gem 'quiet_assets'
@@ -38,7 +38,6 @@ gem 'select2-rails'
 gem 'json'
 gem 'jquery-rails'
 gem 'rspec-rails'
-gem 'jbuilder'
 gem 'debugger'
 gem 'heroku'
 gem 'slim'
@@ -54,6 +53,6 @@ gem 'kaminari'
 gem 'mini_magick'
 gem 'sentry-raven'
 gem 'iron_worker_ng'
-gem "activeadmin"
+gem 'activeadmin', github: "gregbell/active_admin"
 gem 'uniquify'
-gem "ckeditor"
+gem 'ckeditor'
