@@ -1,4 +1,12 @@
 ActiveAdmin.register Garage do
+
+  controller do
+    cache_sweeper :garage_sweeper
+    def scoped_collection
+      Garage.includes({model: :make }, :color)
+    end
+  end
+
   index do
     column :id do |garage|
       link_to garage.id, [:admin, garage]

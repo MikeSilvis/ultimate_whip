@@ -1,7 +1,7 @@
 class GarageSweeper < ActionController::Caching::Sweeper
   observe Garage
 
-  def sweep(photo)
+  def sweep(garage)
     expire_fragment(%r{api\/v1\/garages\?page=\d})
   end
 

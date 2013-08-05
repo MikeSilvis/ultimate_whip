@@ -1,10 +1,18 @@
 ActiveAdmin.register GaragePhoto do
 
+  filter :id
+
+  controller do
+    cache_sweeper :garage_sweeper
+    def scoped_collection
+      GaragePhoto.includes({garage: [:user, { model: :make }] })
+    end
+  end
+
   index do
     column :id do |photo|
       link_to photo.id, [:admin, photo]
     end
-    column :username
     column :make_name
     column :model_name
     column :created_at
