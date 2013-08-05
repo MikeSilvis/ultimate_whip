@@ -7,7 +7,7 @@ class UserMailer < ActionMailer::Base
     @to_user = user
     @from_user = comment.user
 
-    mail :to => @to_user.email, subject: "#{@from_user.username} commented on your photo!", :template_name => "notify_photo_comment"
+    mail :to => @to_user.email, subject: "#{@from_user.username} left you a comment!", :template_name => "notify_photo_comment"
   end
 
 end
