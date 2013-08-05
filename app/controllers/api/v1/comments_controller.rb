@@ -15,7 +15,7 @@ class Api::V1::CommentsController < ApiController
 private
 
   def send_emails(object, comment)
-    object.comments.group_by(&:user).each do |u|
+    object.comments.map(&:user).push(object.user).uniq.each do |u|
       Thread.new { UserMailer.notify_photo_comment(comment, u.first).deliver unless comment.user == current_user }
     end
   end

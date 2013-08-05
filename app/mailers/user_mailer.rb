@@ -1,6 +1,6 @@
 class UserMailer < ActionMailer::Base
-  default from: "notification@auxotic.com",
-          return_path: "info@auxotic.com"
+  default from: "hello@auxotic.com",
+          return_path: "hello@auxotic.com"
 
   def notify_photo_comment(comment, user)
     @comment = comment
