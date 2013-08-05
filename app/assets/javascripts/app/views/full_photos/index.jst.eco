@@ -1,4 +1,4 @@
-<div class="mikes-modal">
+<div class="mikes-modal" data-photo-id="<%= @id %>">
   <img src='<%= @photo_url_large %>'>
   <div class="description">
   <h4 class="title">

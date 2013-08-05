@@ -48,10 +48,10 @@
 }
 
 @media all and (max-width: 700px) {
-  .mikes-modal { left:0%; margin: 0px !important; position:relative; display:inline-block;  }
+  .mikes-modal { left:0%; margin-left: 0px !important; position:absolute;  }
   .mikes-modal .description { clear:both; width: 95% !important; float:left; padding:2.5%; background-color:white; }
   .mikes-modal .close { color:white; }
-  .mikes-modal img { max-width:100% !important; }
+  .mikes-modal img { max-width:100% !important; max-height:100% !important; }
   .mikes-modal #comments { margin-top: 20px; }
   #comments-area .new-comment { position:inherit; width:100%; }
 }

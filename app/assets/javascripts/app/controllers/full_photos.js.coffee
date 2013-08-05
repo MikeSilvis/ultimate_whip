@@ -15,7 +15,6 @@ class App.FullPhotos extends Spine.Controller
     new App.Comments(el: @el.find(".comments"), object: @photo)
     @setTitleBar()
     @metaTags()
-    @location = $(window).scrollTop()
     @listenEvents()
     @setupRoutes()
 
@@ -35,16 +34,15 @@ class App.FullPhotos extends Spine.Controller
 
   setupRoutes: ->
     $(".mikes-modal").bind 'close', (e) =>
-      $(window).scrollTop(@location)
       $("title").text @oldTitleBar
       @navigate("/")
-    #$(window).bind "hashchange", ->
-      #$(".mikes-modal").trigger "close"
-      #$(window).unbind "hashchange"
+    window.onpopstate = () ->
+      $(".mikes-modal").trigger("close")
+      window.onpopstate = $.noop
 
   listenEvents: =>
-    $(".mikes-modal").bind "loaded", =>
-      $(window).scrollTop(@location)
+    #$(".mikes-modal").bind "loaded", =>
+      #$(window).scrollTop(@location)
     $(".tag").click (e) =>
       e.preventDefault()
       $(".mikes-modal").trigger("close")

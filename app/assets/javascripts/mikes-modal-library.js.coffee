@@ -14,7 +14,7 @@ class MikesModal
     @triggerClose()
 
   createAllClasses: =>
-    #new Scrolling(@modalBox)
+    new Scrolling(@modalBox)
     new Loading(@modalBox)
     new TheLights(@modalBox)
 
@@ -95,17 +95,30 @@ class TheLights
 class Scrolling
   constructor: (modalBox) ->
     @modalBox = modalBox
-    @bindLoaded()
-    @bindClosed()
+    if document.width > 700
+      @bindFullLoaded()
+      @bindFullClosed()
+    else
+      @bindMobileLoaded()
+      @bindMobileClosed()
     @html = $("html")
 
-  bindLoaded: =>
+  bindFullLoaded: =>
     @modalBox.bind "loaded", =>
       @html.css("overflow","hidden")
 
-  bindClosed: =>
+  bindFullClosed: =>
     @modalBox.bind "close", =>
       @html.css("overflow","auto")
+
+  bindMobileLoaded: =>
+    @modalBox.bind "loaded", =>
+      window.scrollTo(0,40)
+
+  bindMobileClosed: =>
+    @modalBox.bind "close", =>
+      if $("#p-#{@modalBox.data("photo-id")}").length
+        window.scrollTo(0,$("#p-#{@modalBox.data("photo-id")}").offset().top)
 
 class Loading
   constructor: (modalBox) ->
