@@ -9,6 +9,7 @@ class GaragePhoto < ActiveRecord::Base
   has_one :model, through: :garage
   delegate :username, :user_id, :secret_hash, :user, to: :garage
   delegate :make_name, :model_name, to: :garage
+  after_create :incremented_added_content
 
   has_attached_file :photo,
     :storage => :s3,
@@ -45,4 +46,9 @@ class GaragePhoto < ActiveRecord::Base
       TagSweeper.send(:new).sweep(Tag.last)
     end
 
+private
+
+  def incremented_added_content
+    garage.update_attribute(:added_content, Time.now)
+  end
 end
