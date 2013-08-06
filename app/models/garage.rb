@@ -20,7 +20,7 @@ class Garage < ActiveRecord::Base
   end
 
   def self.find_all(page, tags)
-    query = Garage.page(page).order("garage_photos.updated_at DESC").includes(:photos, :color, :user, { model: :make }).joins(:photos)
+    query = Garage.includes(:photos, :color, :user, { model: :make }).order("garages.updated_at DESC").joins(:photos).page(page)
     query = query.tagged_with(tags, wild: true) if tags
     query
   end
