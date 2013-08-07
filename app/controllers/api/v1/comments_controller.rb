@@ -3,7 +3,7 @@ class Api::V1::CommentsController < ApiController
 
   def create
     object = params[:comment][:commentable_type].constantize.find(params[:comment][:commentable_id])
-    comment = object.comments.create(user_id: current_user.id, comment: params[:comment][:message])
+    comment = object.comments.create(user_id: current_user.id, comment: params[:message])
     send_emails(object,comment)
     render json: true
   end

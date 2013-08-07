@@ -1,5 +1,5 @@
 class App.Comment extends Spine.Model
-  @configure 'Comment', 'message', 'username', 'id', 'created_at_in_words', 'commentable_id', 'commentable_type'
+  @configure 'Comment', 'message', 'username', 'id', 'commentable_id', 'commentable_type'
   @extend Spine.Model.Ajax
 
   @url: => "/api/v1/comments"

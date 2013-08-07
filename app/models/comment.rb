@@ -2,7 +2,6 @@ class Comment < ActiveRecord::Base
 
   include ActsAsCommentable::Comment
   include Rails.application.routes.url_helpers
-  attr_accessible :title, :comment, :user_id, :commentable_id, :message, :commentable_type
 
   belongs_to :commentable, :polymorphic => true
   belongs_to :user

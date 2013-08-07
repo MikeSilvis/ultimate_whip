@@ -1,5 +1,4 @@
 class Color < ActiveRecord::Base
-  attr_accessible :name
   has_many :garages
 
   def self.create_from_yaml

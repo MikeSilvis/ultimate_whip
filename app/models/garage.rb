@@ -2,11 +2,10 @@ class Garage < ActiveRecord::Base
   acts_as_taggable
   acts_as_commentable
   attr_accessor :forum_urls, :forum_div
-  attr_accessible :color, :year, :user, :model, :model_id, :color_id, :user_id, :forum_urls, :forum_div, :photos_attributes, :tag_list
   belongs_to :user
   belongs_to :model
   belongs_to :color
-  has_many :photos, class_name: "GaragePhoto", order: 'created_at DESC'
+  has_many :photos, -> { order('created_at DESC') }, class_name: "GaragePhoto"
   accepts_nested_attributes_for :photos, allow_destroy: true
 
   before_create :create_default_tags

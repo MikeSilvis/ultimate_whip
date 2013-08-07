@@ -1,5 +1,4 @@
 class Make < ActiveRecord::Base
-  attr_accessible :model_id, :name, :type_id
   has_many :models
 
 
