@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
   acts_as_liker
   uniquify :token, :length => 32
   attr_accessible :email, :password, :username, :password_confirmation, :remember_me, :vehicles_attributes
-  has_many :vehicles, class_name: "Garage", order: "created_at"
+  has_many :vehicles, -> { order('created_at') }, class_name: "Garage"
   has_many :photos, :through => :vehicles
   has_many :likes
   has_many :identities
