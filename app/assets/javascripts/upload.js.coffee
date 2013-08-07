@@ -34,7 +34,6 @@ class FileUpload
         else
           new Flash "error", "#{file.name} is not a jpeg, or png image file"
       progress: (e, data) =>
-        console.log data
         @updateProgressBar()
       done: =>
         @updateProgressBar()

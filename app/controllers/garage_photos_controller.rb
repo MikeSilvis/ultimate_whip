@@ -4,7 +4,7 @@ class GaragePhotosController < ApplicationController
   after_filter :expire_cache
 
   def create
-    current_user.vehicles.find(params[:garage_photo][:garage_id]).photos.create(photo: params[:garage_photo][:photo].first)
+    current_user.vehicles.find(params[:garage_photo][:garage_id]).photos.create(photo: params[:garage_photo][:photo])
     render json: true
   end
 
