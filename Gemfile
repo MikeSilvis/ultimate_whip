@@ -43,6 +43,7 @@ gem 'puma'
 gem 'rails-observers'
 gem 'ransack',             github: 'ernie/ransack', branch: 'rails-4'
 gem 'responders',          github: 'plataformatec/responders'
+gem 'rails_12factor', group: :production
 gem 'rspec-rails'
 gem 'sass-rails'
 gem 'select2-rails'
