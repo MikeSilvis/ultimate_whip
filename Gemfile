@@ -7,6 +7,8 @@ group :development do
   gem 'quiet_assets'
 end
 
+gem 'unicorn'
+
 group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
