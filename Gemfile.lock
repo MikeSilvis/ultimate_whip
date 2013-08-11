@@ -28,6 +28,12 @@ GIT
       sass-rails (>= 3.2.0)
 
 GIT
+  remote: git://github.com/heroku/rails3_serve_static_assets.git
+  revision: 84910ceb4ca2851d650e66d3b22f5008acf253f8
+  specs:
+    rails3_serve_static_assets (0.0.1)
+
+GIT
   remote: git://github.com/josevalim/inherited_resources.git
   revision: ae1516a3f1a01f98beac3334f76831a1c793c521
   specs:
@@ -377,6 +383,7 @@ DEPENDENCIES
   quiet_assets
   rails (= 4.0.0)
   rails-observers
+  rails3_serve_static_assets!
   rails_12factor
   ransack!
   responders!
