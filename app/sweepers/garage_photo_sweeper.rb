@@ -2,9 +2,8 @@ class GaragePhotoSweeper < ActionController::Caching::Sweeper
   observe GaragePhoto
 
   def sweep(photo)
-    expire_page "/api/v1/photos/#{photo.id}"
-    expire_fragment(%r{api\/v1\/photos\?page=\d})
-    expire_fragment(%r{api\/v1\/garages\?page=\d})
+    #expire_page "/api/v1/photos/#{photo.id}"
+    #expire_fragment(%r{api\/v1\/photos\?page=\d})
   end
 
   alias_method :after_create, :sweep

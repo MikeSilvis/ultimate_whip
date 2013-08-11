@@ -3,7 +3,6 @@ class GaragePhoto < ActiveRecord::Base
   #acts_as_taggable
   #acts_as_likeable
   acts_as_commentable
-  attr_accessible :garage_id, :photo, :tag_list, :photo
 
   belongs_to :garage, touch: true
   has_one :model, through: :garage

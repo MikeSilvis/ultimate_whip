@@ -9,7 +9,7 @@ class GaragePhotosController < ApplicationController
   end
 
   def update
-    GaragePhoto.find(params[:id]).update_attributes(params[:garage_photo])
+    GaragePhoto.find(params[:id]).update_attributes(params.permit!)
     render json: true
   end
 
