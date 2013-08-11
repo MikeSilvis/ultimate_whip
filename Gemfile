@@ -43,10 +43,10 @@ gem 'paperclip'
 gem 'pg'
 gem 'puma'
 gem 'rails-observers'
+gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+gem 'rails_12factor', group: :production
 gem 'ransack',             github: 'ernie/ransack', branch: 'rails-4'
 gem 'responders',          github: 'plataformatec/responders'
-gem 'rails_12factor', group: :production
-gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 gem 'rspec-rails'
 gem 'sass-rails'
 gem 'select2-rails'
