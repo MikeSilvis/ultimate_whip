@@ -59,7 +59,11 @@ class MikesModal
     window.innerHeight * .8
 
   marginTop: =>
-    "-#{(@modalBox.height() / 2)}px"
+    if document.width > 700
+      "-#{(@modalBox.height() / 2)}px"
+    else
+      "-#{(@modalBox.height() / 2 - 80)}px"
+
 
   marginLeft: =>
     "-#{@modalBox.width() / 2}px"
