@@ -27,7 +27,7 @@
   </ul>
   <div class="more-info">
     <div class="comments">
-      <img src='/assets/loading.gif'/>
+      <img src='<%= LoaderSrc %>'/>
     </div>
   </div>
 </li>

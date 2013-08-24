@@ -18,5 +18,9 @@ class App extends Spine.Controller
 window.App = App
 window.Domain = window.location.host
 
+
+$ ->
+  window.LoaderSrc = $("#loading img").attr('src')
+
 String::seoName = () ->
   this.valueOf().replace(RegExp(" ", "g"), "-").toLowerCase()
