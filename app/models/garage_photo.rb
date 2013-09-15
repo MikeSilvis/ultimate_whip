@@ -17,7 +17,7 @@ class GaragePhoto < ActiveRecord::Base
       large:       "1200x900",
       featured:    "1200x300#",
       featured_iphone: "640x480#",
-      thumb:       "54x54#",
+      thumb:       "80x80#",
       wide:        "100x50#"
     },
     convert_options: { thumb: "-quality 60" }
