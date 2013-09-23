@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130922201939) do
+ActiveRecord::Schema.define(version: 20130923015746) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -171,6 +171,7 @@ ActiveRecord::Schema.define(version: 20130922201939) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "garage_photo_id"
+    t.string   "link"
   end
 
   create_table "taggings", force: true do |t|

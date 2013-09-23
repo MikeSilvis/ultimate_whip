@@ -18,6 +18,11 @@
     <p>
       <%= @image.description %>
     </p>
+    <% if @image.link: %>
+      <p>
+        <a href="<%= @image.link %>" target="_blank">Check it out</a>
+      </p>
+    <% end %>
   </div>
 </div>
 

@@ -1,4 +1,5 @@
 class Showcase < ActiveRecord::Base
+  SHOWCASE_NUM = 3
   belongs_to :garage
   belongs_to :tag
   belongs_to :garage_photo
@@ -16,11 +17,14 @@ class Showcase < ActiveRecord::Base
   end
 
   def self.find_with_tag(tag = nil)
-    query = self.includes(:garage_photo).limit(3).where("active = ?", true)
-    if tag
-      query = query.includes(:tag).where("lower(tags.name) = lower(?) or tags.name is null or tags.name is not null", tag).order("lower(tags.name) = lower('#{tag}') DESC, RANDOM()")
+    query = self.includes(:garage_photo).limit(SHOWCASE_NUM).where("active = ?", true).order("RANDOM()")
+    if tag.present?
+      query = query.includes(:tag).references(:tag).where("lower(tags.name) = lower(?)", tag)
+      if query.count < SHOWCASE_NUM
+        # TODO: Create showcases on the fly with vehicles in them
+      end
     else
-      query = query.order("RANDOM()")
+      query = query.where("tag_id is null")
     end
     query
   end

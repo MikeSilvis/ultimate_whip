@@ -8,9 +8,13 @@ class App.Showcases extends Spine.Controller
     App.Showcase.bind 'refresh change', @render
 
   render: =>
-    @html @view('showcases/index')(image: @activeImage())
-    for showcase in App.Showcase.all()
-      new App.ShowcaseItem(showcase, _i)
+    if @activeImage()
+      @el.show()
+      @html @view('showcases/index')(image: @activeImage())
+      for showcase in App.Showcase.all()
+        new App.ShowcaseItem(showcase, _i)
+    else
+      @el.hide()
 
   activeImage: (setToId = false) =>
     if setToId
