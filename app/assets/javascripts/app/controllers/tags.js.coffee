@@ -14,21 +14,28 @@ class App.Tags extends Spine.Controller
 
   render: =>
     window.garages = new App.Garages({el: $('.feed')})
-    new App.Showcases({el: $(".showcase")})
     @html @view('tags/index')(tags: Tag.all())
     @setupRoutes()
+    new App.Showcases({el: $(".showcase")})
     @tags.select2(minimumInputLength: 2).change =>
       @navigateForTag()
+      App.Showcase.deleteAll()
+      App.Showcase.fetch({data: "tag_name=#{@lastTag()}"})
       App.Garage.deleteAll()
       App.Garage.fetch()
     @tags.change()
 
   navigateForTag: =>
     if @tags.val()
-      @navigate("/tags", @tags.val().pop().seoName())
+      @navigate("/tags", @lastTag().seoName())
     else if window.location.pathname.match(/tags/)
       @navigate("/")
 
+  lastTag: =>
+    if @tags.val()
+      @tags.val().pop()
+    else
+      ''
   setupRoutes: ->
     @routes
       "/photos/:id": (params) =>
@@ -44,3 +51,4 @@ class App.Tags extends Spine.Controller
         $("#search-area input").focus()
       if event.which is 27
         $("#search-area input").blur()
+

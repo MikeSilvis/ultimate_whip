@@ -21,4 +21,10 @@ ActiveAdmin.register User do
       end
     end
   end
+
+  controller do
+    def permitted_params
+      params.permit!
+    end
+  end
 end

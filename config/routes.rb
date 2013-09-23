@@ -1,10 +1,11 @@
 UltimateWhip::Application.routes.draw do
 
 
-  namespace "api" do ## Used for Ajax purposes
-    namespace "v1" do
+  namespace :api do ## Used for Ajax purposes
+    namespace :v1 do
       resources :comments
       resources :garages
+      resources :showcases, only: [:index]
       resources :tags, only: [:index]
       resources :photos do
         collection do

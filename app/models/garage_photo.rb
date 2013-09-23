@@ -26,8 +26,20 @@ class GaragePhoto < ActiveRecord::Base
       photo.url(:thumb)
     end
 
+    def photo_thumb_wide
+      photo.url(:wide)
+    end
+
     def photo_url_large
       photo.url(:large)
+    end
+
+    def photo_featured_iphone
+      photo.url(:featured_iphone)
+    end
+
+    def photo_featured
+      photo.url(:featured_iphone)
     end
 
     def self.find_by_file_name(name)

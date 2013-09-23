@@ -1,2 +1,11 @@
 class App.Showcase extends Spine.Model
-  @configure 'Showcase', 'photo_large', 'photo_thumb', 'caption'
+  @configure 'Showcase', 'id', 'garage_id', 'photo_featured', 'photo_featured_iphone', 'active', 'normal_offset', 'iphone_offset', 'caption', 'description', 'showing', 'photo_thumb_wide'
+
+  @extend Spine.Model.Ajax
+
+  @url: => "/api/v1/showcases"
+
+  setShowing: (bool = true) =>
+    this.showing = bool
+    this.save({ajax: false})
+    this

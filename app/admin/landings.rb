@@ -7,4 +7,10 @@ ActiveAdmin.register Landing do
     end
     f.actions
   end
+
+   controller do
+    def permitted_params
+      params.permit!
+    end
+  end
 end

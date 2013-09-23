@@ -37,4 +37,9 @@ ActiveAdmin.register GaragePhoto do
     end
   end
 
+   controller do
+    def permitted_params
+      params.permit!
+    end
+  end
 end

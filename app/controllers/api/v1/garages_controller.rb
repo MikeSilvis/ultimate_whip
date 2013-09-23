@@ -4,7 +4,7 @@ class Api::V1::GaragesController < ApplicationController
   before_filter :require_api_key, only: [:update]
 
   def index
-    render json: Garage.find_all(params[:page], params[:tags]), root: false
+    render json: Garage.find_all(params[:page], params[:tags])
   end
 
   def update

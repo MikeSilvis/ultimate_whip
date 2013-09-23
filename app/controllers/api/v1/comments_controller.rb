@@ -9,7 +9,7 @@ class Api::V1::CommentsController < ApiController
   end
 
   def index
-    render json: Comment.where('commentable_id = ? AND commentable_type = ?',  params[:commentable_id], params[:commentable_type]).includes(:user).order(:created_at), root: false
+    render json: Comment.where('commentable_id = ? AND commentable_type = ?',  params[:commentable_id], params[:commentable_type]).includes(:user).order(:created_at)
   end
 
 private

@@ -61,4 +61,9 @@ ActiveAdmin.register Garage do
     end
   end
 
+   controller do
+    def permitted_params
+      params.permit!
+    end
+  end
 end

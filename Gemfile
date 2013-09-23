@@ -18,7 +18,7 @@ group :test do
 end
 
 gem 'active_model_serializers'
-gem 'activeadmin',         github: 'gregbell/active_admin', branch: 'rails4'
+gem 'activeadmin', github: 'gregbell/active_admin', branch: 'rails4'
 gem 'acts-as-taggable-on'
 gem 'acts_as_commentable'
 gem 'aws-s3', :require => 'aws/s3'
@@ -45,7 +45,7 @@ gem 'puma'
 gem 'rails-observers'
 gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 gem 'rails_12factor',             group: :production
-gem 'ransack',                    github: 'ernie/ransack', branch: 'rails-4'
+gem 'ransack'
 gem 'responders',                 github: 'plataformatec/responders'
 gem 'rspec-rails'
 gem 'sass-rails'

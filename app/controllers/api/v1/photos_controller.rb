@@ -4,7 +4,7 @@ class Api::V1::PhotosController < ApiController
   before_filter :require_yours, only: :destroy
 
   def show
-    render json: GaragePhoto.find(params[:id]), root: false, serializer: PhotoFullSerializer
+    render json: GaragePhoto.find(params[:id]), serializer: PhotoFullSerializer
   end
 
 private
