@@ -7,15 +7,14 @@
     </a>
   </h4>
   <h3>
-     <%= @garage.year %>
-     <%= @garage.model.make.name %>
-     <%= @garage.model.name %>
+     <a class='tag' href="/tags/<%= @garage.year %>" id="<%= @garage.year %>"><%= @garage.year %></a>
+     <a class='tag' href="/tags/<%= @garage.model.make.name.seoName() %>" id="<%= @garage.model.make.name.seoName() %>"><%= @garage.model.make.name %></a>
+     <a class='tag' href="/tags/<%= @garage.model.name.seoName() %>" id="<%= @garage.model.name.seoName() %>"><%= @garage.model.name %></a>
   </h3>
   <div class='tags'>
     <% for tag in @tags: %>
       <span class="badge badge-inverse badge-tag">
-        <% seo_name = tag.name.replace(new RegExp(" ","g"), "-") %>
-        <a class='tag' href="/tags/<%= seo_name %>" id="<%= seo_name %>"><%= tag.name %></a>
+        <a class='tag' href="/tags/<%= tag.name.seoName() %>" id="<%= tag.name.seoName() %>"><%= tag.name %></a>
       </span>
     <% end %>
   </div>
