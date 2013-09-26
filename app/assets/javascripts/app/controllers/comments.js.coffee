@@ -22,7 +22,11 @@ class App.Comments extends Spine.Controller
 
   render: =>
     @html @view('comments/show')(comments: @allCommentsForObject())
+    @addAutoGrow()
     #$("#comments-area").css("max-height":@commentsAreaHeight()).scrollTop(11000)
+
+  addAutoGrow: =>
+    @el.find(".new-comment").autogrow()
 
   allCommentsForObject: =>
     _.where Comment.all(),
