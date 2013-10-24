@@ -4,6 +4,7 @@ class App.FullPhotos extends Spine.Controller
 
   constructor: ->
     super
+    FullPhoto.deleteAll()
     FullPhoto.bind 'refresh', @render
     FullPhoto.fetch({id: @id})
 
