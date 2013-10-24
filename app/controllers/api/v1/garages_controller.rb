@@ -10,10 +10,11 @@ class Api::V1::GaragesController < ApplicationController
   def update
     g = Garage.where(id: params[:id]).includes(:photos).first
     before_count = g.photos.count
+    threads = []
     params[:images].each do |k,img|
-      Thread.new { g.photos.where(original_url: k).first_or_create(photo: open(k)).save }
+      threads >> Thread.new { g.photos.where(original_url: k).first_or_create(photo: open(k)).save }
     end
-    flash[:success] = 'Photos Will be uploaded shortly'
+    threads.map(&:join)
     render json: { images_requested: params[:images].count, images_saved: (g.photos.count - before_count) }
   end
 
