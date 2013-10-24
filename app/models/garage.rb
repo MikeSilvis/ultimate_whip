@@ -11,7 +11,7 @@ class Garage < ActiveRecord::Base
   before_create :create_default_tags
   before_save :bulk_upload_photos, if: Proc.new { |garage| garage.forum_urls.present? && garage.forum_div.present? }
   delegate :username, :secret_hash, to: :user
-  validates_presence_of :user
+  validates_presence_of :user, :color, :model
   validates_length_of :year, :within => 4..4, :on => :create, :message => "What kinda year is that?"
 
   def shortened_name

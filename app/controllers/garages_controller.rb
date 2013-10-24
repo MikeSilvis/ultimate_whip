@@ -10,8 +10,8 @@ class GaragesController < ApplicationController
     if garage.save
       redirect_to new_photo_path, notice: "Your vehicle has been created."
     else
+      flash[:alert] = "There was a problem saving your vehicle. Please try again"
       render "garages/new"
-      flash[:alert] = "There was a problem saving your vehicle. The year is probably incorrect"
     end
   end
 
