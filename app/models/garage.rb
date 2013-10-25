@@ -43,8 +43,7 @@ class Garage < ActiveRecord::Base
 private
 
   def bulk_upload_photos
-    client = IronWorkerNG::Client.new
-    client.tasks.create('ImageWorker', { urls: self.forum_urls.split(",").map(&:strip), div: forum_div, id: self.id })
+    ImageWorker.perform_async(forum_urls, forum_div, self.id)
   end
 
 end

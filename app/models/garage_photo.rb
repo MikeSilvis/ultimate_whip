@@ -22,6 +22,8 @@ class GaragePhoto < ActiveRecord::Base
     },
     convert_options: { thumb: "-quality 60" }
 
+    process_in_background :photo
+
     def photo_url_thumb
       photo.url(:thumb)
     end

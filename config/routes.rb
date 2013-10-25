@@ -1,5 +1,5 @@
 UltimateWhip::Application.routes.draw do
-
+  require 'sidekiq/web'
 
   namespace :api do ## Used for Ajax purposes
     namespace :v1 do
@@ -31,5 +31,6 @@ UltimateWhip::Application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
+  mount Sidekiq::Web, at: '/sidekiq'
 
 end

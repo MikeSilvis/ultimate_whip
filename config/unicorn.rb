@@ -9,6 +9,14 @@ before_fork do |server, worker|
     Process.kill 'QUIT', Process.pid
   end
 
+  @sidekiq_pid ||= spawn("bundle exec sidekiq -q paperclip, 5 default")
+  t = Thread.new {
+    Process.wait(@sidekiq_pid)
+    puts "Worker died. Bouncing unicorn."
+    Process.kill 'QUIT', Process.pid
+  }
+  t.abort_on_exception = true
+
   defined?(ActiveRecord::Base) and
     ActiveRecord::Base.connection.disconnect!
 end
