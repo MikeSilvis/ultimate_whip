@@ -24,6 +24,7 @@ class GaragePhoto < ActiveRecord::Base
 
     process_in_background :photo
 
+
     def photo_url_thumb
       photo.url(:thumb)
     end
@@ -64,4 +65,5 @@ private
   def incremented_added_content
     garage.update_attribute(:added_content, Time.now)
   end
+
 end

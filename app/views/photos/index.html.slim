@@ -9,7 +9,7 @@
               h4= "#{v.object.year} #{v.object.make_name} #{v.object.model_name}"
             .pictures
               = v.simple_fields_for :photos do |p|
-                = image_tag p.object.photo(:thumb), class: "thumbnail"
+                = image_tag p.object.photo(:thumb), class: "thumbnail", width: '64'
                 = p.hidden_field :_destroy, class: "delete-field"
             = v.input :tag_list, label: false
   = link_to "Add Vehicle", new_garage_path, class: "btn btn-success btn-large", style: 'width:80%; margin:0 auto;'
