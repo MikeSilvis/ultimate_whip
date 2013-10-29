@@ -31,6 +31,7 @@ gem 'eco'
 gem 'formtastic',          github: 'justinfrench/formtastic'
 gem 'inherited_resources', github: 'josevalim/inherited_resources'
 gem 'sidekiq'
+gem 'sidekiq-failures'
 gem 'jquery-fileupload-rails'
 gem 'jquery-rails'
 gem 'sinatra', require: false
