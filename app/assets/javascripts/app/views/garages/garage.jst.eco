@@ -15,7 +15,7 @@
       </p>
     </li>
     <li>
-      <time class='timeago' datetime="<%= @updated_at %>"><%= @updated_at %></time>
+      <time class='timeago' datetime="<%= @added_content %>"><%= @added_content  %></time>
     </li>
     <li>
       <% for photo in @sortedPhoto().slice(0,@photoLimit): %>

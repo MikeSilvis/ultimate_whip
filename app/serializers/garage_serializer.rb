@@ -1,6 +1,6 @@
 class GarageSerializer < ActiveModel::Serializer
   cached
-  attributes :id, :year, :updated_at
+  attributes :id, :year, :updated_at, :added_content
 
   has_one :model
   has_one :user
