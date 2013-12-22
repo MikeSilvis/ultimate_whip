@@ -18,7 +18,7 @@ group :test do
 end
 
 gem 'active_model_serializers'
-gem 'activeadmin', github: 'gregbell/active_admin', branch: 'rails4'
+gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'acts-as-taggable-on'
 gem 'acts_as_commentable'
 gem 'aws-s3', :require => 'aws/s3'
